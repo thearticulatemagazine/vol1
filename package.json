@@ -1,0 +1,31 @@
+{
+  "name": "thearticulate",
+  "version": "0.0.1",
+  "description": "e-Magazine edited by students of GMC, Ratlam",
+  "main": "index.js",
+  "scripts": {
+    "commit": "cz"
+  },
+  "keywords": [
+    "magazine",
+    "creativity",
+    "hugo",
+    "hugo-theme",
+    "blog",
+    "site",
+    "static-site-generator",
+    "jamstack"
+  ],
+  "author": "Dr. Rizwan Ishak M.P",
+  "license": "AGPL-3.0-or-later",
+  "devDependencies": {
+    "commitizen": "^4.3.0",
+    "cz-conventional-changelog": "^3.3.0",
+    "cz-customizable": "^7.0.0"
+  },
+  "config": {
+    "commitizen": {
+		"path": "node_modules/cz-customizable"
+    }
+  }
+}
