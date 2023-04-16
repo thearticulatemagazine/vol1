@@ -1,6 +1,6 @@
 module.exports = {
 	types: [
-	  { value: 'layout', name: 'Hugo template related changes.' },
+	  { value: 'layout', name: 'layout: Hugo template related changes.' },
 	  { value: 'docs', name: 'docs:     Documentation only changes' },
 	  {
 		value: 'static',
