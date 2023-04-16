@@ -1,0 +1,17 @@
+- name: Video
+  image: https://res.cloudinary.com/dhodsjwfh/image/upload/v1680231714/video_kazq2f.jpg
+
+- name: Article
+  image: https://res.cloudinary.com/dhodsjwfh/image/upload/v1680231370/newspaper_dms9lp.jpg
+
+- name: Fiction
+  image: https://res.cloudinary.com/dhodsjwfh/image/upload/v1680231981/fiction_xvp24m.jpg
+
+- name: Poem
+  image: https://res.cloudinary.com/dhodsjwfh/image/upload/v1680235693/poetry_lrt036.jpg
+
+- name: Painting
+  image: https://res.cloudinary.com/dhodsjwfh/image/upload/v1680235981/painting_mpvxhz.jpg
+
+- name: Photos
+  image: https://res.cloudinary.com/dhodsjwfh/image/upload/v1680236239/photo_ufelnr.jpg
