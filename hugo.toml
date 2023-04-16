@@ -1,0 +1,6 @@
+baseURL = 'https://gmcrmagazine.github.io/vol1/'
+languageCode = 'en-us'
+title = 'The Articulate'
+ignorefiles = [ "docs/.*" ]
+enableRobotsTXT = true
+summaryLength = 40

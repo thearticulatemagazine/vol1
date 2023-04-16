@@ -4,7 +4,10 @@
   "description": "e-Magazine edited by students of GMC, Ratlam",
   "main": "index.js",
   "scripts": {
-    "commit": "cz"
+    "commit": "cz",
+	"dev": "hugo server --disableFastRender --gc",
+    "dev:preview": "npm run dev -- --buildDrafts --buildFuture",
+    "build": "hugo --verbose --minify --cleanDestinationDir --gc"
   },
   "keywords": [
     "magazine",
@@ -21,11 +24,13 @@
   "devDependencies": {
     "commitizen": "^4.3.0",
     "cz-conventional-changelog": "^3.3.0",
-    "cz-customizable": "^7.0.0"
+    "cz-customizable": "^7.0.0",
+    "prettier": "^2.8.7",
+    "prettier-plugin-go-template": "^0.0.13"
   },
   "config": {
     "commitizen": {
-		"path": "node_modules/cz-customizable"
+      "path": "node_modules/cz-customizable"
     }
   }
 }
