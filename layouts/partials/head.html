@@ -1,0 +1,48 @@
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	{{ hugo.Generator }}
+  
+	<title>{{ if .IsHome }} {{ "Home" }} | {{ else }} {{ .Title }} | {{ end }} {{ .Site.Title }}</title>
+	{{- if or .Description .Site.Params.description }}
+		<meta name="description" content="{{ .Description | default .Site.Params.description }}">
+	{{- end }}
+	
+	<!-- Favicon and Webmanifest -->
+	{{ partial "favicon.html" }}
+	{{ partial "google-fonts.html" }}
+  
+	<!-- Styles and Stylesheets -->
+	<link rel="stylesheet" href="{{ .Site.BaseURL }}css/styles.css">
+
+	<!-- TODO[Rizwan] Remove this dependancy -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha512-+NqPlbbtM1QqiK8ZAo4Yrj2c4lNQoGv8P79DPtKzj++l5jnN39rHA/xsqn8zE9l0uSoxaCdrOgFs6yjyfbBxSg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	
+	<!-- TODO[Rizwan] Remove this dependancy -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+	{{ if in .Params.tags "hindi" }} 
+		{{ partial "hindi.html" }}
+	{{ end }}
+	{{ if .IsHome }}
+	<link rel="prefetch" href="https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari&display=swap" as="style" />
+	<style> 
+		@media (min-width: 1920px) {
+			.container, .container-lg {
+				width: 1500px;
+				max-width: 1500px;
+			}
+			.lead {
+			min-height: 200px;
+		}
+		}
+	</style>
+	{{ end }}
+
+	<link rel="canonical" href="{{ .Permalink }}">
+	<link rel="alternate" type="application/rss+xml" href="{{ with .OutputFormats.Get "RSS" }}{{ .RelPermalink }}{{ end }}" title="{{ .Site.Title }}">
+
+
+	<!-- TODO[Rizwan] Add SEO -->
+	<!-- TODO[Rizwan] Add RSS -->
+  </head>
