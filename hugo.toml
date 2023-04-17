@@ -4,3 +4,20 @@ title = 'The Articulate'
 ignorefiles = [ "docs/.*" ]
 enableRobotsTXT = true
 summaryLength = 40
+cleanDestinationDir = true
+enableEmoji = true
+newContentEditor = "nvim"
+[permalinks]
+  posts = '/posts/:filename/'
+[minify]
+  minifyOutput = true
+[markup]
+  defaultMarkdownHandler = 'goldmark'
+  [markup.goldmark]
+    [markup.goldmark.parser]
+      [markup.goldmark.parser.attribute]
+        block = true
+        title = true
+    [markup.goldmark.renderer]
+      hardWraps = true
+      unsafe = true
