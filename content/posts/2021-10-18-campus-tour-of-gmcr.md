@@ -7,4 +7,6 @@ images: [https://res.cloudinary.com/dhodsjwfh/image/upload/v1679890306/campus-to
 tags: 
 ---
 
+<div style="display:flex;justify-content:center">
 <iframe width="853" height="480" src="https://www.youtube.com/embed/2s0ae1_QVBg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
