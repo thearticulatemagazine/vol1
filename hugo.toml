@@ -6,7 +6,9 @@ enableRobotsTXT = true
 summaryLength = 40
 cleanDestinationDir = true
 enableEmoji = true
-newContentEditor = "nvim"
+newContentEditor = "vscodium"
+[params]
+    dateFormat = "02-01-06 15:04"
 [permalinks]
   posts = '/posts/:filename/'
 [minify]
@@ -21,3 +23,5 @@ newContentEditor = "nvim"
     [markup.goldmark.renderer]
       hardWraps = true
       unsafe = true
+[security.exec]
+    allow = ['^vscodium$', '^nvim$', '^code$', '^postcss$'] 
