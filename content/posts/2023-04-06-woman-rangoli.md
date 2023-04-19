@@ -7,4 +7,9 @@ art: https://i.postimg.cc/SsP0HvT7/god-is-a-woman-1920x1080.jpg
 tags: [rangoli]
 ---
 
-> So amazing how this world was made<br>I wonder if GOD is a woman<br>The gift of life astounds me to this day<br>I give it up for the woman<br>&nbsp;&nbsp;&nbsp;-Shaggy
+So amazing how this world was made
+I wonder if GOD is a woman
+The gift of life astounds me to this day
+I give it up for the woman
+-Shaggy
+{.quote}

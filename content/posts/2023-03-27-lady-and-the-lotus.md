@@ -7,4 +7,6 @@ art: https://i.postimg.cc/D0LJcbs1/deshna-painting.jpg
 tags: 
 ---
 
-> “If you know how to make good use of the mud, you can grow beautiful lotuses.” – Thich Nhat Hanh
+“If you know how to make good use of the mud, you can grow beautiful lotuses.” 
+–Thich Nhat Hanh
+{.quote}

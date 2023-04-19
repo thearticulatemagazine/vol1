@@ -1,9 +1,9 @@
 ---
-author-id: ug-sakshi-khandare
+authid: ug-sakshi-khandare
 title: Sakshi Khandare
-bio-small: "Sakshi is a student of Government Medical College, Ratlam."
-bio-large: 
-avatar: assets/images/f.svg
+biosmall: "Sakshi is a student of Government Medical College, Ratlam."
+biolarge: 
+avatar: f
 twitter:
 instagram:
 multiple: true

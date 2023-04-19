@@ -1,6 +1,7 @@
 ---
 title:  "Campus Tour of Government Medical College, Ratlam"
 categories: [video]
+date: 2021-10-18
 authid: ug-2018-lavanya
 images: [https://res.cloudinary.com/dhodsjwfh/image/upload/v1679890306/campus-tour_adxlkk.png]
 tags: 

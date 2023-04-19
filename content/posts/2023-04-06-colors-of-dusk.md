@@ -11,4 +11,4 @@ a changing sky,
 dabbled in the orange and red
 of a setting sun,
 glazing with its precious hues <br>- Nikita Gill
-{: .quote}
+{.quote}

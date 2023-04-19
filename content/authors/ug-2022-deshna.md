@@ -1,9 +1,9 @@
 ---
-author-id: ug-2022-deshna
+authid: ug-2022-deshna
 title: Deshna Rawat
-bio-small: "Deshna is a 2022 batch student of Government Medical College, Ratlam"
-bio-large: 
-avatar: assets/images/f.svg
+biosmall: "Deshna is a 2022 batch student of Government Medical College, Ratlam"
+biolarge: 
+avatar: f
 twitter: 
 instagram:
 ---
