@@ -76,10 +76,12 @@
 {{/* END OF class="container" */}}
 <div class="container-lg pt-4 pb-4">
 	<div class="row justify-content-center">
+
+		{{/*  {{ if not $showimage }}  */}}
 		<div class="col-lg-2 pr-4 mb-4 col-md-12"></div>
 		<!--NOTE[Riz] Just to push content to center-->
-
-		<div class="col-md-12 col-lg-8">
+		{{/*  {{ end }}  */}}
+		<div class='col-md-12 {{cond $showimage "col-lg-8" "col-lg-12" }}'>
 
 			<!-- Article -->
 
@@ -87,23 +89,26 @@
 			{{ if in .Params.categories "painting" }}
 			<article class="article-post">
 				<style>
-					article .frame {
-						border: 20px solid #ccc;
-						background: #eee;
-						margin: auto;
-						padding: 10%;
-						display: flex;
-						align-content: center;
-						justify-content: center;
-						box-shadow: rgba(0, 0, 0, 0.25) 0 14px 28px, rgba(0, 0, 0, 0.22) 0 10px 10px, 0 0 10px 0 rgba(0, 0, 0, 0.45) inset;
+					@media (min-width: 1920px) {
+						article .frame {
+							border: 20px solid #ccc;
+							background: #eee;
+							margin: auto;
+							padding: 10%;
+							display: flex;
+							align-content: center;
+							justify-content: center;
+							box-shadow: rgba(0, 0, 0, 0.25) 0 14px 28px, rgba(0, 0, 0, 0.22) 0 10px 10px, 0 0 10px 0 rgba(0, 0, 0, 0.45) inset;
+						}
+	
+						article .frame img {
+							margin: 0;
+						}
 					}
 
-					article .frame img {
-						margin: 0;
-					}
 				</style>
 				<div class="frame">
-					<img src="{{ .Params.art }}" alt="{{ .Title}}" border="0">
+					<img src="{{ .Params.art }}" alt="{{ .Title}}" border="0" width="100%">
 					{{/* TODO: SHORTCODE for painting */}}
 				</div>
 				<p style="padding:1rem"></p>
