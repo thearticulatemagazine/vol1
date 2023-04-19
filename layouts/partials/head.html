@@ -26,6 +26,8 @@
 	{{ end }}
 	{{ if .IsHome }}
 	<link rel="prefetch" href="https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari&display=swap" as="style" />
+	
+	{{ end }}
 	<style> 
 		@media (min-width: 1920px) {
 			.container, .container-lg {
@@ -37,8 +39,6 @@
 		}
 		}
 	</style>
-	{{ end }}
-
 	<link rel="canonical" href="{{ .Permalink }}">
 	<link rel="alternate" type="application/rss+xml" href="{{ with .OutputFormats.Get "RSS" }}{{ .RelPermalink }}{{ end }}" title="{{ .Site.Title }}">
 

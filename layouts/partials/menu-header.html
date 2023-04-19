@@ -1,18 +1,29 @@
+{{ $curr := trim .Page.RelPermalink "/vol1/"}}
+
 <li class="nav-item">
-<a class="nav-link" href="{{ .Site.BaseURL }}">Home</a>
+<a class="nav-link" href="{{ $.Site.BaseURL }}">Home</a>
+</li>
+{{ $navpages := slice "about" "tags" "categories" "authors" }}
+
+{{ range $navpages }}
+<li class="nav-item">
+	<a class="nav-link {{ if eq $curr . }}font-weight-bold{{end}}" href='{{ absURL . }}' {{ if eq "about" . }} style="color: cornflowerblue;" {{end}}>{{ strings.FirstUpper . }}</a>
+	</li>
+{{ end }}
+
+{{/*  <li class="nav-item">
+<a class="nav-link" href='{{ absURL "about"}}' style="color: cornflowerblue;">About</a>
 </li>
 <li class="nav-item">
-<a class="nav-link" href="{{ .Site.BaseURL }}about.html" style="color: cornflowerblue;">About</a>
+<a class="nav-link" href='{{ absURL "tags"}}'>Tags</a>
 </li>
 <li class="nav-item">
-<a class="nav-link" href="{{ .Site.BaseURL }}contact.html">Contact</a>
+<a target="_blank" class="nav-link" href='{{ absURL "categories"}}'>Categories</a>
 </li>
 <li class="nav-item">
-<a target="_blank" class="nav-link" href="https://twitter.com/">Twitter</a>
-</li>
-<li class="nav-item">
-<a target="_blank" class="nav-link" href="https://www.facebook.com/">Facebook</a>
-</li>
+<a target="_blank" class="nav-link" href='{{ absURL "authors"}}'>Authors</a>
+</li>  */}}
+
 <li class="nav-item">
 <a target="_blank" class="nav-link" href="http://www.gmcratlam.org/">GMCR</a>
 </li>
