@@ -2,8 +2,8 @@
 {{ $ueti := printf "%s | The Articulate" .Title}}
 <div class="share d-flex mt-2">
     <span class="text-muted mr-3" style="line-height:30px">Share to:</span>
-    <a class="share-btn share-btn-facebook mr-2" href="https://facebook.com/sharer.php?u={{ .Permalink }}&p[title]={{$ueti}}" rel="nofollow" target="_blank" title="Share on Facebook"><i class="fa-brands fa-facebook-f"></i></a>
-    <a class="share-btn share-btn-twitter mr-2" href="https://twitter.com/intent/tweet?url={{ .Permalink }}&text={{$ueti}}" rel="nofollow" target="_blank" title="Share on Twitter" aria-label=""><i class="fa-brands fa-twitter"></i></a>
-    <a class="share-btn share-btn-whatsapp mr-2" href="https://api.whatsapp.com/send?text={{$ueti}}%0A%0A{{ .Permalink }}" data-action="share/whatsapp/share" target="_blank" rel="noopener" aria-label="" title="Share on WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
-    <a class="share-btn share-btn-telegram" href="https://t.me/share/url?text={{$ueti}}%0A%0A&url={{.Permalink}}" target="_blank" rel="noopener" aria-label="" title="Share on Telegram"><i class="fa-solid fa-paper-plane"></i></i></a>
+    <a class="share-btn share-btn-facebook mr-2" href="https://facebook.com/sharer.php?u={{ .Permalink }}&p[title]={{$ueti}}" rel="nofollow" target="_blank" title="Share on Facebook"><i class="icon-facebook"></i></a>
+    <a class="share-btn share-btn-twitter mr-2" href="https://twitter.com/intent/tweet?url={{ .Permalink }}&text={{$ueti}}" rel="nofollow" target="_blank" title="Share on Twitter" aria-label=""><i class="icon-twitter"></i></a>
+    <a class="share-btn share-btn-whatsapp mr-2" href="https://api.whatsapp.com/send?text={{$ueti}}%0A%0A{{ .Permalink }}" data-action="share/whatsapp/share" target="_blank" rel="noopener" aria-label="" title="Share on WhatsApp"><i class="icon-whatsapp"></i></a>
+    <a class="share-btn share-btn-telegram" href="https://t.me/share/url?text={{$ueti}}%0A%0A&url={{.Permalink}}" target="_blank" rel="noopener" aria-label="" title="Share on Telegram"><i class="icon-paper-plane"></i> </i></a>
 </div>
