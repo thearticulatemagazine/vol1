@@ -84,39 +84,8 @@
 		<div class='col-md-12 {{cond $showimage "col-lg-8" "col-lg-12" }}'>
 
 			<!-- Article -->
-
-			<!--TODO[Rizwan]: DRY - Assign if-painting -->
-			{{ if in .Params.categories "painting" }}
-			<article class="article-post">
-				<style>
-					@media (min-width: 1920px) {
-						article .frame {
-							border: 20px solid #ccc;
-							background: #eee;
-							margin: auto;
-							padding: 10%;
-							display: flex;
-							align-content: center;
-							justify-content: center;
-							box-shadow: rgba(0, 0, 0, 0.25) 0 14px 28px, rgba(0, 0, 0, 0.22) 0 10px 10px, 0 0 10px 0 rgba(0, 0, 0, 0.45) inset;
-						}
 	
-						article .frame img {
-							margin: 0;
-						}
-					}
-
-				</style>
-				<div class="frame">
-					<img src="{{ .Params.art }}" alt="{{ .Title}}" border="0" width="100%">
-					{{/* TODO: SHORTCODE for painting */}}
-				</div>
-				<p style="padding:1rem"></p>
-				{{ .Content }}
-			</article>
-			{{ else }}
 			<article class="article-post">{{ .Content }}</article>
-			{{ end }}
 			<!-- Tags -->
 			<div class="mb-4">
 				<span class="taglist">

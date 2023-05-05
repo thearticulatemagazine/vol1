@@ -1949,6 +1949,7 @@ article h6 {
 .quote {
 	color: var(--muted);
 	text-align: right;
+	white-space: pre;
 }
 
 html {
@@ -2016,40 +2017,50 @@ html {
 	content: '\f099';
 }
 
-/* '' */
 
 .icon-facebook:before {
 	content: '\f09a';
 }
 
-/* '' */
 
 .icon-angle-circled-right:before {
 	content: '\f138';
 }
 
-/* '' */
 
 .icon-rss-squared:before {
 	content: '\f143';
 }
 
-/* '' */
 
 .icon-paper-plane:before {
 	content: '\f1d8';
 }
 
-/* '' */
 
 .icon-whatsapp:before {
 	content: '\f232';
 }
 
-/* '' */
 
 .icon-hashtag:before {
 	content: '\f292';
 }
 
-/* '' */
+
+@media (min-width: 1920px) {
+	article .frame {
+		border: 20px solid #ccc;
+		background: #eee;
+		margin: auto;
+		padding: 10%;
+		display: flex;
+		align-content: center;
+		justify-content: center;
+		box-shadow: rgba(0, 0, 0, 0.25) 0 14px 28px, rgba(0, 0, 0, 0.22) 0 10px 10px, 0 0 10px 0 rgba(0, 0, 0, 0.45) inset;
+	}
+
+	article .frame img {
+		margin: 0;
+	}
+}
