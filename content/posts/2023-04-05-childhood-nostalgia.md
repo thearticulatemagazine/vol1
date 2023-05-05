@@ -2,7 +2,7 @@
 title: Lines of Nostalgia
 categories: [painting]
 authid: ug-2019-pooja-mangal
-images: [https://res.cloudinary.com/dhodsjwfh/image/upload/v1680746819/cartoon-thumb_ozrvlo.jpg]
+img: https://res.cloudinary.com/dhodsjwfh/image/upload/v1680746819/cartoon-thumb_ozrvlo.jpg
 art: https://i.postimg.cc/KjhKncWh/cartoon.jpg
 tags: 
 ---

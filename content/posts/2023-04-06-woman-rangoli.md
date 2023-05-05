@@ -2,7 +2,7 @@
 title: God is a woman
 categories: [painting]
 authid: ug-sakshi-khandare
-images: [https://i.postimg.cc/Qd1BfMZ8/god-is-a-woman-1920x1080-640x480.jpg]
+img: https://i.postimg.cc/Qd1BfMZ8/god-is-a-woman-1920x1080-640x480.jpg
 art: https://i.postimg.cc/SsP0HvT7/god-is-a-woman-1920x1080.jpg
 tags: [rangoli]
 ---

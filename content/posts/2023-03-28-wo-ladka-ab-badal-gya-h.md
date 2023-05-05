@@ -2,7 +2,7 @@
 title:  "Wo ladka ab badal gya h"
 categories: [poem]
 authid: ug-2021-kuldeep-singh-rajpurohit 
-images: [https://res.cloudinary.com/dhodsjwfh/image/upload/v1680035596/change2_rb6vgp.jpg]
+img: https://res.cloudinary.com/dhodsjwfh/image/upload/v1680035596/change2_rb6vgp.jpg
 tags: [hindi]
 ---
 

@@ -2,7 +2,7 @@
 title:  "Rat in the jar"
 categories: [fiction]
 authid: ug-2022-siddhi
-images: [https://res.cloudinary.com/dhodsjwfh/image/upload/v1679879327/Rat-in-jar_zze9le.png]
+img: https://res.cloudinary.com/dhodsjwfh/image/upload/v1679879327/Rat-in-jar_zze9le.png
 tags:
 ---
 

@@ -2,7 +2,7 @@
 title:  "World TB day observed at GMC, Ratlam"
 categories: [photos]
 authid: 00-edboard
-images: [https://res.cloudinary.com/dhodsjwfh/image/upload/v1680699453/tb-day_zsuyca.jpg]
+img: https://res.cloudinary.com/dhodsjwfh/image/upload/v1680699453/tb-day_zsuyca.jpg
 tags: 
 ---
 

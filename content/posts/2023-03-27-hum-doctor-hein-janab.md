@@ -2,7 +2,7 @@
 title:  "Hum doctor hein, Janab"
 authid: ug-2021-sakshi 
 categories: [poem]
-images: [https://res.cloudinary.com/dhodsjwfh/image/upload/v1679947563/doctor_ty5aza.jpg]
+img: https://res.cloudinary.com/dhodsjwfh/image/upload/v1679947563/doctor_ty5aza.jpg
 tags: [hindi, featured]
 ---
 

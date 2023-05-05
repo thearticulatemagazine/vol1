@@ -2,7 +2,7 @@
 title:  "Hostel Life: The chronicles of my Second Home"
 categories: [article]
 authid: ug-2019-asg
-images: [https://res.cloudinary.com/dhodsjwfh/image/upload/v1680317257/hostel_deoflc.jpg]
+img: https://res.cloudinary.com/dhodsjwfh/image/upload/v1680317257/hostel_deoflc.jpg
 tags: 
 ---
 

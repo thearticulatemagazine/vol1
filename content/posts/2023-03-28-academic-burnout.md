@@ -2,7 +2,7 @@
 title:  "Academic Burnout in Medical Students: Signs and Prevention"
 categories: [article]
 authid: ug-2019-sanskriti
-images: [https://res.cloudinary.com/dhodsjwfh/image/upload/v1679892598/academic-burnout_sjhvqn.jpg]
+img: https://res.cloudinary.com/dhodsjwfh/image/upload/v1679892598/academic-burnout_sjhvqn.jpg
 tags: 
 ---
 

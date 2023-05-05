@@ -2,7 +2,7 @@
 title:  "To be happy"
 categories: [poem]
 authid: ug-2022-aashlesha
-images: [https://res.cloudinary.com/dhodsjwfh/image/upload/v1679881807/rainbow_dxyiz6.jpg]
+img: https://res.cloudinary.com/dhodsjwfh/image/upload/v1679881807/rainbow_dxyiz6.jpg
 tags: [happiness]
 ---
 
