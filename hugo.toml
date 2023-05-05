@@ -7,6 +7,7 @@ summaryLength = 40
 cleanDestinationDir = true
 enableEmoji = true
 newContentEditor = "vscodium"
+copyright = "2023 Dr. Rizwan Ishak All rights reserved"
 [params]
     dateFormat = "02-01-06 15:04"
 [permalinks]

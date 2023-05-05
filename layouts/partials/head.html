@@ -40,6 +40,10 @@
 	<link rel="alternate" type="application/rss+xml" href="{{ with .OutputFormats.Get "RSS" }}{{ .RelPermalink }}{{ end }}" title="{{ .Site.Title }}">
 
 
-	<!-- TODO[Rizwan] Add SEO -->
-	<!-- TODO[Rizwan] Add RSS -->
+	{{ partial "seo.html" . }}
+	<link rel="alternate"
+      type="application/rss+xml"
+      href="{{.Site.BaseURL }}/index.xml"
+      title="{{ .Site.Title }}">
+
   </head>
