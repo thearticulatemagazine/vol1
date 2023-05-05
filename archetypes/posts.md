@@ -3,7 +3,7 @@ title:  "{{ replace .Name "-" " " | title }}"
 authid: 
 categories: []
 date: {{ .Date | time.Format .Site.Params.dateFormat }}
-images: []
+img: 
 tags: []
 description: ""
 summary: ""
