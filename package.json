@@ -8,7 +8,7 @@
     "dev": "hugo server",
     "dev:preview": "npm run dev -- --buildDrafts --buildFuture",
     "build": "hugo --verbose --minify --cleanDestinationDir --gc",
-	"minify-css": "postcss static/css/styles.css > static/css/styles.min.css"
+    "minify-css": "postcss static/css/styles.css > static/css/styles.min.css"
   },
   "keywords": [
     "magazine",
@@ -23,6 +23,7 @@
   "author": "Dr. Rizwan Ishak M.P",
   "license": "AGPL-3.0-or-later",
   "devDependencies": {
+    "autoprefixer": "^10.4.14",
     "commitizen": "^4.3.0",
     "cssnano": "^6.0.1",
     "cz-conventional-changelog": "^3.3.0",

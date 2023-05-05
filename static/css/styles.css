@@ -6,6 +6,7 @@
  */
 
 :root {
+	--muted: #777;
 	--blue: #7832e2;
 	--indigo: #502c6c;
 	--purple: #ad6edd;
@@ -1943,6 +1944,11 @@ article h6 {
 
 .share-btn.share-btn-telegram {
 	background-image: linear-gradient(to right, #eb3941, #f15e64, #e14e53, #e2373f);
+}
+
+.quote {
+	color: var(--muted);
+	text-align: right;
 }
 
 html {
