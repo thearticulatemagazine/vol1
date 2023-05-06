@@ -1,10 +1,15 @@
 ---
 title:  "Academic Burnout in Medical Students: Signs and Prevention"
-categories: [article]
 authid: ug-2019-sanskriti
 img: https://res.cloudinary.com/dhodsjwfh/image/upload/v1679892598/academic-burnout_sjhvqn.jpg
-tags: 
+categories: [article]
+tags: []
+date: 2023-03-25T06:00:00
+description: ""
+summary: ""
+draft: false
 ---
+
 
 - [What is it?](#what-is-it)
 - [Signs of academic burnout](#signs-of-academic-burnout)

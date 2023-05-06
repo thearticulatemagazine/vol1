@@ -1,9 +1,13 @@
 ---
-title:  "Lady and the lotus"
-categories: [painting]
+title: "Lady and the lotus"
 authid: ug-2022-deshna
 img: https://i.postimg.cc/4N3vfvvM/lady-and-lotus.jpg
-tags: 
+categories: [painting]
+tags: [focus]
+date: 2023-03-21T06:00:00
+description: ""
+summary: ""
+draft: false
 ---
 
 

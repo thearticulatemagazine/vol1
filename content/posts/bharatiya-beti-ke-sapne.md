@@ -1,11 +1,15 @@
 ---
-title:  Bharatiya beti ke sapne
-categories: [poem]
+title:  "Bharatiya beti ke sapne"
 authid: ug-2021-akshara
-date: 2023-04-06T06:00:00
 img: https://i.postimg.cc/7YwC6kFb/dream.jpg
+categories: [poem]
 tags: [hindi, dream]
+date: 2023-03-25T06:00:00
+description: ""
+summary: ""
+draft: false
 ---
+
 
 नमक खाया जिस देश का अब उसके लिए सपने सजाना चाहती हूं
 इस जननी मातृभूमि का कर्ज 
