@@ -1,11 +1,11 @@
 ---
 title:  "{{ replace .Name "-" " " | title }}"
 authid: 
-categories: []
-date: {{ .Date | time.Format .Site.Params.dateFormat }}
 img: 
+categories: []
 tags: []
+date: {{ .Date | time.Format .Site.Params.dateFormat }}
 description: ""
 summary: ""
-draft: true
+draft: false
 ---

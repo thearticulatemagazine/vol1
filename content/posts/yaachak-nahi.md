@@ -1,9 +1,13 @@
 ---
 title:  "Yaachak nahi h tu"
 authid: ug-2022-vijay
-categories: [poem]
 img: https://res.cloudinary.com/dhodsjwfh/image/upload/v1679886900/grit_synltb.jpg
+categories: [poem]
 tags: [hindi]
+date: 2023-03-23T06:01:00
+description: ""
+summary: ""
+draft: false
 ---
 
 याचक नहीं है तू,याचना ना कर

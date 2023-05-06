@@ -1,10 +1,15 @@
 ---
 title:  "Full moon night"
-categories: [painting]
 authid: ug-2022-risha
 img: https://i.postimg.cc/7h4NqpPr/moon-thumb.jpg
+categories: [painting]
 tags: [happiness]
+date: 2023-03-24T06:00:00
+description: ""
+summary: ""
+draft: false
 ---
+
 
 {{< art "https://i.postimg.cc/q7Hv5377/Full-moon-Imgur.jpg" >}}
 

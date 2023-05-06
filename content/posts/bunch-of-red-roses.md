@@ -1,15 +1,16 @@
 ---
-title:  A Bunch of Red Roses
+title: A Bunch of Red Roses
 authid: ug-2022-risha
-date: 2023-03-24T00:00:00
-categories: [painting]
 img: https://i.postimg.cc/FFkvS0Hd/red-roses.jpg
+categories: [painting]
 tags: [featured]
+date: 2023-03-24T00:00:00
+description: ""
+summary: ""
+draft: false
 ---
 
 {{< art "https://i.postimg.cc/yNG4GN8r/a-bunch-of-red-roses.jpg" >}}
-
-
 
 {{< quote >}}
 No arrogant jewel sits enthroned on her forehead 

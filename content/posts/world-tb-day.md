@@ -1,9 +1,13 @@
 ---
-title:  "World TB day observed at GMC, Ratlam"
-categories: [photos]
+title: "World TB day observed at GMC, Ratlam"
 authid: 00-edboard
 img: https://res.cloudinary.com/dhodsjwfh/image/upload/v1680699453/tb-day_zsuyca.jpg
-tags: 
+categories: [photos]
+tags: []
+date: 2023-03-23T06:00:00
+description: ""
+summary: ""
+draft: false
 ---
 
 World TB day 2023 was observed at Government Medical College Ratlam on 24th March under the aegis of Department of Community Medicine.
