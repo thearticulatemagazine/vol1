@@ -1950,6 +1950,7 @@ article h6 {
 	color: var(--muted);
 	text-align: right;
 	white-space: pre;
+	font-style: italic;
 }
 
 html {
