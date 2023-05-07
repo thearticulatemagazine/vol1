@@ -1,7 +1,9 @@
 <nav id="MagicMenu" class="topnav navbar navbar-expand-lg navbar-light bg-white fixed-top">
 	<div class="container">
 	  <a class="navbar-brand" href="{{ .Site.BaseURL }}">
-		<strong>{{.Site.Title}}</strong>
+		<!-- <strong>{{.Site.Title}}</strong> -->
+		<img src="{{ .Site.BaseURL}}images/brand.svg"/>
+		<!-- {{ readFile "/static/images/brand.svg" | safeHTML }} -->
 	  </a>
 	  <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
 		<span class="navbar-toggler-icon"></span>

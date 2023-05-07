@@ -25,12 +25,12 @@
 				<div>
 				  <span class="navbar-brand mr-2 mb-0">
 					<strong>{{.Site.Title}}</strong>
+					 <img src="{{ .Site.BaseURL}}images/logo.svg" width="150px" height="150px" loading="lazy"/> 
 				  </span>
-				  <span>Copyright ©
-					<script>
-					  document.write(new Date().getFullYear())
-					</script>.</span>
-	  
+				 
+				<span style="display: inline-block;">Email: <a href = "mailto: {{ .Site.Params.email }}">{{ .Site.Params.email }}</a><br>Copyright ©
+					{{ now.Format "2006" }}.</p>
+	
 				  <!-- Github Repo Star Btn-->
 	  
 				</div>

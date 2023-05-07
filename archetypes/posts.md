@@ -4,7 +4,7 @@ authid:
 img: 
 categories: []
 tags: []
-date: {{ .Date | time.Format .Site.Params.dateFormat }}
+date: {{ .Date  }}
 description: ""
 summary: ""
 draft: false
