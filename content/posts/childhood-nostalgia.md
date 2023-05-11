@@ -14,5 +14,5 @@ draft: false
 {{< art "https://i.postimg.cc/KjhKncWh/cartoon.jpg" >}}
 
 {{< quote >}}
-> If you carry your childhood with you, you never become older. - Tom Stoppard
+If you carry your childhood with you, you never become older. - Tom Stoppard
 {{< /quote >}}

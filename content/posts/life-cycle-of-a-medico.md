@@ -12,3 +12,9 @@ draft: false
 
 
 {{< art "https://i.postimg.cc/V5yxkbcJ/Line-drawing-two-1920x1080.jpg" >}}
+
+{{< quote >}}
+...is like riding a bicycle. To keep your balance, you must keep moving. 
+- Einstein
+{{< /quote >}}
+

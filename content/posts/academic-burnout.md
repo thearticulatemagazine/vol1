@@ -18,7 +18,6 @@ draft: false
 - [How can you prevent it?](#how-can-you-prevent-it)
 - [How to help yourself? ](#how-to-help-yourself)
 
----
 
 Do you experience a lack of motivation? Being drained and agitated? You're not as inspired or as imaginative in your schoolwork as you used to be. Burnout depletes you and leaves you demotivated and jaded.  You can't start anything at all because you feel like there is simply too much to do and that nothing you do would suffice. In academia, issues about mental health aren’t new. It's plausible that you are experiencing an academic burnout, most students have this relatively common condition, yet it remains undetected purely because of ignorance. If identified, it’s effectively treatable. 
 
