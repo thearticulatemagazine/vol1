@@ -3,26 +3,14 @@
 <li class="nav-item">
 <a class="nav-link" href="{{ $.Site.BaseURL }}">Home</a>
 </li>
-{{ $navpages := slice "about" "tags" "categories" "authors" }}
+{{ $navpages := slice "about" "tags" "authors" }}
 
 {{ range $navpages }}
 <li class="nav-item">
-	<a class="nav-link {{ if eq $curr . }}font-weight-bold{{end}}" href='{{ absURL . }}' {{ if eq "about" . }} style="color: cornflowerblue;" {{end}}>{{ strings.FirstUpper . }}</a>
+	<a class="nav-link {{ if eq $curr . }}font-weight-bold{{end}}" href='{{ absURL . }}' >{{ strings.FirstUpper . }}</a>
 	</li>
 {{ end }}
 
-{{/*  <li class="nav-item">
-<a class="nav-link" href='{{ absURL "about"}}' style="color: cornflowerblue;">About</a>
-</li>
-<li class="nav-item">
-<a class="nav-link" href='{{ absURL "tags"}}'>Tags</a>
-</li>
-<li class="nav-item">
-<a target="_blank" class="nav-link" href='{{ absURL "categories"}}'>Categories</a>
-</li>
-<li class="nav-item">
-<a target="_blank" class="nav-link" href='{{ absURL "authors"}}'>Authors</a>
-</li>  */}}
 
 <li class="nav-item">
 <a target="_blank" class="nav-link" href="http://www.gmcratlam.org/">GMCR</a>
