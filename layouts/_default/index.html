@@ -221,10 +221,10 @@
 
 					<div class="col-6 col-md-4 mt-4">
 						<div class="text-uppercase font-weight-bold mb-1">
-							<a target="_blank" class="text-dark" href="{{.Site.BaseURL}}categories/{{.name | urlize}}"
+							<a target="_blank" class="text-dark" href="{{ .Site.BaseURL}}categories/{{.name | urlize}}"
 								alt="View all posts in {{ .name }}">{{ .name }}</a>
 						</div>
-						<a target="_blank" href="{{.Site.BaseURL}}categories/{{. | urlize}}">
+						<a target="_blank" href="{{ .Site.BaseURL}}categories/{{.name | urlize}}">
 							<img src="{{.image}}">
 						</a>
 					</div>
