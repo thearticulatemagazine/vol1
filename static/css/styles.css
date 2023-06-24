@@ -1670,7 +1670,7 @@ footer {
 }
 
 .sticky-top-offset {
-	top: 70px;
+	top: 90px;
 }
 
 .excerpt {
@@ -2049,7 +2049,7 @@ html {
 }
 
 
-@media (min-width: 1920px) {
+@media (min-width: 1399px) {
 	article .frame {
 		border: 20px solid #ccc;
 		background: #eee;
