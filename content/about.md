@@ -1,6 +1,7 @@
 ---
-title: "About"
-
+title: "About Us"
+img: https://i.postimg.cc/qRJZ4Ws6/about.jpg
+authid: 00-edboard
 ---
 <p>This e-magazine was started by Astha Gawai & Akanksha Singh Gaur, Batch 2019, Government Medical College, Ratlam</p>
 

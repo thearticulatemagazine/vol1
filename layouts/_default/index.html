@@ -221,10 +221,10 @@
 
 					<div class="col-6 col-md-4 mt-4">
 						<div class="text-uppercase font-weight-bold mb-1">
-							<a target="_blank" class="text-dark" href="{{ .Site.BaseURL}}categories/{{.name | urlize}}"
+							<a target="_blank" class="text-dark" href='{{ absURL "categories" }}/{{ .name | urlize }}'
 								alt="View all posts in {{ .name }}">{{ .name }}</a>
 						</div>
-						<a target="_blank" href="{{ .Site.BaseURL}}categories/{{.name | urlize}}">
+						<a target="_blank" href='{{ absURL "categories" }}/{{ .name | urlize }}'>
 							<img src="{{.image}}">
 						</a>
 					</div>
@@ -248,7 +248,7 @@
 							<span class="d-block text-muted">
 								<span class="thecatlinks text-dark">
 									{{ range .Params.categories }}
-									<a target="_blank" href="{{ absURL " categories" }}/{{ . | urlize }}" rel="category tag"
+									<a target="_blank" href='{{ absURL "categories" }}/{{ . | urlize }}' rel="category tag"
 										class="text-muted text-capitalize">{{ . }}</a>
 									{{ end }}
 								</span> by
