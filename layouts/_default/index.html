@@ -11,7 +11,7 @@
 		<div class="container pb-5 ">
 			<div class="row justify-content-center">
 				{{ with index $pages 0 }}
-				<div class="col-sm-12 col-md-4 col-xl-4">
+				<div class="col-sm-12 col-md-6 col-xl-4">
 					<div class="card border-0 postbox_style2">
 						<a target="_blank" href="{{ .Permalink }}">
 							<!-- TODO[Rizwan]: Default image -->
@@ -30,7 +30,7 @@
 								<small class="text-muted">
 									<span class="thecatlinks text-dark">
 										{{ range .Params.categories }}
-										<a target="_blank" href="{{ absURL " categories" }}/{{ . | urlize }}"
+										<a target="_blank" href='{{ absURL "categories" }}/{{ . | urlize }}'
 											rel="category tag" class="text-muted text-capitalize">{{ . }}</a>
 										{{ end }}
 									</span> by
@@ -56,7 +56,7 @@
 				<!-- END OF  with index $pages 0-->
 				{{ end}}
 				{{/* BEGINNING OF 2-4 Posts FLUXBOX */}}
-				<div class="col-sm-12 col-md-4 col-xl-5">
+				<div class="col-sm-12 col-md-6 col-xl-5">
 					<!--SECOND TO FOURTH POSTS -->
 					{{ range after 1 $pages | first 3 }}
 
@@ -105,7 +105,7 @@
 				{{/* END OF 2-4 POSTS FLUXBOX */}}
 				<!--FIFTH POST -->
 				{{ with index $pages 4 }}
-				<div class="col-sm-12 col-md-4 col-xl-3">
+				<div class="col-sm-12 col-md-12 col-xl-3 fifth-post">
 					<div class="mt-3 mt-md-0 card border-0 mb-4 postbox_style2_right">
 						<a target="_blank" href="{{.Permalink}}">
 							<img src="{{ index .Params.img  }}"

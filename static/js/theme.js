@@ -20,16 +20,7 @@ function fadeOut(el) {
 	})();
 }
 
-// document.onscroll = function () {
-//   el = document.getElementById("alertbar");
-//   if ($(window).scrollTop() + 700 > $(document).height() - $(window).height()) {
-//     if (el.style.display == "none") {
-//       fadeIn(el);
-//     }
-//   } else {
-//     fadeOut(el);
-//   }
-// };
+
 
 
 var lastScrollTop;

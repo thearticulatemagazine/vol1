@@ -733,7 +733,9 @@ a.btn.disabled {
 .navbar-light .navbar-nav .nav-link:focus,
 .navbar-light .navbar-nav .nav-link:hover {
 	color: rgba(0, 0, 0, .7);
+	background-color: aliceblue;
 }
+
 
 .navbar-light .navbar-nav .nav-link.disabled {
 	color: rgba(0, 0, 0, .3);
@@ -1605,15 +1607,14 @@ a.text-dark:hover {
 	background-size: cover;
 	padding: 7rem 1rem;
 }
-
-@media (min-width: 992px) {
-	.jumbotron-home h1 {
-		font-family: Georgia, Times, "Times New Roman", serif;
-		font-size: 2.4rem;
-		font-weight: 700;
-		line-height: 1.1;
-	}
+.jumbotron-home h1 {
+	font-family: Georgia, Times, "Times New Roman", serif;
+	font-size: 2.4rem;
+	font-weight: 700;
+	line-height: 1.1;
 }
+
+
 
 .bg-white {
 	fill: #fff !important;
@@ -2068,4 +2069,29 @@ html {
 
 footer {
 	box-shadow: 0 2px 4px 0 rgba(14, 30, 37, 0),0 2px 16px 0 rgba(14, 30, 37, 0.11);
+}
+
+@media (min-width:768px) and (max-width:1200px) {
+	.fifth-post {
+		margin-top: 50px;
+	}
+}
+@media (min-width: 1399px) {
+	#latest-posts img {
+		transition: all .3s ease-out;
+	}
+	#latest-posts .attachment-postbox-style2.size-postbox-style2.wp-post-image:hover,
+	#latest-posts .attachment-postbox-style2-right.size-postbox-style2-right.wp-post-image:hover {
+		transform: translate(0, -10px);
+		-webkit-transform: translate(0, -10px);
+		-moz-transform: translate(0, -10px);
+		
+	}
+
+}
+
+.green-callout {
+	padding: 0.8rem 1.5rem;
+	background-color: aliceblue;
+	border-radius: 5px;
 }
