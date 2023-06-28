@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ .Site.LanguageCode | default "en" }}">
+<html lang='{{ .Site.LanguageCode | default "en" }}'>
 	{{ partial "head.html" . }}
 	<body>
 		{{ partial "nav.html" . }}
@@ -19,21 +19,20 @@
 		  <script src="{{ .Site.BaseURL}}js/theme.js"></script>
 	  
 		  <!-- Footer -->
-		  <footer class="bg-white border-top p-3 text-muted small">
+		  <footer class="border-top p-3 text-muted small">
 			<div class="container">
-			  <div class="row align-items-center justify-content-between">
-				<div>
-				  <span class="navbar-brand mr-2 mb-0">
-					<strong>{{.Site.Title}}</strong>
-					 <img src="{{ .Site.BaseURL}}images/logo.svg" width="150px" height="150px" loading="lazy"/> 
-				  </span>
-				 
-				<span style="display: inline-block;">Email: <a href = "mailto: {{ .Site.Params.email }}">{{ .Site.Params.email }}</a><br>Copyright ©
-					{{ now.Format "2006" }}.</p>
-	
-				  <!-- Github Repo Star Btn-->
-	  
-				</div>
+			  <div class="row">
+					<div class=" col-lg-2  col-6">
+					<img src="{{ .Site.BaseURL}}images/logo.svg" width="150px" height="150px" loading="lazy"/>	
+					</div>
+					<div class="col d-flex flex-column">
+						<strong class="navbar-brand">{{.Site.Title}}</strong>
+						<span >Email: <a href = "mailto: {{ .Site.Params.email }}">{{ .Site.Params.email }}</a></span>
+						<span> Copyright ©{{ now.Format "2006" }}.</span>
+					 </div>
+					 <div class="col">
+					 {{ partial "share" . }}
+					 </div>
 			  </div>
 			</div>
 		  </footer>

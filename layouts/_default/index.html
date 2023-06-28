@@ -1,7 +1,7 @@
 {{ define "main" }}
 
 <div class="container">
-
+<div class="flex-wrapper">
 	<!-- If it is the first page of HOME -->
 
 	{{ $paginator := .Paginate (where .Site.RegularPages "Type" "posts") }}
@@ -160,7 +160,7 @@
 	{{ $infocus := where .Site.RegularPages "Params.tags" "intersect" (slice "focus") }}
 	{{/* Ref: https://risanb.com/code/list-pages-with-tag-on-hugo/ */}}
 	{{ with index $infocus 0 }}
-	<div class="jumbotron jumbotron-fluid jumbotron-home pt-0 pb-0 mt-3 mb-2rem position-relative">
+	<div class="jumbotron jumbotron-fluid jumbotron-home pt-0 pb-0 mt-3 mb-2rem position-relative" id="in-focus">
 		<div class="pl-4 pr-0 h-100 tofront">
 			<div class="row justify-content-between">
 				<div class="col-md-6 pt-6 pb-6 pr-lg-4 align-self-center">
@@ -194,9 +194,9 @@
 	<!-- END OF  "If it is the first page of HOME"-->
 	{{end}}
 
-	<div class="row mt-3">
+	<div class="row mt-3" id="all-stories">
 
-		<div class="col-md-8 main-loop">
+		<div class="col-md-8 main-loop" id="mainloop">
 
 			<h4 class="font-weight-bold spanborder"><span>All Stories</span></h4>
 			{{ if and .IsHome ( eq $paginator.PageNumber 1 ) }}
@@ -214,26 +214,10 @@
 				{{ partial "pager" . }}
 			</div>
 			<div class="clearfix"></div>
-			<div id="allcategories" class="display-categories mt-5">
-				<h4 class="font-weight-bold spanborder"><span>Categories</span></h4>
-				<div class="row">
-					{{ range $.Site.Data.categories }}
 
-					<div class="col-6 col-md-4 mt-4">
-						<div class="text-uppercase font-weight-bold mb-1">
-							<a target="_blank" class="text-dark" href='{{ absURL "categories" }}/{{ .name | urlize }}'
-								alt="View all posts in {{ .name }}">{{ .name }}</a>
-						</div>
-						<a target="_blank" href='{{ absURL "categories" }}/{{ .name | urlize }}'>
-							<img src="{{.image}}">
-						</a>
-					</div>
-					{{ end}}
-				</div>
-			</div>
 		</div>
 		{{/* END OF class="col-md-8 main-loop" */}}
-		<div class="col-md-4">
+		<div class="col-md-4" id="featured">
 			<div class="sticky-top sticky-top-offset">
 				<h4 class="font-weight-bold spanborder"><span>Featured</span></h4>
 				<ol class="list-featured">
@@ -265,8 +249,28 @@
 			</div>
 		</div>
 	</div>
-	{{/* END OF class="row mt-3" */}}
+	{{/* END OF class="row mt-3" id="allstories" */}}
+	<div class="row mt-3" id="allcategories">
+				<div  class="display-categories mt-5 col-md-8">
+				<h4 class="font-weight-bold spanborder"><span>Categories</span></h4>
+				<div class="row">
+					{{ range $.Site.Data.categories }}
 
+					<div class="col-6 col-md-4 mt-4">
+						<div class="text-uppercase font-weight-bold mb-1">
+							<a target="_blank" class="text-dark" href='{{ absURL "categories" }}/{{ .name | urlize }}'
+								alt="View all posts in {{ .name }}">{{ .name }}</a>
+						</div>
+						<a target="_blank" href='{{ absURL "categories" }}/{{ .name | urlize }}'>
+							<img src="{{.image}}">
+						</a>
+					</div>
+					{{ end}}
+				</div>
+			</div>
+	</div>
+	{{/* END Of #allcategories */}}
+</div>
 </div>
 {{/* END OF class="container" */}}
 <!-- END OF define "main" -->
