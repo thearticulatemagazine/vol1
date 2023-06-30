@@ -1,6 +1,6 @@
 ---
 title: "Campus Tour of Government Medical College, Ratlam"
-authid: ug-2018-lavanya
+authid: ug-2020-lavanya
 img: https://res.cloudinary.com/dhodsjwfh/image/upload/v1679890306/campus-tour_adxlkk.png
 categories: [video]
 tags: []
