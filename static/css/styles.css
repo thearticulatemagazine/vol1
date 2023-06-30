@@ -3601,7 +3601,7 @@ footer {
 	top: 90px;
 }
 
-.excerpt {
+.excerpt, .excerpt+p {
 	color: rgba(0, 0, 0, 0.59);
 	margin-top: 10px;
 }
@@ -4050,3 +4050,4 @@ html {
 		order: 1
 	}
 }
+
