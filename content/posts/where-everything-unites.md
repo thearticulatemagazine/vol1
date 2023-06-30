@@ -1,7 +1,7 @@
 ---
 title:  "Where Everything Unites"
 authid: ug-2022-mansi-garg
-img: 
+img: https://i.postimg.cc/x8C8Kz65/gray.jpg
 categories: [poem]
 tags: []
 date: 2023-03-29T23:15:47+05:30

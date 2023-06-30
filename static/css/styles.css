@@ -3877,7 +3877,7 @@ article h6 {
 .quote {
 	color: var(--muted);
 	text-align: right;
-	white-space: pre;
+	white-space: pre-wrap;
 	font-style: italic;
 }
 
@@ -4044,7 +4044,8 @@ html {
 /* @Future_Riz: You will have an urge to combine it with above rule. Don't. Too many reasons. - Past_Riz*/
 @media (max-width:768px) {
 	#mainloop {
-		order: 2
+		order: 2;
+		margin-top: 30px; 
 	}
 	#featured {
 		order: 1

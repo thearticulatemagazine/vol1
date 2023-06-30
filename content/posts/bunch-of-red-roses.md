@@ -3,7 +3,7 @@ title: A Bunch of Red Roses
 authid: ug-2022-risha
 img: https://i.postimg.cc/FFkvS0Hd/red-roses.jpg
 categories: [painting]
-tags: [featured]
+tags: []
 date: 2023-03-24T00:00:00
 description: ""
 summary: ""
