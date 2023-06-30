@@ -55,6 +55,17 @@ window.addEventListener("scroll", function () {
   lastScrollTop = scrollTop;
 });
 
+function toggleNavMenu() {
+	var navmenu = document.getElementById("navbarColor02");
+
+	if(navmenu.classList.contains("show")) {
+		navmenu.classList.remove("show");
+	}
+	else {
+		navmenu.classList.add("show");
+	}
+}
+
  // alertbar later
 //  $(document).scroll(function () {
 // 	var y = $(this).scrollTop();
