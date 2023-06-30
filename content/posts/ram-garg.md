@@ -7,5 +7,5 @@ tags: []
 date: 2023-06-28T21:12:10+05:30
 description: ""
 summary: "Inteview with state rank holder in MBBS final university exams"
-draft: false
+draft: true
 ---

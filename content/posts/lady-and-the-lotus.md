@@ -4,7 +4,7 @@ authid: ug-2022-deshna
 img: https://i.postimg.cc/4N3vfvvM/lady-and-lotus.jpg
 categories: [painting]
 tags: []
-date: 2023-02-22T04:00:00
+date: 2023-06-21T09:48:28+05:30
 description: ""
 summary: ""
 draft: false

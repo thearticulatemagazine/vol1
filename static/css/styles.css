@@ -2565,6 +2565,13 @@ a.btn.disabled {
 	padding-left: 0;
 }
 
+@media (max-width:990px) {
+.navbar-nav .nav-link {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+}
+
 .navbar-collapse {
 	flex-basis: 100%;
 	flex-grow: 1;

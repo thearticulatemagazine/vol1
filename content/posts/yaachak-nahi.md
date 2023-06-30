@@ -4,7 +4,7 @@ authid: ug-2022-vijay
 img: https://res.cloudinary.com/dhodsjwfh/image/upload/v1679886900/grit_synltb.jpg
 categories: [poem]
 tags: [hindi,featured]
-date: 2023-03-23T06:01:00
+date: 2023-03-23T06:02:00
 description: ""
 summary: ""
 draft: false
