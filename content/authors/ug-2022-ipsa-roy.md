@@ -1,9 +1,9 @@
 ---
 authid: ug-2022-ipsa-roy
 title: Ipsa Roy
-biosmall: "Ipsa is a 2022 batch student of Government Medical College, Ratlam"
+biosmall: "Romanticizing my life with flowers,jhumkas and peace."
 biolarge: 
-avatar: f
+avatar: https://i.postimg.cc/mDthLv3S/ipsa.jpg
 twitter: 
 instagram:
 ---
