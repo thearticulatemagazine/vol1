@@ -4061,3 +4061,26 @@ html {
 	}
 }
 
+
+  .card-img-top {
+	width: 60%;
+	border-radius: 50%;
+	margin: 0 auto;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  .dp.card {
+	padding: 1.5em 0.5em 0.5em;
+	text-align: center;
+	border-radius: 2em;
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+	max-width: 15rem;
+  }
+  .card-title {
+	font-size: 1em;
+	font-weight: 400;
+}
+ 
+.dp .card-body {
+	flex: 1 1 auto;
+	padding: 0;
+}
