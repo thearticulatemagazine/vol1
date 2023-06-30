@@ -21,13 +21,13 @@ function fadeOut(el) {
 }
 
 
-
-
 var lastScrollTop;
 navbar = document.getElementById("MagicMenu");
 window.addEventListener("scroll", function () {
-
+	const scrollableHeight = document.documentElement.scrollHeight - window.innerHeight
 	var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+	// SHOW alertbar only on scrolling downwards
 	if (scrollTop > lastScrollTop) {
 		fadeOut(navbar);
 	} else {
@@ -41,7 +41,26 @@ window.addEventListener("scroll", function () {
 			fadeIn(el);
 		}
 	} else {
+		if (el.style.display != "none") {
 		fadeOut(el);
+		}
 	}
+
+	 if (window.scrollY >= scrollableHeight){
+		if (el.style.display != "none") {
+			fadeOut(el);
+		}
+
+	} 
   lastScrollTop = scrollTop;
 });
+
+ // alertbar later
+//  $(document).scroll(function () {
+// 	var y = $(this).scrollTop();
+// 	if (y > 280) {
+// 		$('.alertbar').fadeIn();
+// 	} else {
+// 		$('.alertbar').fadeOut();
+// 	}
+// });

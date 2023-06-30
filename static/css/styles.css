@@ -2646,12 +2646,14 @@ a.btn.disabled {
 
 .navbar-light .navbar-nav .nav-link {
 	color: rgba(0, 0, 0, .5);
+	transition: 0.2s;
 }
 
 .navbar-light .navbar-nav .nav-link:focus,
 .navbar-light .navbar-nav .nav-link:hover {
 	color: rgba(0, 0, 0, .7);
 	background-color: aliceblue;
+	
 }
 
 
@@ -3656,7 +3658,7 @@ article h6 {
 	background-color: #fff;
 	width: 100%;
 	padding: 20px 0;
-	z-index: 1021;
+	z-index: 1100;
 	display: none;
 }
 
