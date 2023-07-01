@@ -14,7 +14,7 @@ draft: false
 - [What is it?](#what-is-it)
 - [Signs of academic burnout](#signs-of-academic-burnout)
 - [Academic burnout among medical students](#academic-burnout-among-medical-students)
-- [So, why do they suffer more?](#so-why-do-they-suffer-more)
+- [Why do medical students suffer more?](#why-do-medical-students-suffer-more)
 - [How can you prevent it?](#how-can-you-prevent-it)
 - [How to help yourself? ](#how-to-help-yourself)
 
@@ -52,11 +52,11 @@ Medical students are still advised to persevere through their battle with burnou
 
 The coping mechanisms for personal stress include consuming more alcohol, adopting an overall pessimistic and nihilistic approach towards life, and retreating socially. Even worse, some students may engage in disruptive behavior that hampers both their relationships with friends as well as family. If burnout sufficiently affects a medical student's personal life, they may even decide to completely change their career path.
 
-## So, why do they suffer more?
+## Why do medical students suffer more?
 
 - Increasing time limitations -Most students spend most of their time in medical school. A medical student who feels the strain of a demanding study schedule may miss significant social or family gatherings. If a medical student is unable to find a more sustainable schedule or work-life integration, relationships may become strained or even come to an unfortunate end.
 - The "absence of mental problems in doctors" – A hoax that physicians and would-be physicians don't cope with mental diseases like depression or anxiety is a significant contributor to burnout among medical students. Medical students may feel alone and in their battle against mental illness because of the stigma attached to seeking treatment.
-- Unreal standards - Medical students may feel unqualified because of excessive expectations from their parents, lecturers, and even themselves. Students who experience feelings of inadequacy may internalize their burnout symptoms even more since they refrain from showing any signs of fragility.
+- Unreal standards - Medical students may feel unqualified because of sky high expectations from their parents, lecturers, and even themselves. Students who experience feelings of inadequacy may internalize their burnout symptoms even more since they refrain from showing any signs of fragility.
 
 
 ## How can you prevent it?
@@ -65,7 +65,7 @@ Before you encounter a full-blown academic burnout, it's crucial that you mend y
 
 1. Nurture your hobbies - If you schedule frequent participation in activities you enjoy, you'll feel more motivated to begin your school days.
 1. Remaining physically active - Keep your body and brain healthy and fit by working out at least three times a week, drinking enough water, and eating well.
-1. Go outside – get proper sunlight,being in nature can help you destress,so devote a little of your leisure time there!
+1. Go outside – get proper sunlight, being in nature can help you destress, so devote a little of your leisure time there!
 1. Schedule Room for Social Activities: Spending quality time in pleasurable social environments can lift your spirit, provide a mental respite, and provide you with a strong support system from family and friends. 
 1. Establish realistic goals: Use a planner and daily notifications to keep motivated to reach deadlines. 
 1. Avoid Procrastinating: When you 're facing pressure, it can be tempting to put off activities and projects, but doing so simply leads to insufficient sleep, discontentment, and emotional distress.
@@ -74,9 +74,9 @@ Before you encounter a full-blown academic burnout, it's crucial that you mend y
 
 ## How to help yourself? 
 
-- Seek help: It's crucial to let all your thoughts out. Speak with a school psychologist, mental health advisor, guidance counsellor, or other specialist. You could also get help from your pals, parents, and professors. 
-- Don’t overlook:  There are moments when we believe the stress is normal or that we are missing in some way and are not strong enough to handle it, at which point the downward cycle of negative thinking starts. If you continue pushing yourselves and don't get treatment, academic burnout will only intensify.
-- Handle Anxiety: Reduce your stressors and make significant changes to stop the burnout. Set aside time for yourself so that you can relax and reduce your stress. 
-- Change your routine: Practice mindful breathing, eating, and socialising to make significant changes. Think about taking quick meditation breaks during the day. 
+- **Seek help**: It's crucial to let all your thoughts out. Speak with a school psychologist, mental health advisor, guidance counsellor, or other specialist. You could also get help from your pals, parents, and professors. 
+- **Don’t overlook**:  There are moments when we believe the stress is normal or that we are missing in some way and are not strong enough to handle it, at which point the downward cycle of negative thinking starts. If you continue pushing yourselves and don't get treatment, academic burnout will only intensify.
+- **Handle Anxiety**: Reduce your stressors and make significant changes to curb the burnout. Set aside time for yourself so that you can relax and reduce your stress. 
+- **Change your routine**: Practice mindful breathing, eating, and socialising to make significant changes. Think about taking quick intermittent meditation breaks during the day. 
 
-To sum up, academic burnout is a condition that can be addressed by oneself if the right actions are taken. You can get out of a rut by soliciting assistance from mates, teachers, family, and colleagues, but you ought to go for professional assistance if you feel that you can't get through burnout on your own.
+In short, academic burnout is a condition that can be addressed by oneself if the right actions are taken. You can get out of a rut by soliciting assistance from mates, teachers, family, and colleagues, but you’re ought to go for professional assistance if you feel that you can't get through burnout on your own.
