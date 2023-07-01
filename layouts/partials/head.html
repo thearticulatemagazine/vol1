@@ -45,5 +45,5 @@
       type="application/rss+xml"
       href="{{.Site.BaseURL }}/index.xml"
       title="{{ .Site.Title }}">
-
+	{{ template "_internal/google_analytics.html" . }}
   </head>

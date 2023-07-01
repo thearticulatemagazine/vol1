@@ -1,5 +1,6 @@
 baseURL = 'https://thearticulatemagazine.github.io/vol1/'
 languageCode = 'en-us'
+googleAnalytics = "G-N54177R5WN"
 title = 'The Articulate'
 ignorefiles = [ "docs/.*", "src/.*" ]
 enableRobotsTXT = true
