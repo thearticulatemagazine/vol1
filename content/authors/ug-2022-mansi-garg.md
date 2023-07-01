@@ -1,9 +1,9 @@
 ---
 authid: ug-2022-mansi-garg
 title: Mansi Garg
-biosmall: "Mansi is a 2022 batch student of Government Medical College, Ratlam"
+biosmall: "Redefining love and happiness!"
 biolarge: 
-avatar: f
+avatar: https://i.postimg.cc/WzNWy481/mansi.jpg
 twitter: 
 instagram:
 multiple: true

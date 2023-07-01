@@ -3,7 +3,7 @@ authid: ug-2019-sanskriti
 title: Sanskriti Sanghai
 biosmall: "Sanskriti is a 2019 batch student of Government Medical College, Ratlam"
 biolarge: 
-avatar: f
+avatar: https://i.postimg.cc/CxPDgx4Q/sanskriti.jpg
 twitter: 
 instagram:
 ---
