@@ -8,7 +8,8 @@
     "dev": "hugo server",
     "dev:preview": "npm run dev -- --buildDrafts --buildFuture",
     "build": "hugo --verbose --minify --cleanDestinationDir --gc",
-    "minify-css": "postcss static/css/styles.css > static/css/styles.min.css"
+    "minify-css": "postcss static/css/styles.css > static/css/styles.min.css",
+    "deploy": "gh-pages -d public"
   },
   "keywords": [
     "magazine",
@@ -28,6 +29,7 @@
     "cssnano": "^6.0.1",
     "cz-conventional-changelog": "^3.3.0",
     "cz-customizable": "^7.0.0",
+    "gh-pages": "^5.0.0",
     "postcss-cli": "^10.1.0",
     "prettier": "^2.8.7",
     "prettier-plugin-go-template": "^0.0.13"
