@@ -2,7 +2,7 @@
 title:  "Ganesh Chaturthi"
 authid: 00-edboard
 img: https://i.postimg.cc/P5jhf5mB/gc.jpg
-categories: []
+categories: [photos]
 tags: []
 date: 2023-05-27T21:12:50+05:30
 description: ""
