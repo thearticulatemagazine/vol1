@@ -2,27 +2,10 @@
 title: "About Us"
 img: https://i.postimg.cc/qRJZ4Ws6/about.jpg
 authid: 00-edboard
+draft: false
+layout: "about"
 ---
 <p>This e-magazine was started by Astha Gawai & Akanksha Singh Gaur, Batch 2019, Government Medical College, Ratlam</p>
-
-Rest of Editorial Team is as follows:
-
-* Anjuli Birla
-* Akansha Rajora 
-* Diksha Tekchandanai
-* Neda Warrier
-* Naman Disawal
-* Gunjan Sharma
-* Anugrah Mishra
-* Ajit Pal
-* Sakshi Verma
-* Poorvi Verma
-* Soumya Ajmera
-* Mansi Garg
-* Siddhi Kiyawat
-* Himanshu Goud
-* Akshay Taori
-
 
 The following software stack is used in creation of this blog as of <span style="font-weight:bold;"> {{< now >}}</span>.
 
