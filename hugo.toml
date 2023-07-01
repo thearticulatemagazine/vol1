@@ -1,4 +1,4 @@
-baseURL = 'https://ibnishak.gitlab.io/thearticulate/'
+baseURL = 'https://thearticulatemagazine.github.io/vol1/'
 languageCode = 'en-us'
 title = 'The Articulate'
 ignorefiles = [ "docs/.*", "src/.*" ]
