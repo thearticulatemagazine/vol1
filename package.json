@@ -9,7 +9,7 @@
     "dev:preview": "npm run dev -- --buildDrafts --buildFuture",
     "build": "hugo --verbose --minify --cleanDestinationDir --gc",
     "minify-css": "postcss static/css/styles.css > static/css/styles.min.css",
-    "deploy": "gh-pages -d public"
+    "deploy": "hugo --verbose --minify --cleanDestinationDir --gc && gh-pages -d public"
   },
   "keywords": [
     "magazine",
