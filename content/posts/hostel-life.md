@@ -21,6 +21,6 @@ Maybe it was somewhere between the late-night conversations, movie nights, jammi
 
 One of the biggest benefits of living in a hostel is the sense of community that it fosters. You become part of a larger group, a group of people who are all going through the same experiences as you. 
 
-Well, we were in a medical college, so it was more like “trauma bonding” but it still counts! After all, we survived the chin to sternums, 90 degrees, the “intros”, the “’sorry sir’s”, the red diary, short attendances, the suspensions for GTs, remote batteries getting stolen, chairs being broken, nerves, vessels, & bones of anatomy, practicals of physiology and God knows how many cycles of biochemistry. 
+Well, we were in a medical college, so it was more black than white but it still counts! After all, we survived the chin to sternums, 90 degrees, the “intros”, the “’sorry sir’s”, the red diary, short attendances, the suspensions for GTs, remote batteries getting stolen, chairs being broken, nerves, vessels, & bones of anatomy, practicals of physiology and God knows how many cycles of biochemistry. 
 
 I remember once I was coming back from vacation, and my mother lovingly asked me to give her a call when I reached the hostel safely. As instructed, I called her, and I don’t know if it was a slip of the tongue or a reflection of how I felt, but I told her “Maa, I’m home.”
