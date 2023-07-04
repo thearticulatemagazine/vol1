@@ -70,7 +70,7 @@ And for the final-year students, be consistent. *Kuch bhi kaisa bhi ho rha ho ba
 **How is your internship going, and what branch do you want to opt for?**
  
 It's going great. I'm learning a lot.
-And as for the branches, I would surely want to get into the terminal branches.
+And as for my choice of branches, I don't want to opt for any of the terminal branches.
  
 **Q: What is your opinion regarding National Exit Test(NExT)?** 
 Yes, I heard about the seminar held recently by NMC regarding NExt. It must be quite stressful and exhausting for the final-year students, but as such, it is not affecting me much.
