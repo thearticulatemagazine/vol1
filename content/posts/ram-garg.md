@@ -1,7 +1,7 @@
 ---
 title:  "Dr. Ram Garg on friendship being the survival manual of MBBS"
 authid: ug-2019-anjuli-birla
-img: https://i.postimg.cc/SxCxcX2p/ram-garg.jpg
+img: https://i.postimg.cc/9f226Kbr/ram-garg.webp
 categories: []
 tags: []
 date: 2023-07-01T21:12:10+05:30

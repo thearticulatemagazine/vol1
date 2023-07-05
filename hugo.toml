@@ -2,6 +2,7 @@ baseURL = 'https://thearticulatemagazine.github.io/vol1/'
 languageCode = 'en-us'
 googleAnalytics = "G-N54177R5WN"
 title = 'The Articulate'
+description = "Wings to your creative ambitions, Winds to your artistic journeys"
 ignorefiles = [ "docs/.*", "src/.*" ]
 enableRobotsTXT = true
 summaryLength = 40

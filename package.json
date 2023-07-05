@@ -24,12 +24,14 @@
   "author": "Dr. Rizwan Ishak M.P",
   "license": "AGPL-3.0-or-later",
   "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^5.0.0",
     "autoprefixer": "^10.4.14",
     "commitizen": "^4.3.0",
     "cssnano": "^6.0.1",
     "cz-conventional-changelog": "^3.3.0",
     "cz-customizable": "^7.0.0",
     "gh-pages": "^5.0.0",
+    "postcss": "^8.4.24",
     "postcss-cli": "^10.1.0",
     "prettier": "^2.8.7",
     "prettier-plugin-go-template": "^0.0.13"
