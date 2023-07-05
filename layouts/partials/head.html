@@ -5,10 +5,7 @@
 	{{ hugo.Generator }}
   
 	<title>{{ if .IsHome }} {{ "Home" }} | {{ else }} {{ .Title }} | {{ end }} {{ .Site.Title }}</title>
-	<!-- {{- if or .Description .Site.Params.description }}
-		
-	{{- end }} -->
-	<meta name="description" content="{{ .Description | default .Site.Params.description }}">
+	<meta name="description" content="{{ if .IsHome }}{{ $.Site.Params.description }}{{ else }}{{ .Description }}{{ end }}" />
 	<!-- Favicon and Webmanifest -->
 	{{ partial "favicon.html" }}
 	{{ partial "google-fonts.html" }}

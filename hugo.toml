@@ -2,7 +2,6 @@ baseURL = 'https://thearticulatemagazine.github.io/vol1/'
 languageCode = 'en-us'
 googleAnalytics = "G-N54177R5WN"
 title = 'The Articulate'
-description = "Wings to your creative ambitions, Winds to your artistic journeys"
 ignorefiles = [ "docs/.*", "src/.*" ]
 enableRobotsTXT = true
 summaryLength = 40
@@ -12,6 +11,7 @@ newContentEditor = "vscodium"
 copyright = "2023 Dr. Rizwan Ishak All rights reserved"
 [params]
     email = "gmcrmagazine@gmail.com"
+	description = "Wings to your creative ambitions, Winds to your artistic journeys"
 [permalinks]
   posts = '/posts/:filename/'
 [minify]
