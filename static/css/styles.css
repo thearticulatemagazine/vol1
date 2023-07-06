@@ -3607,6 +3607,12 @@ footer {
 	position: relative;
 }
 
+@media (max-width: 768px) {
+   footer {
+	margin-top: 0;
+   }
+}
+
 .sticky-top-offset {
 	top: 90px;
 }
@@ -3967,7 +3973,7 @@ html {
   
 /* SYMBOLS END */
 
-@media (min-width: 1399px) {
+@media (min-width: 1400px) {
 	article .frame {
 		border: 20px solid #ccc;
 		background: #eee;
@@ -3984,6 +3990,11 @@ html {
 	}
 }
 
+@media (max-width: 1399px) {
+	article figure {
+		margin: 0
+	}
+}
 
 
 @media (min-width:768px) and (max-width:1200px) {
@@ -4105,4 +4116,11 @@ html {
   @keyframes fadeout {
 	from {bottom: 50%; opacity: 1;}
 	to {bottom: 45%; opacity: 0;}
+  }
+
+
+  @media (max-width:575px) {
+	.hero__caption {
+		text-align: center;
+	}
   }
