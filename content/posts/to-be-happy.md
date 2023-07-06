@@ -6,7 +6,7 @@ categories: [poem]
 tags: [happiness]
 date: 2023-06-25T08:00:00
 description: ""
-summary: ""
+summary: "To be happy is a matter of choice<br>We need to be free"
 draft: false
 ---
 
