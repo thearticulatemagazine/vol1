@@ -1,0 +1,71 @@
+{{ define "main" }}
+<div class="container">
+	<div class="row align-items-center" style="margin-bottom:4rem">
+		<div class="col-12" style="text-align:center">
+			<div class="hero__caption">
+				{{/* <h1>{{ .Title | upper }}</h1> */}}
+                <img src='{{ absURL "images/interns_column.svg"}}' alt="the articulate brand" style="width: 40em;"/>
+                  <hr class="mb-4" style="color: bisque;margin: auto;max-width: 80%;">
+				{{ .Content }}
+			</div>
+          
+		</div>
+         
+	</div>
+
+
+<div class="d-flex justify-content-center">
+<div class="col-md-6 main-loop">
+{{ range where .Site.RegularPages "Type" "posts" }}
+
+<div class="mb-5 d-flex justify-content-between main-loop-card">
+	<div class="pr-3">
+		<h2 class="mb-1 h4 font-weight-bold">
+			<a target="_blank" class="text-dark" href="{{ .Permalink }}">{{ .Title }}</a>
+		</h2>
+		<p class="excerpt">
+			{{ .Summary }}
+		</p>
+		<small class="d-block text-muted">
+			<span class="catlist">
+				{{ range .Params.categories }}
+				<a target="_blank" href="{{ absURL " categories" }}/{{ . | urlize }}" rel="category tag"
+					class="text-muted text-capitalize smoothscroll">{{ . }}</a>
+				{{ end }}
+
+
+				by
+				{{/* AUTHOR */}}
+				{{ $authpage := printf "%s%s" "/authors/" .Params.authid }}
+				{{ with .Site.GetPage $authpage }}
+				<a target="_blank" class="text-capitalize" href="{{ .Site.BaseURL }}{{ $authpage }}">{{ .Title
+					}}</a>
+				{{ end }}
+			</span>
+		</small>
+		<small class="text-muted">
+			<time class="post-date">Published on {{ .Date.Format "January 02, 2006" }}
+			</time>
+		</small>
+	</div>
+
+	<div class="col-3 col-md-3 pr-0 text-right">
+		<a target="_blank" href="{{ .Permalink }}">
+			<img class="w-100" src="{{index .Params.img}}" alt="{{ .Params.title}}">
+		</a>
+	</div>
+
+</div>
+
+{{ end }}
+{{/* END OF range */}}
+</div>
+{{/* END OF .col-md-6.mainloop */}}
+</div>
+{{/* END OF .d-flex */}}
+
+
+</div>
+{{/* END OF Container */}}
+{{ end }} 
+{{/* END OF main */}}
