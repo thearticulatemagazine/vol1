@@ -5,7 +5,7 @@ module.exports = {
 		purgecss({
 			content: ['./**/*.html'],
 			safelist: {
-				standard: [/^category-/],
+				greedy: [/^category-/],
 				standard: [/^tag-/],
 			}
 		  }),
