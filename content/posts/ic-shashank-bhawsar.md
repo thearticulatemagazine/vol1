@@ -1,7 +1,7 @@
 ---
 title:  "Shashank Bhawsar"
 authid: 01-batch-2018
-img: http://127.0.0.1:9000/ic-shashank-bhawsar.webp
+img: https://i.postimg.cc/xTvz3jc6/ic-shashank-bhawsar.webp
 categories: ["interns_column"]
 tags: []
 date: 2023-01-07T20:15:23+05:30

@@ -1,7 +1,7 @@
 ---
 title:  "Anushka Tiwari"
 authid: 01-batch-2018
-img: http://127.0.0.1:9000/ic-a-tiwari.webp
+img: https://i.postimg.cc/FHhJWtSN/ic-a-tiwari.webp
 categories: ["interns_column"]
 tags: []
 date: 2023-01-07T20:15:23+05:30
