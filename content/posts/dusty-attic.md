@@ -3,7 +3,7 @@ title: "The Dusty Attic"
 authid: ug-2022-akanksha-shukla
 img: https://res.cloudinary.com/dhodsjwfh/image/upload/v1679883057/dusty-attic_ehbflb.jpg
 categories: [fiction]
-tags: [focus]
+tags: []
 date: 2023-03-21T06:00:00
 description: ""
 summary: ""
