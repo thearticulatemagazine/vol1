@@ -1,30 +1,30 @@
 {{ define "main" }}
 <style>
-	.profile .card-img-top {
+	.intcol .card-img-top {
 	width: 60%;
 	border-radius: 50%;
 	margin: 0 auto;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 	}
-	.card.profile {
+	.card.intcol {
 	padding: 1.5em 0.5em 0.5em;
 	text-align: center;
 	border-radius: 2em;
 	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 	cursor: pointer;
 	}
-	.card.profile:hover, .card.profile:focus, .card.profile:active {
+	.card.intcol:hover, .card.intcol:focus, .card.intcol:active {
 		box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
 	}
-	.profile .card-title {
+	.intcol .card-title {
 	font-weight: bold;
 	font-size: 1em;
 	}
-	.profile .btn-primary {
+	.intcol .btn-primary {
 	border-radius: 2em;
 	padding: 0.5em 1.5em;
 	}
-	.profile .card.body {
+	.intcol .card.body {
 		cursor: pointer;
 	}
 
@@ -48,12 +48,12 @@
 		<div class="col-12 main-loop">
 
 
-			<div class="row" id="alleditors">
+			<div class="row" id="interns">
 				<div class="display-categories col-12">
 					
 					<div class="row mu-justify-content-sm-center">
 						{{ range where .Site.RegularPages ".Params.categories" "intersect" (slice "interns_column")}}
-						<a class="card profile ml-3 mt-3" href="{{ .Permalink}}" style="color: inherit;">
+						<a class="card intcol profile ml-3 mt-3" href="{{ .Permalink}}" style="color: inherit;">
 							<img src="{{ .Params.img }}" class="card-img-top" alt="..."/>
 							<div class="card-body">
 								<div class="card-title"> {{ .Title }}</div>
