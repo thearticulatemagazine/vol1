@@ -3,7 +3,7 @@ title:  "Her: the Rainbow"
 authid: ug-2019-soumya-joshi
 img: https://i.postimg.cc/rytVBnc9/Her-thumbnail.jpg
 categories: [painting]
-tags: []
+tags: [featured]
 date: 2023-05-30T17:42:19+05:30
 description: ""
 summary: ""

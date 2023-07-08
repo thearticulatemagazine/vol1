@@ -3,7 +3,7 @@ title: Exhilaration
 authid: ug-2022-risha
 img: https://i.postimg.cc/MHJN84GN/elephant-thumbnail.jpg
 categories: [painting]
-tags: [featured]
+tags: []
 date: 2023-04-29T00:00:00
 description: ""
 summary: ""

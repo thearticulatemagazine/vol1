@@ -3,7 +3,7 @@ title:  "Yaachak nahi h tu"
 authid: ug-2022-vijay
 img: https://res.cloudinary.com/dhodsjwfh/image/upload/v1679886900/grit_synltb.jpg
 categories: [poem]
-tags: [hindi,featured]
+tags: [hindi]
 date: 2023-03-23T06:02:00
 description: ""
 summary: ""

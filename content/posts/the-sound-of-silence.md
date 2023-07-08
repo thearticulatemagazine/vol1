@@ -3,7 +3,7 @@ title:  "The Sound of Silence"
 authid: ug-2022-mansi-garg
 img: https://i.postimg.cc/sfY9gdWg/sound-of-silence.jpg
 categories: [poem]
-tags: [silence,featured]
+tags: [silence]
 date: 2023-03-28T21:38:48+05:30
 description: ""
 summary: ""

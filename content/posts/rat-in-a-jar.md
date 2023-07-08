@@ -3,7 +3,7 @@ title: Rat in a jar
 authid: ug-2022-siddhi
 img: https://res.cloudinary.com/dhodsjwfh/image/upload/v1679879327/Rat-in-jar_zze9le.png
 categories: [fiction]
-tags: [featured]
+tags: []
 date: 2023-03-25T06:00:00
 description: ""
 summary: ""
