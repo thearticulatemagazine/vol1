@@ -8,6 +8,7 @@ date: 2023-01-07T20:15:23+05:30
 description: ""
 summary: ""
 draft: false
+aka: "nandu"
 ---
 
 Aka nandu.
