@@ -5,7 +5,7 @@ variables:
 
 pages:
   script:
-  - hugo --minify --gc -b "https://ibnishak.gitlab.io/thearticulate/"
+  - 'hugo --minify --gc -b "https://ibnishak.gitlab.io/thearticulate/"'
   artifacts:
     paths:
     - public
