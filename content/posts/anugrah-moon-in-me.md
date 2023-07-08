@@ -4,7 +4,7 @@ authid: ug-2021-anugrah-mishra
 img: https://i.postimg.cc/rsMH9YVd/anugrah-moon-in-me.webp
 categories: [poem]
 tags: []
-date: 2023-07-06T20:38:57+05:30
+date: 2023-07-08T01:25:44+05:30
 description: ""
 summary: "Sometimes,<br>The moon in me gets<br>Shadowed under the<br>Everlasting sunshine"
 draft: false

@@ -4,7 +4,7 @@ authid: ug-2021-prateek-goyal
 img: https://i.postimg.cc/t41ZCRr9/prateek-dard.webp
 categories: [poem]
 tags: [hindi]
-date: 2023-07-08T01:25:44+05:30
+date: 2023-07-06T20:38:57+05:30
 description: ""
 summary: ""
 draft: false
