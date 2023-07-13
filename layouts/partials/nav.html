@@ -12,11 +12,11 @@
 		<ul class="navbar-nav mr-auto d-flex align-items-center">
 		  {{ partial "menu-header.html" . }}
 		</ul>
-		<ul>
-		  <a href="{{ .Site.BaseURL }}index.xml" style="color:orangered">
+		<span>
+		  <a href="{{ .Site.BaseURL }}index.xml" style="color:orangered" aria-label="RSS feed for {{ .Site.Title }}">
 			<i class="icon-rss-squared"></i>
 		  </a>
-		</ul>
+		</span>
 	  </div>
 	</div>
   </nav>
