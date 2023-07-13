@@ -9,7 +9,7 @@ description: ""
 summary: "Story of two roommates, their little fights, pranks and above all, love for each other."
 draft: false
 ---
-﻿STRANGE REVENGE
+
 Kashish and I(Esha) have been roommates for one and half years. We both have totally different opinions and choices, still we manage to share the same space in this hostel. It’s Sunday afternoon and today I decided to complete my favorite novel which I started 20 days ago.
 “I will not say goodbye, my love will never die…….myyy loveee myyy loveee….”
 Suddenly loud music noise filled my ears.
@@ -32,6 +32,7 @@ Ah! It’s 5:12 P.M. Kashish goes out daily in the evening.
 Then she turned back and headed to her office. While leaving, a ring from her bag fell on the ground.
 At that moment a nasty thought came to my mind. I decided to take my revenge.
 I put that ring in Kashish’s drawer.
+
 Next day the news of the missing ring spread in the hostel. When everyone’s room was searched, the ring was found in her drawer. Kashish tried to declare herself innocent but no one believed.
 She kept crying all day long. After a while, she left the room.
 She must have gone for a walk, as usual.
@@ -40,6 +41,7 @@ It was 8 o’clock but she did not return yet.
 Just then my phone rang. It was my hostel mate Neha. I picked up the call.
 “Esha….. Kashh Kashish had an accident. A truck hit her. By the time people around her took her to the hospital, she had already lost her life.” Neha said.
 Her words choked my throat.
+
 I went to the hospital quickly. Kashish’s parents, Richa ma’am and some of my hostel mates were already there. When her mom saw me, she hugged me, and started crying harder. How did all this happen, she questioned with tears filled in her eyes.
 When I went back to my hostel room, it had lost its essence. Kashish’s absence was killing my soul. Without her this room is just a physical space. My tears continued flowing.
 After some time, I headed to the balcony.
