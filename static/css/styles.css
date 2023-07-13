@@ -4143,6 +4143,13 @@ article h6 {
 	background-color: bisque;
 }
 
+@media screen {
+	.jumbotron-home {
+		background: rgb(244, 225, 193);
+		background: linear-gradient(90deg, rgba(244, 225, 193, 1) 0%, rgba(255, 220, 207, 1) 100%);
+	}
+}
+
 #sticky-image {
 	border-radius: 0 10px 10px 0;
 	object-fit: scale-down;
@@ -4212,6 +4219,7 @@ article h6 {
 
 #latest-posts img {
 	object-fit: contain;
+	border-radius: 5px;
 }
 
 @media (min-width:1200px) {
@@ -4496,6 +4504,10 @@ html {
 
 }
 
+#mainloop img {
+	border-radius: 5px;
+}
+
 /* @Future_Riz: You will have an urge to combine it with above rule. Don't. Too many reasons. - Past_Riz*/
 @media (max-width:768px) {
 	#mainloop {
@@ -4611,7 +4623,8 @@ html {
 	}
 }
 
-.category-interns_column .catlist, .category-interns_column #def-single-auth-top {
+.category-interns_column .catlist,
+.category-interns_column #def-single-auth-top {
 	visibility: hidden;
 }
 
