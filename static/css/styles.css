@@ -3896,10 +3896,6 @@ a.text-dark:hover {
 	.navbar-brand {
 		margin-right: 0;
 	}
-
-	.navbar-brand img {
-		max-width: 80%;
-	}
 }
 
 .navbar-light .navbar-brand {

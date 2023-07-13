@@ -7,6 +7,7 @@ module.exports = {
 			safelist: {
 				greedy: [/^category-/],
 				standard: [/^tag-/],
+				greedy: [/^snackbar/],
 			}
 		  }),
         require('cssnano')({
