@@ -4149,6 +4149,7 @@ article h6 {
 
 #sticky-image {
 	border-radius: 0 10px 10px 0;
+	object-fit: scale-down;
 }
 
 .button-52 {
