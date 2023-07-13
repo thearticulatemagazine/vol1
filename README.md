@@ -11,7 +11,7 @@ See Home: [thearticulatemagazine.github.io/vol1](https://thearticulatemagazine.g
 ## Stack
 
 ![Build with hugo](https://img.shields.io/badge/build_with-hugo-pink)
-![GitHub Workflow Status (with event)](https://img.shields.io/github/actions/workflow/status/thearticulatemagazine/vol1/hugo.yml)
+[![Deploy the Articulate](https://github.com/thearticulatemagazine/vol1/actions/workflows/hugo.yml/badge.svg)](https://github.com/thearticulatemagazine/vol1/actions/workflows/hugo.yml)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
 - Markdown
