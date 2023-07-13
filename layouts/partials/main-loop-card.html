@@ -1,7 +1,7 @@
 <div class="mb-5 d-flex justify-content-between main-loop-card">
 	<div class="pr-3">
 		<h2 class="mb-1 h4 font-weight-bold">
-			<a target="_blank" class="text-dark" href="{{ .Permalink }}">{{ .Title }}</a>
+			<a target="_blank" class="text-dark" href="{{ .Permalink }}" aria-label="Read more about {{ .Title }}">{{ .Title }}</a>
 		</h2>
 		<p class="excerpt">
 			{{ .Summary }}
@@ -9,7 +9,7 @@
 		<small class="d-block text-muted">
 			<span class="catlist">
 				{{ range .Params.categories }}
-				<a target="_blank" href="{{ absURL " categories" }}/{{ . | urlize }}" rel="category tag"
+				<a target="_blank" href='{{ absURL "categories" }}/{{ . | urlize }}' rel="category tag"
 					class="text-muted text-capitalize smoothscroll">{{ . }}</a>
 				{{ end }}
 

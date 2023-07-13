@@ -13,7 +13,7 @@
 				{{ with index $pages 0 }}
 				<div class="col-sm-12 col-md-6 col-xl-4">
 					<div class="card border-0 postbox_style2">
-						<a target="_blank" href="{{ .Permalink }}">
+						<a target="_blank" href="{{ .Permalink }}" aria-label="Read more about {{ .Title }}">
 							<!-- TODO[Rizwan]: Default image -->
 							<img src="{{ index .Params.img  }}"
 								class="attachment-postbox-style2 size-postbox-style2 wp-post-image" alt="{{ .Params.title }}"
@@ -23,7 +23,7 @@
 							<h2 class="h4">
 								<a target="_blank" class="text-dark" href="{{ .Permalink }}"> {{ .Title }}</a>
 							</h2>
-							<a target="_blank" href="{{ .Permalink }}" class="text-muted">
+							<a target="_blank" href="{{ .Permalink }}" class="text-muted" aria-label="Read more about {{ .Title }}">
 								<p> {{ .Summary }} ... </p>
 							</a>
 							<div class="d-flex align-items-center">
@@ -63,7 +63,7 @@
 
 					<div class="mt-3 mt-md-0 mb-3 d-flex post_box_style3">
 						<div class="col-4 col-md-4 pl-0">
-							<a target="_blank" href="{{ .Permalink }}">
+							<a target="_blank" href="{{ .Permalink }}" aria-label="Read more about {{ .Title }}">
 								<img src="{{ index .Params.img  }}"
 									class="attachment-postbox-style3 size-postbox-style3 wp-post-image" alt="{{ .Params.title }}"
 									decoding="async" loading="lazy" width="168" height="147">
@@ -72,7 +72,7 @@
 						<div>
 							<!--TITLE-->
 							<h2 class="mb-2 h6">
-								<a target="_blank" class="text-dark" href="{{ .Permalink }}"> {{ .Title }}</a>
+								<a target="_blank" class="text-dark" href="{{ .Permalink }}" aria-label="Read more about {{ .Title }}"> {{ .Title }}</a>
 							</h2>
 							<!--END OF TITLE-->
 							<div>
@@ -114,9 +114,9 @@
 						</a>
 						<div class="card-body pl-0 pr-0 pb-0 mt-4">
 							<h2 class="h4">
-								<a target="_blank" class="text-dark" href="{{.Permalink}}"> {{.Title}}</a>
+								<a target="_blank" class="text-dark" href="{{.Permalink}}" aria-label="Read more about {{ .Title }}"> {{.Title}}</a>
 							</h2>
-							<a target="_blank" href="{{.Permalink}}" class="text-muted">
+							<a target="_blank" href="{{.Permalink}}" class="text-muted" aria-label="Read more about {{ .Title }}">
 								<p class="d-none"> {{ .Summary }}... </p>
 							</a>
 							<div class="d-flex align-items-center">
@@ -165,7 +165,7 @@
 			<div class="row justify-content-between">
 				<div class="col-md-6 pt-6 pb-6 pr-lg-4 align-self-center">
 					<p>IN FOCUS</p>
-					<a target="_blank" href="{{ .Permalink }}" style="color:inherit;">
+					<a target="_blank" href="{{ .Permalink }}" style="color:inherit;" aria-label="Read more about {{ .Title }}">
 						<h1 class="mb-3">{{.Title}}
 							by
 							{{ $authpage := printf "%s%s" "/authors/" .Params.authid }}
