@@ -10,7 +10,7 @@ See Home: [thearticulatemagazine.github.io/vol1](https://thearticulatemagazine.g
 
 ## Stack
 
-<img alt="Build with hugo" src="https://img.shields.io/badge/build_with-hugo-blue?link=https%3A%2F%2Fgohugo.io%2F">
+![Build with hugo](https://img.shields.io/badge/build_with-hugo-pink)
 ![GitHub Workflow Status (with event)](https://img.shields.io/github/actions/workflow/status/thearticulatemagazine/vol1/hugo.yml)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
