@@ -1,23 +1,35 @@
 {{ define "main" }}
-<div class="container">
-	<div class="row mt-3" id="allcategories">
-				<div  class="display-categories mt-5 col-md-8">
-				<h4 class="font-weight-bold spanborder"><span>Categories</span></h4>
-				<div class="row">
-					{{ range $.Site.Data.categories }}
+  <div class="container">
+    <div class="row mt-3" id="allcategories">
+      <div class="display-categories col-md-8 mt-5">
+        <h4 class="font-weight-bold spanborder"><span>Categories</span></h4>
+        <div class="row">
+          {{ range $.Site.Data.categories }}
 
-					<div class="col-6 col-md-4 mt-4">
-						<div class="text-uppercase font-weight-bold mb-1">
-							<a target="_blank" class="text-dark" href='{{ absURL "categories" }}/{{ .name | urlize }}'
-								alt="View all posts in {{ .name }}">{{ .name }}</a>
-						</div>
-						<a target="_blank" href='{{ absURL "categories" }}/{{ .name | urlize }}'>
-							<img src="{{.image}}">
-						</a>
-					</div>
-					{{ end}}
-				</div>
-			</div>
-	</div>
-	</div>
+            <div class="col-6 col-md-4 mt-4">
+              <div class="text-uppercase font-weight-bold mb-1">
+                <a
+                  class="text-dark"
+                  target="_blank"
+                  href="{{ absURL "categories" }}/{{ .name | urlize }}"
+                  alt="View all posts in {{ .name }}"
+                  >{{ .name }}</a
+                >
+              </div>
+              <a
+                target="_blank"
+                href="{{ absURL "categories" }}/{{ .name | urlize }}"
+              >
+                <img
+                  class="rounded-lg shadow transition hover:shadow-xl lg:p-4"
+                  src="{{ .image }}"
+                  alt="{{ .name }}"
+                />
+              </a>
+            </div>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
 {{ end }}

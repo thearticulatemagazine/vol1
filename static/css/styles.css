@@ -1739,3 +1739,16 @@
 .category-interns_column img.rounded {
 	border-radius: 50% !important;
 }
+
+@media (min-width: 1920px) {
+
+	.container,
+	.container-lg {
+		width: 1500px;
+		max-width: 1500px;
+	}
+
+	.lead {
+		min-height: 200px;
+	}
+}

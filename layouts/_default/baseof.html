@@ -1,42 +1,54 @@
 <!DOCTYPE html>
-<html lang='{{ .Site.LanguageCode | default "en" }}'>
-	{{ partial "head.html" . }}
-	<body>
-		{{ partial "nav.html" . }}
-	  
-		<!-- TODO[Rizwan]: For Future -->
-		<div id="lunrsearchresults">
-			<ul class="mb-0"></ul>
-		  </div>
-	  
-		  <!-- Content -->
-		  <main role="main" class="site-content">
-			{{- block "main" . }}{{- end }}
-		  </main>
+<html lang="{{ .Site.LanguageCode | default "en" }}">
+  {{ partial "head.html" . }}
+  <body>
+    {{ partial "nav.html" . }}
 
 
-	  
-		 
-	  
-		  <!-- Footer -->
-		  <footer class="border-top p-3 text-muted small mu-mb-sm-1">
-			<div class="container">
-			  <div class="row">
-					<div class=" col-lg-2  col-6">
-					<img src="{{ .Site.BaseURL}}images/logo.svg" width="150px" height="150px" loading="lazy" alt="the articulate logo"/>	
-					</div>
-					<div class="col d-flex flex-column">
-						<strong class="navbar-brand">{{.Site.Title}}</strong>
-						<span >Email: <a href = "mailto: {{ .Site.Params.email }}">{{ .Site.Params.email }}</a></span>
-						<span> Copyright ©{{ now.Format "2006" }}.</span>
-					 </div>
-					 <div class="col">
-					 {{ partial "share" . }}
-					 </div>
-			  </div>
-			</div>
-		  </footer>
-		  <script src="https://cdn.jsdelivr.net/gh/thearticulatemagazine/vol1@main/static/js/theme.js"></script>
-	  </body>
+    <!-- TODO[Rizwan]: For Future -->
+    <div id="lunrsearchresults">
+      <ul class="mb-0"></ul>
+    </div>
 
+    <!-- Content -->
+    <main class="site-content" role="main">
+      {{- block "main" . }}{{- end }}
+    </main>
+
+    <!-- Footer -->
+    <footer class="border-top text-muted small mu-mb-sm-1 p-3">
+      <div class="container">
+        <div class="row">
+          <div class=" col-lg-2  col-6">
+            <img
+              src="{{ .Site.BaseURL }}images/logo.svg"
+              width="150px"
+              height="150px"
+              loading="lazy"
+              alt="the articulate logo"
+            />
+          </div>
+          <div class="col d-flex flex-column">
+            <strong class="navbar-brand">{{ .Site.Title }}</strong>
+            <span
+              >Email:
+              <a href="mailto: {{ .Site.Params.email }}"
+                >{{ .Site.Params.email }}</a
+              ></span
+            >
+            <span> Copyright ©{{ now.Format "2006" }}.</span>
+          </div>
+          <div class="col">
+            {{ partial "share" . }}
+          </div>
+        </div>
+      </div>
+    </footer>
+    {{ if hugo.IsProduction }}
+      <script src="https://cdn.jsdelivr.net/gh/thearticulatemagazine/vol1@main/static/js/theme.js"></script>
+    {{ else }}
+      <script src="{{ .Site.BaseURL }}js/theme.js"></script>
+    {{ end }}
+
+  </body>
 </html>
