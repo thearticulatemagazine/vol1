@@ -13,5 +13,8 @@
 - name: Painting
   image: https://res.cloudinary.com/dhodsjwfh/image/upload/v1680235981/painting_mpvxhz.jpg
 
-- name: Photos
+- name: Event
+  image: https://i.postimg.cc/MGjFcxpw/event.webp
+
+- name: Photography
   image: https://res.cloudinary.com/dhodsjwfh/image/upload/v1680236239/photo_ufelnr.jpg
