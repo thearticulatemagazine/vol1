@@ -1,56 +1,51 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	{{ hugo.Generator }}
-  
+
 	<title>{{ if .IsHome }} {{ "Home" }} | {{ else }} {{ .Title }} | {{ end }} {{ .Site.Title }}</title>
-	<meta name="description" content="{{ if .IsHome }}{{ $.Site.Params.description }}{{ else }}{{ .Description }}{{ end }}" />
+	<meta name="description"
+		content="{{ if .IsHome }}{{ $.Site.Params.description }}{{ else }}{{ .Description }}{{ end }}" />
 	<!-- Favicon and Webmanifest -->
 	{{ partial "favicon.html" }}
-	{{ partial "google-fonts.html" }}
-  
-	<!-- Styles and Stylesheets -->
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/thearticulatemagazine/vol1@main/static/css/styles.min-120723.css">
+	{{/* {{ partial "google-fonts.html" }} */}}
 
-	
-	
-	{{ if in .Params.tags "hindi" }} 
-		{{ partial "hindi.html" }}
+	<!-- Styles and Stylesheets -->
+	{{ if hugo.IsProduction }}
+	<link rel="stylesheet"
+		href="https://cdn.jsdelivr.net/gh/thearticulatemagazine/vol1@main/static/css/styles.min-140723.css">
+	{{ else }}
+	<link rel="stylesheet" href="{{ .Site.BaseURL }}css/styles.min-140723.css">
+	{{ end }}
+
+
+	{{ if in .Params.tags "hindi" }}
+	{{ partial "hindi.html" }}
 	{{ end }}
 	{{ if .IsHome }}
 	<link rel="prefetch" href="https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari&display=swap" as="style" />
-	
 	{{ end }}
-	<style> 
-		@media (min-width: 1920px) {
-			.container, .container-lg {
-				width: 1500px;
-				max-width: 1500px;
-			}
-			.lead {
-			min-height: 200px;
-		}
-		}
+
+	<style>
+
 	</style>
 	<link rel="canonical" href="{{ .Permalink }}">
-	<link rel="alternate" type="application/rss+xml" href="{{ with .OutputFormats.Get "RSS" }}{{ .RelPermalink }}{{ end }}" title="{{ .Site.Title }}">
+	<link rel="alternate" type="application/rss+xml" href="{{ with .OutputFormats.Get " RSS" }}{{ .RelPermalink }}{{ end
+		}}" title="{{ .Site.Title }}">
 
 
 	{{ partial "seo.html" . }}
-	<link rel="alternate"
-      type="application/rss+xml"
-      href="{{.Site.BaseURL }}/index.xml"
-      title="{{ .Site.Title }}">
-	
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-N54177R5WN"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+	<link rel="alternate" type="application/rss+xml" href="{{.Site.BaseURL }}/index.xml" title="{{ .Site.Title }}">
 
-  gtag('config', 'G-N54177R5WN');
-</script>
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-N54177R5WN"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
 
-  </head>
+		gtag('config', 'G-N54177R5WN');
+	</script>
+
+</head>

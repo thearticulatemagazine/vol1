@@ -5,3 +5,4 @@ docs/
 .hugo_build.lock
 todo.md
 .DS_Store
+static/css/styles.tw.css

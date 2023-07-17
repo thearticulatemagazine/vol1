@@ -8,7 +8,8 @@
     "dev": "hugo server",
     "dev:preview": "npm run dev -- --buildDrafts --buildFuture",
     "build": "hugo --verbose --minify --cleanDestinationDir --gc",
-    "minify-css": "postcss static/css/styles.css > static/css/styles.min-120723.css",
+    "tw": "npx tailwindcss -i static/css/styles.css -o static/css/styles.tw.css",
+    "minify-css": "npm run tw && postcss static/css/styles.tw.css > static/css/styles.min-140723.css",
     "deploy": "hugo --verbose --minify --cleanDestinationDir --gc && gh-pages -d public"
   },
   "keywords": [
@@ -31,10 +32,13 @@
     "cz-conventional-changelog": "^3.3.0",
     "cz-customizable": "^7.0.0",
     "gh-pages": "^5.0.0",
-    "postcss": "^8.4.24",
+    "postcss": "^8.4.26",
     "postcss-cli": "^10.1.0",
-    "prettier": "^2.8.7",
-    "prettier-plugin-go-template": "^0.0.13"
+    "prettier": "^2.8.8",
+    "prettier-plugin-go-template": "^0.0.13",
+    "prettier-plugin-organize-attributes": "^0.0.5",
+    "prettier-plugin-tailwindcss": "^0.4.1",
+    "tailwindcss": "^3.3.3"
   },
   "config": {
     "commitizen": {
