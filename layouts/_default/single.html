@@ -152,7 +152,7 @@ layout and the data points declared below are requiired irrespective of context.
 <div class="alertbar" id="alertbar">
 	<div class="container">
 		<div class="row prevnextlinks small font-weight-bold">
-			{{ with (where .Site.RegularPages "Type" "posts").Prev . }}
+			{{ with (where .Site.RegularPages ".Params.family" "regular").Prev . }}
 			<div class="col-md-6 rightborder pl-0">
 				<a class="text-dark" href="{{ .RelPermalink }}">
 
@@ -162,7 +162,7 @@ layout and the data points declared below are requiired irrespective of context.
 				</a>
 			</div>
 			{{ end }}
-			{{ with (where .Site.RegularPages "Type" "posts").Next . }}
+			{{ with (where .Site.RegularPages ".Params.family" "regular").Next . }}
 			<div class="col-md-6 text-right pr-0">
 				<a class="text-dark" href="{{ .RelPermalink }}">
 					{{.Title}}

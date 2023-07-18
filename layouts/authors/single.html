@@ -37,7 +37,7 @@
 
 		<div class="col-md-6 main-loop">
 			{{ $auth := .Title}}
-			{{ range where (where .Site.RegularPages "Type" "posts" ) "Params.authid" .Params.authid }}
+			{{ range where (where .Site.RegularPages ".Params.family" "regular" ) "Params.authid" .Params.authid }}
 			<div class="mb-5 d-flex justify-content-between main-loop-card">
 				<div class="pr-3">
 					<h2 class="mb-1 h4 font-weight-bold">

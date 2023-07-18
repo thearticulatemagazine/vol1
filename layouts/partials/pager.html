@@ -1,5 +1,5 @@
 
-{{ $paginator := .Paginate (where .Site.RegularPages "Type" "posts") }}
+{{ $paginator := .Paginate (where .Site.RegularPages ".Params.family" "regular") }}
 {{ $adjacent_links := 2 }}
 {{ $max_links := (add (mul $adjacent_links 2) 1) }}
 

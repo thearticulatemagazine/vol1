@@ -4,9 +4,9 @@
 	<div class="flex-wrapper">
 		<!-- If it is the first page of HOME -->
 
-		{{ $paginator := .Paginate (where .Site.RegularPages "Type" "posts") }}
+		{{ $paginator := .Paginate (where .Site.RegularPages ".Params.family" "regular") }}
 		{{ if and .IsHome ( eq $paginator.PageNumber 1 ) }}
-		{{ $pages := first 5 (where .Site.RegularPages "Type" "posts") }}
+		{{ $pages := first 5 (where .Site.RegularPages ".Params.family" "regular") }}
 		<div class="alignfullincol position-relative" id="latest-posts">
 			<div class="container pb-5 ">
 				<div class="row justify-content-center">
