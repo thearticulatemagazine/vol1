@@ -1,7 +1,7 @@
 ---
-title: Painting
+title: Interview
 cascade:
   family: regular
-  categories: [painting]
+  categories: ["interview"]
   draft: false
 ---

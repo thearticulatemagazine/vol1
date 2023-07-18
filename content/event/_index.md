@@ -1,7 +1,7 @@
 ---
-title: Painting
+title: Events
 cascade:
   family: regular
-  categories: [painting]
+  categories: [event]
   draft: false
 ---

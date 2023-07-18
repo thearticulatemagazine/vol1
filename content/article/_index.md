@@ -1,7 +1,7 @@
 ---
-title: Painting
+title: Article
 cascade:
   family: regular
-  categories: [painting]
+  categories: [article]
   draft: false
 ---

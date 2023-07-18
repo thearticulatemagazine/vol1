@@ -1,7 +1,7 @@
 ---
-title: Painting
+title: Fiction
 cascade:
   family: regular
-  categories: [painting]
+  categories: [fiction]
   draft: false
 ---

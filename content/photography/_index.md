@@ -1,7 +1,7 @@
 ---
-title: Painting
+title: Video
 cascade:
   family: regular
-  categories: [painting]
+  categories: [photography]
   draft: false
 ---
