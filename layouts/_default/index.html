@@ -262,19 +262,21 @@
 		</div>
 		{{/* END OF class="row mt-3" id="allstories" */}}
 		<div class="row mt-3" id="allcategories">
+		
+ 
 			<div class="display-categories mt-5 col-md-8">
 				<h4 class="font-weight-bold spanborder"><span>Categories</span></h4>
 				<div class="grid grid-cols-2 md:grid-cols-3 gap-8 ">
-					{{ range $.Site.Data.categories }}
+					{{ range where .Site.Sections "Title" "!=" "Authors"}}
 
 					<div class=" mt-4">
 						<div class="text-uppercase font-weight-bold mb-1">
-							<a target="_blank" class="text-dark" href='{{ absURL "categories" }}/{{ .name | urlize }}'
-								alt="View all posts in {{ .name }}">{{ .name }}</a>
+							<a target="_blank" class="text-dark" href='{{ .Permalink }}'
+								alt="View all posts in {{ .Title }}">{{ .Title }}</a>
 						</div>
-						<a target="_blank" href='{{ absURL "categories" }}/{{ .name | urlize }}'>
-							<img class="rounded-lg shadow lg:p-4 hover:shadow-xl transition" src="{{.image}}"
-								alt="{{ .name }}">
+						<a target="_blank" href='{{ .Permalink }}'>
+							<img class="rounded-lg shadow lg:p-4 hover:shadow-xl transition" src="{{.Params.img}}"
+								alt="{{ .Title }}">
 						</a>
 					</div>
 					{{ end}}

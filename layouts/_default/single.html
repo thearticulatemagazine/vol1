@@ -27,10 +27,10 @@ layout and the data points declared below are requiired irrespective of context.
 					<p class="text-uppercase font-weight-bold">
 						<span class="catlist">
 
-							{{ range .Params.categories }}
-							<a target="_blank" href='{{ absURL "categories" }}/{{ . | urlize }}' rel="category tag"
-								class="sscroll text-danger">{{ . }}</a>
-							{{ end }}
+							{{/* {{ range .Params.categories }} */}}
+							<a target="_blank" href='{{.Site.BaseURL}}{{ .Section | urlize }}' rel="category tag"
+								class="sscroll text-danger">{{ .Section }}</a>
+							{{/* {{ end }} */}}
 						</span>
 					</p>
 					<h1 class="display-4 mb-4 article-headline">{{ .Title }}</h1>

@@ -1,6 +1,6 @@
 ---
-layout: interns
 title: Interns' Column
+img: https://i.postimg.cc/G36pTHf9/intern.webp
 cascade:
   family: regular
   categories: ["interns_column"]
