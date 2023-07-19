@@ -5,7 +5,7 @@ img: https://i.postimg.cc/NFngxBDR/shankar3-thumb.webp
 tags: []
 date: 2023-07-06T22:12:08+05:30
 summary: ""
-draft: true
+draft: false
 photos:
     - img: "https://i.postimg.cc/JzBWJqMG/shankar-01.webp"
       thumb: "https://i.postimg.cc/HxKK96Xr/shankar-01-thumb.webp"

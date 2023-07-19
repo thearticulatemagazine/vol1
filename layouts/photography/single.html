@@ -8,7 +8,7 @@
 					<p class="text-uppercase font-weight-bold">
 						<span class="catlist">
 
-							
+
 							<a target="_blank" href='{{.Site.BaseURL}}{{ .Section | urlize }}' rel="category tag"
 								class="sscroll text-danger">{{ .Section }}</a>
 						</span>
@@ -49,7 +49,7 @@
 
 					</div>
 				</div>
-		
+
 			</div>
 		</div>
 		{{/* END OF class="h-100 tofront"*/}}
@@ -61,31 +61,30 @@
 	class="container-lg pt-4 pb-4 category-{{ index .Params.categories 0 | urlize}}  {{ range .Params.tags }} tag-{{ . | urlize }} {{end}}">
 	<div class="row justify-content-center">
 
-	
+
 		<div class="col-lg-2 pr-4 mb-4 col-md-12"></div>
 		<!--NOTE[Riz] Just to push content to center-->
-	
+
 		<div class='col-md-12 col-lg-12 px-4'>
 
 			<!-- Article -->
 
 			<article class="article-post">
-				
 
+				<script src="https://cdn.jsdelivr.net/npm/baguettebox.js@1.11.1/dist/baguetteBox.min.js"></script>
+				<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/baguettebox.js@1.11.1/dist/baguetteBox.min.css">
 
-			<div class="baguetteBoxOne gallery grid grid-cols-2 md:grid-cols-3 gap-4">
-						{{range $photo := .Params.photos }} {{/* Each photo is a map*/}}
+				<div class="baguetteBoxOne gallery grid grid-cols-2 md:grid-cols-3 gap-4">
+					{{range $photo := .Params.photos }} {{/* Each photo is a map*/}}
 
 					<a href='{{index $photo "img"}}'>
 						<img src='{{index $photo "thumb"}}' class="h-auto max-w-full rounded-lg">
 					</a>
-						{{ end }}
-			</div>
-
-
-		
-			
-			{{ .Content }}</article>
+					{{ end }}
+				</div>
+				<script>baguetteBox.run('.baguetteBoxOne');</script>
+				{{ .Content }}
+			</article>
 			<!-- Tags -->
 			<div class="mb-4">
 				<span class="taglist">
@@ -164,7 +163,6 @@
 		</div>
 	</div>
 </div>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.min.js" integrity="sha512-7KzSt4AJ9bLchXCRllnyYUDjfhO2IFEWSa+a5/3kPGQbr+swRTorHQfyADAhSlVHCs1bpFdB1447ZRzFyiiXsg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.css" integrity="sha512-3eoKq7cU6gdVeT+6eL40YcJLD8dxzQmOK54qxUWVjg7H4NN3u5AA5k5ywrqLV15hOZDBBgdQH/GK5CA9MwDVwg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-<script>baguetteBox.run('.baguetteBoxOne');</script>
+
+
 {{ end }}
