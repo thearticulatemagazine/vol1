@@ -1,5 +1,4 @@
 ---
-authid: ug-2021-manisha-chouhan
 title: Manisha Chouhan
 biosmall: "Medical student with some extra hobbies."
 biolarge: 

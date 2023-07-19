@@ -1,5 +1,4 @@
 ---
-authid: ug-2022-mansi-garg
 title: Mansi Garg
 biosmall: "Redefining love and happiness!"
 biolarge: 

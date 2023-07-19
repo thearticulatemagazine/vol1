@@ -1,5 +1,4 @@
 ---
-authid: ug-2018-srashti-somwanshi
 title: Srashti Somwanshi
 biosmall: "Srashti is a 2018 batch student of Government Medical College, Ratlam"
 biolarge: 

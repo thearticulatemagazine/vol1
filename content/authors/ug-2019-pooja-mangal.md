@@ -1,5 +1,4 @@
 ---
-authid: ug-2019-pooja-mangal
 title: Pooja Mangal
 biosmall: "Pooja is a 2019 batch student of Government Medical College, Ratlam"
 biolarge: 

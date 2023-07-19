@@ -1,5 +1,4 @@
 ---
-authid: ug-2021-prateek-goyal
 title: Prateek Goyal
 biosmall: "Prateek is a 2021 batch student of Government Medical College, Ratlam"
 biolarge: 

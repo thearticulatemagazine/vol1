@@ -1,5 +1,4 @@
 ---
-authid: ug-2019-shankar-singh-solanki
 title: Shankar Singh Solanki
 biosmall: "Shankar is a 2019 batch student of Government Medical College, Ratlam"
 biolarge: 

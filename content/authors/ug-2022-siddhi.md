@@ -1,5 +1,4 @@
 ---
-authid: ug-2022-siddhi
 title: Siddhi Kiyawat
 biosmall: "Siddhi is a 2022 batch student of Government Medical College, Ratlam."
 biolarge: 

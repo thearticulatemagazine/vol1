@@ -3,7 +3,7 @@ title:  "Lenses and Viewlines"
 authid: ug-2019-shankar-singh-solanki
 img: https://i.postimg.cc/NFngxBDR/shankar3-thumb.webp
 tags: []
-date: 2023-07-06T22:12:08+05:30
+date: 2023-07-16T22:12:08+05:30
 summary: ""
 draft: false
 photos:
@@ -20,3 +20,8 @@ photos:
     - img: "https://i.postimg.cc/Kv4DXZ2X/shankar6.jpg"
       thumb: "https://i.postimg.cc/HW69PrF4/shankar6-thumb.jpg"
 ---
+
+{{<quote>}}
+“The picture that you took with your camera is the imagination you want to create with reality.”
+— Scott Lorenzo
+{{</quote>}}
