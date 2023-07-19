@@ -9,7 +9,7 @@
     "dev:preview": "npm run dev -- --buildDrafts --buildFuture",
     "build": "hugo --verbose --minify --cleanDestinationDir --gc",
     "tw": "npx tailwindcss -i static/css/styles.css -o static/css/styles.tw.css",
-    "minify-css": "npm run tw && postcss static/css/styles.tw.css > static/css/styles.min-140723.css",
+    "minify-css": "npm run tw && postcss static/css/styles.tw.css > static/css/styles.min-190723.css",
     "deploy": "hugo --verbose --minify --cleanDestinationDir --gc && gh-pages -d public"
   },
   "keywords": [

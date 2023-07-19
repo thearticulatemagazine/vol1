@@ -267,7 +267,7 @@
 			<div class="display-categories mt-5 col-md-8">
 				<h4 class="font-weight-bold spanborder"><span>Categories</span></h4>
 				<div class="grid grid-cols-2 md:grid-cols-3 gap-8 ">
-					{{ range where .Site.Sections "Title" "!=" "Authors"}}
+					{{ range where (sort .Site.Sections "Title") "Title" "!=" "Authors"}}
 
 					<div class=" mt-4">
 						<div class="text-uppercase font-weight-bold mb-1">
