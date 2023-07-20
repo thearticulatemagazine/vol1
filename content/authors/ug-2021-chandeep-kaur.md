@@ -1,6 +1,6 @@
 ---
 title: Chandeep Kaur
-biosmall: "Chandeep is a 2021 batch student of Government Medical College, Ratlam"
+biosmall: "For me my art is purest form of my happiness"
 biolarge: 
 avatar: f
 twitter: 

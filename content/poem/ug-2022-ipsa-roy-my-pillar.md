@@ -2,7 +2,7 @@
 title:  "My Pillar"
 authid: ug-2022-ipsa-roy
 img: https://i.postimg.cc/WbwyZX96/father.jpg
-tags: [father,family,featured]
+tags: [father,family]
 date: 2023-06-23T17:21:04+05:30
 summary: ""
 aliases:

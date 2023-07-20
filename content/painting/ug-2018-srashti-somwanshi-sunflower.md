@@ -2,7 +2,7 @@
 title:  "Striking sunflower at the stroke of my brush"
 authid: ug-2018-srashti-somwanshi
 img: https://i.postimg.cc/15GFQF6Z/srishti-flowers-thumbnail.webp
-tags: []
+tags: [featured]
 date: 2023-07-08T00:55:08+05:30
 aliases:
 - /posts/srashti-sunflower/

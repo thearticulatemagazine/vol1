@@ -2,7 +2,7 @@
 title:  "Moon in Me"
 authid: ug-2021-anugrah-mishra
 img: https://i.postimg.cc/rsMH9YVd/anugrah-moon-in-me.webp
-tags: []
+tags: [featured]
 date: 2023-07-08T01:25:44+05:30
 summary: "Sometimes,<br>The moon in me gets<br>Shadowed under the<br>Everlasting sunshine"
 aliases:

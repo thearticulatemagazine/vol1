@@ -1408,8 +1408,8 @@
   }
   #sticky-image {
 	border-radius: 0 10px 10px 0;
-	-o-object-fit: scale-down;
-	object-fit: scale-down;
+	-o-object-fit: cover;
+	object-fit: cover;
   }
   .button-52 {
 	background-color: transparent;
@@ -1751,4 +1751,9 @@
 	.lead {
 		min-height: 200px;
 	}
+}
+
+.article-post ul {
+	list-style: disc;
+	margin-left: 2rem;
 }

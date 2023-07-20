@@ -2,7 +2,7 @@
 title:  "Om Ganpati namo namah!"
 authid: ug-2021-arish-pahuja
 img: https://i.postimg.cc/L6zbxQsW/aarish-3-thumbnail.jpg
-tags: [featured]
+tags: []
 date: 2023-06-17T08:49:28+05:30
 aliases:
 - /posts/aarish-3/

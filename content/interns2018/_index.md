@@ -1,9 +1,11 @@
 ---
 title: Interns' Column
 img: https://i.postimg.cc/G36pTHf9/intern.webp
+aliases:
+- /interns/
 cascade:
   family: regular
-  categories: ["interns_column"]
+  categories: ["Interns column"]
   draft: false
 ---
 

@@ -2,7 +2,7 @@
 title:  "Photograph"
 authid: ug-2021-anugrah-mishra
 img: https://i.postimg.cc/tR67DwMM/anuragh-mishra-photograph.webp
-tags: [featured]
+tags: []
 date: 2023-07-06T10:11:50+05:30
 summary: "After all these years<br>There she was"
 aliases:

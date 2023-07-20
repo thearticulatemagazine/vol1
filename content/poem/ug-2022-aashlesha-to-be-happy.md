@@ -2,7 +2,7 @@
 title: "To be happy"
 authid: ug-2022-aashlesha
 img: https://res.cloudinary.com/dhodsjwfh/image/upload/v1679881807/rainbow_dxyiz6.jpg
-tags: [happiness,featured]
+tags: [happiness,]
 date: 2023-06-25T08:00:00
 summary: "To be happy is a matter of choice<br>We need to be free"
 aliases:

@@ -5,7 +5,7 @@ biolarge:
 avatar: https://i.postimg.cc/K8dKKXVB/srashti.webp
 twitter:
 instagram:
-multiple: multiple
+multiple: true
 ---
 
 
