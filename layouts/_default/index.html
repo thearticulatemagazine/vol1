@@ -246,10 +246,8 @@
 								</h6>
 								<span class="d-block text-muted">
 									<span class="thecatlinks text-dark">
-										{{ range .Params.categories }}
-										<a target="_blank" href='{{ absURL "categories" }}/{{ . | urlize }}'
-											rel="category tag" class="text-muted text-capitalize">{{ . }}</a>
-										{{ end }}
+										<a target="_blank" href='{{.Site.BaseURL}}{{ .Section | urlize }}' rel="category tag"
+										class="text-muted text-capitalize smoothscroll">{{ replace .Section "_" " " }}</a>
 									</span> by
 									{{/* AUTHOR */}}
 									{{ $authpage := printf "%s%s" "/authors/" .Params.authid }}
