@@ -31,10 +31,13 @@
 								<div class="d-flex align-items-center">
 									<small class="text-muted">
 										<span class="thecatlinks text-dark">
-											{{ range .Params.categories }}
+											{{/* {{ range .Params.categories }}
 											<a target="_blank" href='{{ absURL "categories" }}/{{ . | urlize }}'
 												rel="category tag" class="text-muted text-capitalize">{{ . }}</a>
-											{{ end }}
+											{{ end }} */}}
+											<a target="_blank" href='{{.Site.BaseURL}}{{ .Section | urlize }}'
+												rel="category tag" class="text-muted text-capitalize smoothscroll">{{
+												replace .Section "-" " " }}</a>
 										</span> by
 										{{/* AUTHOR */}}
 										{{ $authpage := printf "%s%s" "/authors/" .Params.authid }}
@@ -83,11 +86,12 @@
 								<div>
 									<!-- AUTHOR, CATEGORY-->
 									<small class="d-block text-muted">
-										{{ range .Params.categories }}
+										{{/* {{ range .Params.categories }} */}}
 										<span class="thecatlinks text-dark"> <a target="_blank"
-												href='{{ absURL "categories" }}/{{ . | urlize }}' rel="category tag"
-												class="text-muted text-capitalize">{{ . }}</a></span>
-										{{ end }}
+												href='{{.Site.BaseURL}}{{ .Section | urlize }}' rel="category tag"
+												class="text-muted text-capitalize smoothscroll">{{ replace .Section "-"
+												" " }}</a></span>
+										{{/* {{ end }} */}}
 										by
 										{{ $authpage := printf "%s%s" "/authors/" .Params.authid }}
 										{{ with .Site.GetPage $authpage }}
@@ -129,11 +133,12 @@
 								<div class="d-flex align-items-center">
 									<small class="text-muted">
 										<span class="thecatlinks text-dark">
-											{{ range .Params.categories }}
+									
 											<span class="thecatlinks text-dark"> <a target="_blank"
-													href='{{ absURL "categories" }}/{{ . | urlize }}' rel="category tag"
-													class="text-muted text-capitalize">{{ . }}</a></span>
-											{{ end }}
+													href='{{ .Site.BaseURL}}{{ .Section | urlize }}' rel="category tag"
+													class="text-muted text-capitalize smoothscroll">
+													{{ replace .Section "_" " " }}</a></span>
+								
 										</span> by
 										{{ $authpage := printf "%s%s" "/authors/" .Params.authid }}
 										{{ with .Site.GetPage $authpage }}
@@ -262,8 +267,8 @@
 		</div>
 		{{/* END OF class="row mt-3" id="allstories" */}}
 		<div class="row mt-3" id="allcategories">
-		
- 
+
+
 			<div class="display-categories mt-5 col-md-8">
 				<h4 class="font-weight-bold spanborder"><span>Categories</span></h4>
 				<div class="grid grid-cols-2 md:grid-cols-3 gap-8 ">

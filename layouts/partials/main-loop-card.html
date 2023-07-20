@@ -8,10 +8,8 @@
 		</p>
 		<small class="d-block text-muted">
 			<span class="catlist">
-				{{ range .Params.categories }}
-				<a target="_blank" href='{{ absURL "categories" }}/{{ . | urlize }}' rel="category tag"
-					class="text-muted text-capitalize smoothscroll">{{ . }}</a>
-				{{ end }}
+				<a target="_blank" href='{{.Site.BaseURL}}{{ .Section | urlize }}' rel="category tag"
+								class="text-muted text-capitalize smoothscroll">{{ replace .Section "-" " " }}</a>
 
 
 				by
