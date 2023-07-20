@@ -1,7 +1,7 @@
 ---
 title:  "Hues of campus"
 authid: ug-2019-imran-khan
-img: https://i.postimg.cc/5NQH8h2B/imran1-thumb.webp
+img: https://i.postimg.cc/4d8K1Zc5/imran5-thumb.webp
 tags: []
 date: 2023-07-17T22:12:08+05:30
 summary: ""
