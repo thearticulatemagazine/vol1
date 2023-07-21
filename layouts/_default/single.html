@@ -29,7 +29,7 @@ layout and the data points declared below are requiired irrespective of context.
 
 							{{/* {{ range .Params.categories }} */}}
 							<a target="_blank" href='{{.Site.BaseURL}}{{ .Section | urlize }}' rel="category tag"
-								class="sscroll text-danger">{{ replace .Section "-" " " }}</a>
+								class="sscroll text-danger">{{ replace .Section "_" " " }}</a>
 							{{/* {{ end }} */}}
 						</span>
 					</p>

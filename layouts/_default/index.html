@@ -37,7 +37,7 @@
 											{{ end }} */}}
 											<a target="_blank" href='{{.Site.BaseURL}}{{ .Section | urlize }}'
 												rel="category tag" class="text-muted text-capitalize smoothscroll">{{
-												replace .Section "-" " " }}</a>
+												replace .Section "_" " " }}</a>
 										</span> by
 										{{/* AUTHOR */}}
 										{{ $authpage := printf "%s%s" "/authors/" .Params.authid }}
