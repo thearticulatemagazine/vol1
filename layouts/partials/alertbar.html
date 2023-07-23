@@ -1,0 +1,23 @@
+<div class="alertbar" id="alertbar">
+  <div class="container">
+    <div class="row prevnextlinks small font-weight-bold">
+      {{ with (where .Site.RegularPages ".Params.family" "regular").Prev . }}
+        <div class="col-md-6 rightborder pl-0">
+          <a class="text-dark" href="{{ .RelPermalink }}">
+            <img class="mr-1 inline" style="height: 30px;" src="{{ index .Params.img }}" loading="lazy" />
+
+            {{ .Title }}
+          </a>
+        </div>
+      {{ end }}
+      {{ with (where .Site.RegularPages ".Params.family" "regular").Next . }}
+        <div class="col-md-6 pr-0 text-right">
+          <a class="text-dark" href="{{ .RelPermalink }}">
+            {{ .Title }}
+            <img class="ml-1 inline" style="height: 30px;" src="{{ index .Params.img }}" loading="lazy" />
+          </a>
+        </div>
+      {{ end }}
+    </div>
+  </div>
+</div>
