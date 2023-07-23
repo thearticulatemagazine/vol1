@@ -1,13 +1,12 @@
 ---
-title:  "Vigneswara"
+title: "Vigneswara"
 authid: ug-2021-sakshi-khandare
 img: https://i.postimg.cc/Vstcr0qk/Ganpati-1920x1080-640x480.jpg
 tags: [rangoli, hindi]
 date: 2023-03-25T06:00:00
 aliases:
-- /posts/vigneswara/
+  - /posts/vigneswara/
 ---
-
 
 {{< art "https://i.postimg.cc/ZKpRF8nD/Ganpati-1920x1080.jpg" >}}
 

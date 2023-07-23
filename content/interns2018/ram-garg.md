@@ -1,5 +1,5 @@
 ---
-title:  "Ram Garg"
+title: "Ram Garg"
 authid: 01-batch-2018
 img: https://i.postimg.cc/02FNyYF2/ic-ram.webp
 tags: []

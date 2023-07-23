@@ -1,7 +1,7 @@
 {{ define "main" }}
-<div class="container">
-        <h1 class="article-headline">Oh no! Page not found</h1>
-        <p><a href="{{.Site.BaseURL}}">Go to Home Page</a></p>
-		<img src="{{.Site.BaseURL}}images/404.jpg">
-</div>
+  <div class="container">
+    <h1 class="article-headline">Oh no! Page not found</h1>
+    <p><a href="{{ .Site.BaseURL }}">Go to Home Page</a></p>
+    <img src="{{ .Site.BaseURL }}images/404.jpg" />
+  </div>
 {{ end }}

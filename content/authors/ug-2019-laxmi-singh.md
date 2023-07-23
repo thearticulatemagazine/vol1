@@ -3,7 +3,7 @@ title: Laxmi Singh
 biosmall: "Laxmi is a 2019 batch student of Government Medical College, Ratlam"
 biolarge: ""
 avatar: f
-twitter: 
+twitter:
 instagram:
 multiple: true
 ---

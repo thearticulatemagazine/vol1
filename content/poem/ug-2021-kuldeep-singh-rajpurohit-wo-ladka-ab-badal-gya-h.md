@@ -1,14 +1,13 @@
 ---
-title:  "Wo ladka ab badal gya h"
+title: "Wo ladka ab badal gya h"
 authid: ug-2021-kuldeep-singh-rajpurohit
 img: https://res.cloudinary.com/dhodsjwfh/image/upload/v1680035596/change2_rb6vgp.jpg
 tags: [hindi]
 date: 2023-06-22T06:00:00
 summary: ""
 aliases:
-- /posts/wo-ladka-ab-badal-gya-h/
+  - /posts/wo-ladka-ab-badal-gya-h/
 ---
-
 
 कभी महफिलों में बैठनेवाला आज 9-5 में उलझ गया है
 हर चीज़ खरीदने वाला, आज हर चीज़ का हिसाब सीख गया है।
@@ -17,4 +16,3 @@ aliases:
 बहनों को बातों से रूला देने वाला, आज उसकी हर समस्या का समाधान बन गया है।
 कभी पिता से अनबन करने वाला, आज पिता का साया बन गया है।
 हालत ए जिंदगी ने ऐसा बना दिया ए दिल, हा वो लड़का अब बदल गया है।
-

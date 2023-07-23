@@ -1,9 +1,9 @@
 ---
 title: Chandeep Kaur
 biosmall: "For me my art is purest form of my happiness"
-biolarge: 
+biolarge:
 avatar: f
-twitter: 
+twitter:
 instagram:
 multiple: true
 ---

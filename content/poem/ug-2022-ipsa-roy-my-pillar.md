@@ -1,15 +1,15 @@
 ---
-title:  "My Pillar"
+title: "My Pillar"
 authid: ug-2022-ipsa-roy
 img: https://i.postimg.cc/WbwyZX96/father.jpg
-tags: [father,family]
+tags: [father, family]
 date: 2023-06-23T17:21:04+05:30
 summary: ""
 aliases:
-- /posts/ipsa-my-pillar/
+  - /posts/ipsa-my-pillar/
 ---
 
-Tears in my dad's eyes 
+Tears in my dad's eyes
 He was always my pillar when I knew I'd fall,
 Always my anchor so strong and tall.
 His hard face changes only for me.<!--more-->

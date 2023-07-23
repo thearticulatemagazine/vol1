@@ -1,8 +1,8 @@
 ---
 title: Akshara Doshi
 biosmall: "Akshara is a 2021 batch student of Government Medical College, Ratlam"
-biolarge: 
+biolarge:
 avatar: f
-twitter: 
+twitter:
 instagram:
 ---

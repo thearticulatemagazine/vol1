@@ -1,176 +1,229 @@
-{{define "main" }}
+{{ define "main" }}
+  {{/* NOTE[Riz]: The following global variables are decalred because there are several context switches between original
+    post and author page in
+    layout and the data points declared below are requiired irrespective of context. DO NOT change.
+  */}}
+  {{ $showimage := true }}
+  {{ $intcol := false }}
+  {{ if or
+    (in .Params.categories "painting")
+    (in .Params.categories "video")
+  }}
+    {{ $showimage = false }}
+  {{ end }}
+  {{ if in .Params.categories "interns_column" }}
+    {{ $intcol = true }}
+  {{ end }}
+
+  {{ $authpage := printf "%s%s" "/authors/" .Params.authid }}
+  {{ $avatar := "" }}
+  {{ $authtitle := "" }}
+  {{ $authpermalink := "" }}
+  {{ with .Site.GetPage $authpage }}
+    {{ $avatar = .Params.avatar }}
+    {{ if or
+      (eq .Params.avatar "f")
+      (eq .Params.avatar "m")
+    }}
+      {{ $avatar = printf "%simages/%s.svg" .Site.BaseURL .Params.avatar }}
+    {{ end }}
+    {{ $authtitle = .Title }}
+    {{ $authpermalink = .Permalink }}
+  {{ end }}
 
 
-{{/* NOTE[Riz]: The following global variables are decalred because there are several context switches between original
-post and author page in
-layout and the data points declared below are requiired irrespective of context. DO NOT change. */}}
-{{ $showimage := true }}
-{{ $intcol := false }}
-{{ if or
-(in .Params.categories "painting")
-(in .Params.categories "video")
-}}
-{{ $showimage = false }}
-{{ end }}
-{{ if in .Params.categories "interns_column"}}
-{{ $intcol = true }}
-{{ end }}
+  <div
+    class="category-{{ index .Params.categories 0 | urlize }} {{ range .Params.tags }}
+      tag-{{ . | urlize }}
+    {{ end }}  container">
+    <div
+      class="jumbotron jumbotron-fluid position-relative mb-3 bg-white pb-0 pl-0 pt-0">
+      <div class="h-100 tofront">
+        <div
+          class="row {{ cond $showimage "justify-content-between" "justify-content-center" }}">
+          <div
+            class="{{ cond $showimage "col-md-6" "col-md-8" }} pr-md-4 align-self-center pb-4 pr-0 pt-4">
+            <p class="text-uppercase font-weight-bold">
+              <span class="catlist">
+                <a
+                  class="sscroll text-danger"
+                  target="_blank"
+                  href="{{ .Site.BaseURL }}{{ .Section | urlize }}"
+                  rel="category tag"
+                  >{{ replace .Section "_" " " }}</a
+                >
+              </span>
+            </p>
+            <h1 class="display-4 article-headline mb-4">{{ .Title }}</h1>
+            <div class="d-flex align-items-center">
+              <a href="{{ $authpermalink }}"
+                ><img
+                  class="rounded-full"
+                  src="{{ $avatar }}"
+                  alt="{{ $authtitle }}"
+                  width="70"
+              /></a>
+
+              <small class="ml-3">
+                <a id="def-single-auth-top" href="{{ $authpermalink }}">
+                  {{ $authtitle }}</a
+                >
+
+                <span class="text-muted d-block mt-1" id="post-date"
+                  >{{ .Date.Format "January 02, 2006" }}
+                  |
+                  {{ .ReadingTime }}
+                  minute{{ if (ne .ReadingTime 1) }}s{{ end }}</span
+                >
+                <!--SHARE BUTTON -->
+                {{ partial "share" . }}
+                <!-- END SHARE BUTTON -->
+              </small>
+            </div>
+            {{ if $showimage }}
+              <div class="col-md-6 align-self-center pr-0">
+                <img
+                  class="rounded"
+                  src="{{ index .Params.img }}"
+                  alt="{{ .Title }}" />
+              </div>
+            {{ end }}
+          </div>
+        </div>
+        {{/* END OF class="h-100 tofront" */}}
+      </div>
+      {{/* END OF class="jumbotron jumbotron-fluid mb-3 pl-0 pt-0 pb-0 bg-white position-relative" */}}
+    </div>
+    {{/* END OF class="container" */}}
+    <div
+      class="container-lg category-{{ index .Params.categories 0 | urlize }} {{ range .Params.tags }}
+        tag-{{ . | urlize }}
+      {{ end }} pb-4  pt-4">
+      <div class="row justify-content-center">
+        {{/* {{ if not $showimage }} */}}
+        <div class="col-lg-2 col-md-12 mb-4 pr-4"></div>
+        <!--NOTE[Riz] Just to push content to center-->
+        {{/* {{ end }} */}}
+        <div
+          class="col-md-12 {{ cond $showimage "col-lg-8" "col-lg-12" }} px-4">
+          <!-- Article -->
+
+          <article class="article-post">{{ .Content }}</article>
+          <!-- Tags -->
+          <div class="mb-4">
+            <span class="taglist">
+              {{ range .Params.tags }}
+                <a
+                  class="post-tag-pill"
+                  href="{{ absURL "tags" }}/{{ . | urlize }}">
+                  <i
+                    class="text-muted icon-hashtag"
+                    style="opacity:0.5;margin-right:1px"></i
+                  >{{ . | lower }}</a
+                >
+              {{ end }}
+            </span>
+          </div>
+
+          <!-- Author Box -->
+          {{ $pagetitle := .Title }}
+          {{ with .Site.GetPage $authpage }}
+            <div class="mt-5 flex flex-col md:flex-row">
+              <div class="col-md-2 flex justify-center">
+                <!--TODO[Rizwan]: Add gender neutral default avatar-->
+
+                <a href="{{ .Permalink }}"
+                  ><img
+                    class="rounded-circle"
+                    src="{{ $avatar }}"
+                    alt="{{ .Title }}"
+                    width="90"
+                /></a>
+              </div>
+              <div class="col-md-10">
+                <h5 class="font-weight-bold mb-2 text-center md:text-left">
+                  by
+                  {{ .Title }}
+                  {{ with .Params.twitter }}
+                    <span>
+                      <a
+                        class="btn btn-outline-success btn-sm btn-round ml-2"
+                        target="_blank"
+                        href="{{ . }}"
+                        >Follow</a
+                      >
+                    </span>
+                  {{ end }}
+                </h5>
+                {{ .Params.biosmall }}
+                {{ if .Params.multiple }}
+                  <br />See more works from
+                  {{ index (split .Title " ") 0 }}
+                  <a href="{{ .Permalink }}">
+                    <i class="icon-angle-circled-right"></i>
+                  </a>
+                {{ end }}
+                {{ if $intcol }}
+                  <a href="{{ absURL "interns" }}" style="color:#1129ef"
+                    >Read about the rest of Batch 2018<i
+                      class="icon-angle-circled-right"></i
+                  ></a>
+                {{ end }}
+                <br /><br />
+                <p class="green-callout">
+                  Send your comments about this post to
+                  <a
+                    class="fancy-link-hover"
+                    target="_blank"
+                    href="mailto:{{ .Site.Params.email }}?subject={{ $pagetitle }}">
+                    gmcrmagazine@gmail.com</a
+                  >
+                </p>
+              </div>
+            </div>
+          {{ end }}
+          {{/* END OF with .Site.GetPage $authpage AND AUTHOR BOX */}}
+          {{/* BEGIN COMMENTS */}}
+          {{ if isset .Params "comments" }}
+            {{ partial "comment.html" . }}
+          {{ end }}
+          {{/* END */}}
+        </div>
+      </div>
+    </div>
+    {{/* END OF class="container-lg pt-4 pb-4" */}}
 
 
+    <div class="alertbar" id="alertbar">
+      <div class="container">
+        <div class="row prevnextlinks small font-weight-bold">
+          {{ with (where .Site.RegularPages ".Params.family" "regular").Prev . }}
+            <div class="col-md-6 rightborder pl-0">
+              <a class="text-dark" href="{{ .RelPermalink }}">
+                <img
+                  class="mr-1 inline"
+                  style="height: 30px;"
+                  src="{{ index .Params.img }}"
+                  loading="lazy" />
 
-<div
-	class="container category-{{ index .Params.categories 0 | urlize}}  {{ range .Params.tags }} tag-{{ . | urlize }} {{end}}">
-	<div class="jumbotron jumbotron-fluid mb-3 pl-0 pt-0 pb-0 bg-white position-relative">
-		<div class="h-100 tofront">
-			<div class='row {{ cond $showimage "justify-content-between" "justify-content-center" }}'>
-				<div class='{{ cond $showimage "col-md-6" "col-md-8" }} pr-0 pr-md-4 pt-4 pb-4 align-self-center'>
-					<p class="text-uppercase font-weight-bold">
-						<span class="catlist">
-
-							{{/* {{ range .Params.categories }} */}}
-							<a target="_blank" href='{{.Site.BaseURL}}{{ .Section | urlize }}' rel="category tag"
-								class="sscroll text-danger">{{ replace .Section "_" " " }}</a>
-							{{/* {{ end }} */}}
-						</span>
-					</p>
-					<h1 class="display-4 mb-4 article-headline">{{ .Title }}</h1>
-					<div class="d-flex align-items-center">
-						{{ $authpage := printf "%s%s" "/authors/" .Params.authid }}
-						{{ $avatar := ""}}
-						{{/* NOTE: Declare it as page wide global as it needs to be called again later */}}
-						{{ with .Site.GetPage $authpage }}
-						{{ $avatar = .Params.avatar }}
-						{{ if or
-						(eq .Params.avatar "f")
-						(eq .Params.avatar "m")
-						}}
-						{{ $avatar = printf "%simages/%s.svg" .Site.BaseURL .Params.avatar }}
-						{{ end }}
-						<a href="{{.Permalink}}"><img class="rounded-full" src="{{ $avatar }}" alt="{{.Title}}"
-								width="70" /></a>
-
-						<small class="ml-3">
-							<a href="{{.Permalink}}" id="def-single-auth-top">
-								{{ .Title }}</a>
-							{{with .Params.twitter}}
-							<span>
-								<a target="_blank" href="{{ .Params.twitter }}"
-									class="btn btn-outline-success btn-sm btn-round ml-1">Follow</a>
-							</span>
-							{{end}}
-							{{end}}
-							<span class="text-muted d-block mt-1" id="post-date">{{ .Date.Format "January 02, 2006" }}
-								|
-								{{ .ReadingTime }} minute{{ if (ne .ReadingTime 1) }}s{{ end }}</span>
-							<!--SHARE BUTTON -->
-							{{ partial "share" . }}
-							<!-- END SHARE BUTTON -->
-						</small>
-
-					</div>
-				</div>
-				{{ if $showimage }}
-				<div class="col-md-6 pr-0 align-self-center">
-					<img class="rounded" src="{{ index .Params.img }}" alt="{{ .Title }}">
-				</div>
-				{{ end }}
-			</div>
-		</div>
-		{{/* END OF class="h-100 tofront"*/}}
-	</div>
-	{{/* END OF class="jumbotron jumbotron-fluid mb-3 pl-0 pt-0 pb-0 bg-white position-relative" */}}
-</div>
-{{/* END OF class="container" */}}
-<div
-	class="container-lg pt-4 pb-4 category-{{ index .Params.categories 0 | urlize}}  {{ range .Params.tags }} tag-{{ . | urlize }} {{end}}">
-	<div class="row justify-content-center">
-
-		{{/* {{ if not $showimage }} */}}
-		<div class="col-lg-2 pr-4 mb-4 col-md-12"></div>
-		<!--NOTE[Riz] Just to push content to center-->
-		{{/* {{ end }} */}}
-		<div class='col-md-12 {{cond $showimage "col-lg-8" "col-lg-12" }} px-4'>
-
-			<!-- Article -->
-
-			<article class="article-post">{{ .Content }}</article>
-			<!-- Tags -->
-			<div class="mb-4">
-				<span class="taglist">
-					{{ range .Params.tags }}
-					<a class="post-tag-pill" href='{{ absURL "tags"}}/{{ . | urlize}}'>
-						<i class="text-muted icon-hashtag" style="opacity:0.5;margin-right:1px"></i>{{ . | lower
-						}}</a>
-					{{ end }}
-				</span>
-			</div>
-
-			<!-- Author Box -->
-			{{ with .Site.GetPage $authpage }}
-			<div class="flex flex-col md:flex-row mt-5">
-				<div class="col-md-2 flex justify-center">
-					<!--TODO[Rizwan]: Add gender neutral default avatar-->
-
-					<a href="{{ .Permalink }}"><img class="rounded-circle" src="{{$avatar}}" alt="{{.Title}}"
-							width="90" /></a>
-				</div>
-				<div class="col-md-10">
-					<h5 class="font-weight-bold text-center mb-2 md:text-left">by
-						{{ .Title }}
-						{{ with .Params.twitter }}
-						<span>
-							<a target="_blank" href="{{ . }}"
-								class="btn btn-outline-success btn-sm btn-round ml-2">Follow</a>
-						</span>
-						{{ end }}
-					</h5>
-					{{ .Params.biosmall }}
-					{{ if .Params.multiple }}
-					<br>See more works from
-					{{ index (split .Title " ") 0 }}
-					<a href="{{ .Permalink }}">
-						<i class="icon-angle-circled-right"></i>
-					</a>
-					{{ end }}
-					{{if $intcol }} <a href='{{ absURL "interns"}}' style="color:#1129ef">Read about the rest of Batch
-						2018<i class="icon-angle-circled-right"></i></a>{{end}}
-					<br><br>
-					<p class="green-callout">Send your comments about this post to
-						<a target="_blank" href="mailto:{{ .Site.Params.email }}?subject={{.Title}}"
-							class="fancy-link-hover">
-							gmcrmagazine@gmail.com</a>
-					</p>
-				</div>
-			</div>
-			{{ end }}
-			{{/* END OF with .Site.GetPage $authpage AND AUTHOR BOX */}}
-		</div>
-	</div>
-</div>
-{{/* END OF class="container-lg pt-4 pb-4" */}}
-
-<div class="alertbar" id="alertbar">
-	<div class="container">
-		<div class="row prevnextlinks small font-weight-bold">
-			{{ with (where .Site.RegularPages ".Params.family" "regular").Prev . }}
-			<div class="col-md-6 rightborder pl-0">
-				<a class="text-dark" href="{{ .RelPermalink }}">
-
-					<img style="height: 30px;" class="mr-1 inline" src="{{index .Params.img}}" loading="lazy">
-
-					{{ .Title }}
-				</a>
-			</div>
-			{{ end }}
-			{{ with (where .Site.RegularPages ".Params.family" "regular").Next . }}
-			<div class="col-md-6 text-right pr-0">
-				<a class="text-dark" href="{{ .RelPermalink }}">
-					{{.Title}}
-					<img style="height: 30px;" class="ml-1 inline" src="{{index .Params.img}}" loading="lazy">
-				</a>
-			</div>
-			{{ end }}
-		</div>
-	</div>
-</div>
+                {{ .Title }}
+              </a>
+            </div>
+          {{ end }}
+          {{ with (where .Site.RegularPages ".Params.family" "regular").Next . }}
+            <div class="col-md-6 pr-0 text-right">
+              <a class="text-dark" href="{{ .RelPermalink }}">
+                {{ .Title }}
+                <img
+                  class="ml-1 inline"
+                  style="height: 30px;"
+                  src="{{ index .Params.img }}"
+                  loading="lazy" />
+              </a>
+            </div>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
 {{ end }}

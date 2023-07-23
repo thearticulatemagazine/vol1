@@ -1,12 +1,12 @@
 ---
-title:  "Strange Revenge"
+title: "Strange Revenge"
 authid: ug-2021-manisha-chouhan
 img: https://i.postimg.cc/c1Xqwptw/manisha-strange-revenge.webp
 tags: []
 date: 2023-07-06T18:43:32+05:30
 summary: "Story of two roommates, their little fights, pranks and above all, love for each other."
 aliases:
-- /posts/manisha-the-strange-revenge/
+  - /posts/manisha-the-strange-revenge/
 ---
 
 Kashish and I(Esha) have been roommates for one and half years. We both have totally different opinions and choices, still we manage to share the same space in this hostel. It’s Sunday afternoon and today I decided to complete my favorite novel which I started 20 days ago.
@@ -18,7 +18,7 @@ Suddenly loud music noise filled my ears.
 “Oh my dear roomie, if you don’t want to hear this melodious voice, you can go to hell.” She replied.
 She sounded ridiculous.
 Why is she so irritating! God, why? I hate her. I took my books and went to the balcony to read.
-*Slammed the door*
+_Slammed the door_
 One day I’ll have my revenge for this.
 Then I started reading my novel.
 

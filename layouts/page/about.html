@@ -1,61 +1,61 @@
 {{ define "main" }}
-<div class="container">
+  <div class="container">
     <style>
-        .profile .card-img-top {
+      .profile .card-img-top {
         width: 60%;
         border-radius: 50%;
         margin: 0 auto;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-        }
-        .card.profile {
+      }
+      .card.profile {
         padding: 1.5em 0.5em 0.5em;
         text-align: center;
         border-radius: 2em;
         box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-        }
-        .profile .card-title {
+      }
+      .profile .card-title {
         font-weight: bold;
         font-size: 1em;
-        }
-        .profile .btn-primary {
+      }
+      .profile .btn-primary {
         border-radius: 2em;
         padding: 0.5em 1.5em;
-        }
-
+      }
     </style>
-    
+
     <div class="row mt-3" id="chiefeditors">
-				<div  class="display-categories mt-5 col-12">
-				<h4 class="font-weight-bold spanborder"><span>Chief Editors</span></h4>
-				<div class="row mu-justify-content-sm-center">
-					{{ range $.Site.Data.chiefeditors }}
-                    <div class="card profile ml-3 mt-3" style="width: 15rem;">
-                        <img src="{{ .image }}" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <div class="card-title"> {{ .name }}</div>
-                            <p class="card-text">Batch: {{ .batch }}</p>
-                        </div>
-                    </div>
-                    {{ end }}
-                </div>
-                </div>
+      <div class="display-categories col-12 mt-5">
+        <h4 class="font-weight-bold spanborder"><span>Chief Editors</span></h4>
+        <div class="row mu-justify-content-sm-center">
+          {{ range $.Site.Data.chiefeditors }}
+            <div class="card profile ml-3 mt-3" style="width: 15rem;">
+              <img class="card-img-top" src="{{ .image }}" alt="..." />
+              <div class="card-body">
+                <div class="card-title">{{ .name }}</div>
+                <p class="card-text">Batch: {{ .batch }}</p>
+              </div>
+            </div>
+          {{ end }}
+        </div>
+      </div>
     </div>
     <div class="row mt-3" id="alleditors">
-				<div  class="display-categories mt-5 col-12">
-				<h4 class="font-weight-bold spanborder"><span>Editorial Board</span></h4>
-				<div class="row mu-justify-content-sm-center">
-					{{ range $.Site.Data.edboard }}
-                    <div class="card profile ml-3 mt-3">
-                        <img src="{{ .image }}" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <div class="card-title"> {{ .name }}</div>
-                            <p class="card-text">Batch: {{ .batch }}</p>
-                        </div>
-                    </div>
-                    {{ end }}
-                </div>
-                </div>
+      <div class="display-categories col-12 mt-5">
+        <h4 class="font-weight-bold spanborder">
+          <span>Editorial Board</span>
+        </h4>
+        <div class="row mu-justify-content-sm-center">
+          {{ range $.Site.Data.edboard }}
+            <div class="card profile ml-3 mt-3">
+              <img class="card-img-top" src="{{ .image }}" alt="..." />
+              <div class="card-body">
+                <div class="card-title">{{ .name }}</div>
+                <p class="card-text">Batch: {{ .batch }}</p>
+              </div>
+            </div>
+          {{ end }}
+        </div>
+      </div>
     </div>
-
-</div>
+  </div>
 {{ end }}

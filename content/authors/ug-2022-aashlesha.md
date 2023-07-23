@@ -1,8 +1,8 @@
 ---
-title: Aashlesha Bachani 
+title: Aashlesha Bachani
 biosmall: "Aashlesha is a 2022 batch student of Government Medical College, Ratlam."
-biolarge: 
+biolarge:
 avatar: f
 twitter:
-instagram: 
+instagram:
 ---

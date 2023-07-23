@@ -1,9 +1,9 @@
 ---
 title: Mansi Garg
 biosmall: "Redefining love and happiness!"
-biolarge: 
+biolarge:
 avatar: https://i.postimg.cc/WzNWy481/mansi.jpg
-twitter: 
+twitter:
 instagram:
 multiple: true
 ---

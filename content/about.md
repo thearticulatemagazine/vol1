@@ -5,6 +5,7 @@ authid: 00-edboard
 draft: false
 layout: "about"
 ---
+
 <p>This e-magazine was started by Astha Gawai & Akanksha Singh Gaur, Batch 2019, Government Medical College, Ratlam</p>
 
 The following software stack is used in creation of this blog as of <span style="font-weight:bold;"> {{< now >}}</span>.

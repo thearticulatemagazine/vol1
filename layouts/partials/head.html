@@ -1,56 +1,75 @@
 <head>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
-	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
-	{{ hugo.Generator }}
+  <meta charset="utf-8" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  {{ hugo.Generator }}
 
 
-	<title>
-		{{ if .IsHome }}{{ "Home" }} |{{ else }}{{ .Title }} |{{ end }}
-		{{ .Site.Title }}
-	</title>
-	<meta name="description" content="{{ if .IsHome }}
+  <title>
+    {{ if .IsHome }}{{ "Home" }} |{{ else }}{{ .Title }} |{{ end }}
+    {{ .Site.Title }}
+  </title>
+  <meta
+    name="description"
+    content="{{ if .IsHome }}
       {{ $.Site.Params.description }}
     {{ else }}
       {{ .Description }}
     {{ end }}" />
-	<!-- Favicon and Webmanifest -->
-	{{ partial "favicon.html" }}
-	{{/* {{ partial "google-fonts.html" }} */}}
+  <!-- Favicon and Webmanifest -->
+  {{ partial "favicon.html" }}
+  {{/* {{ partial "google-fonts.html" }} */}}
 
-	<!-- Styles and Stylesheets -->
-	{{ if hugo.IsProduction }}
-	<link rel="stylesheet"
-		href="https://cdn.jsdelivr.net/gh/thearticulatemagazine/vol1@main/static/css/styles.min-210723.css" />
-	{{ else }}
-	<link rel="stylesheet" href="{{ .Site.BaseURL }}css/styles.min-210723.css" />
-	{{ end }}
+  <!-- Styles and Stylesheets -->
+  {{ if hugo.IsProduction }}
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/thearticulatemagazine/vol1@main/static/css/styles.min-210723.css" />
+  {{ else }}
+    <link
+      rel="stylesheet"
+      href="{{ .Site.BaseURL }}css/styles.min-210723.css" />
+  {{ end }}
 
-	{{ if in .Params.tags "hindi" }}
-	{{ partial "hindi.html" }}
-	{{ end }}
-	{{ if .IsHome }}
-	<link rel="prefetch" href="https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari&display=swap" as="style" />
-	{{ end }}
+  {{ if in .Params.tags "hindi" }}
+    {{ partial "hindi.html" }}
+  {{ end }}
+  {{ if .IsHome }}
+    <link
+      rel="prefetch"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari&display=swap"
+      as="style" />
+  {{ end }}
 
 
-	<style></style>
-	<link rel="canonical" href="{{ .Permalink }}" />
-	<link rel="alternate" type="application/rss+xml" href="{{ with .OutputFormats.Get " RSS" }}{{ .RelPermalink }}{{ end
-		}}" title="{{ .Site.Title }}" />
+  <style></style>
+  <link rel="canonical" href="{{ .Permalink }}" />
+  <link
+    rel="alternate"
+    type="application/rss+xml"
+    href="{{ with .OutputFormats.Get " RSS" }}{{ .RelPermalink }}{{ end }}"
+    title="{{ .Site.Title }}" />
 
-	{{ partial "seo.html" . }}
-	<link rel="alternate" type="application/rss+xml" href="{{ .Site.BaseURL }}index.xml" title="{{ .Site.Title }}" />
+  {{ partial "seo.html" . }}
+  <link
+    rel="alternate"
+    type="application/rss+xml"
+    href="{{ .Site.BaseURL }}index.xml"
+    title="{{ .Site.Title }}" />
 
-	<!-- Google tag (gtag.js) -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=G-N54177R5WN"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag() {
-			dataLayer.push(arguments);
-		}
-		gtag("js", new Date());
+  <!-- Google tag (gtag.js) -->
+  <script
+    async
+    src="https://www.googletagmanager.com/gtag/js?id=G-N54177R5WN"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
 
-		gtag("config", "G-N54177R5WN");
-	</script>
+    gtag("config", "G-N54177R5WN");
+  </script>
 </head>

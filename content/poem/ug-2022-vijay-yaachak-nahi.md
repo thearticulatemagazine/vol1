@@ -1,12 +1,12 @@
 ---
-title:  "Yaachak nahi h tu"
+title: "Yaachak nahi h tu"
 authid: ug-2022-vijay
 img: https://res.cloudinary.com/dhodsjwfh/image/upload/v1679886900/grit_synltb.jpg
 tags: [hindi]
 date: 2023-03-23T06:02:00
 summary: ""
 aliases:
-- /posts/yaachak-nahi/
+  - /posts/yaachak-nahi/
 ---
 
 याचक नहीं है तू,याचना ना कर
@@ -23,4 +23,3 @@ aliases:
 पर विपदा देती तुझे केवल श्रम बिंदु की अनुभूति।
 श्वासों को सुदृढ़ कर, अथक श्रम कर
 भाग्यवाद कुछ नही,कर्म प्रखर कर।
-

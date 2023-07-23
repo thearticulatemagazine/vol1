@@ -1,12 +1,12 @@
 ---
-title:  "Who am I?"
+title: "Who am I?"
 authid: ug-2019-asg
 img: https://res.cloudinary.com/dhodsjwfh/image/upload/v1680323155/whoami2_tzbbyi.jpg
 tags: [hindi]
 date: 2023-03-25T06:00:00
 summary: ""
 aliases:
-- /posts/who-am-i/
+  - /posts/who-am-i/
 ---
 
 मैं शून्य हूॅं या हूॅं इकाई ?

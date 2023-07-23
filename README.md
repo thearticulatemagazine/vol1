@@ -17,3 +17,7 @@ See Home: [thearticulatemagazine.github.io/vol1](https://thearticulatemagazine.g
 - Markdown
 - Hugo
 - Bootstrap
+
+## Dev Notes
+
+All PRs towards layouts/ or static/ should follow (prettier)[https://github.com/prettier/prettier] code formatting as configured in repo. There is a pre-commit hook configured via husky in the repo for this purpose.

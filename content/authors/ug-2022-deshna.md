@@ -1,8 +1,8 @@
 ---
 title: Deshna Rawat
 biosmall: "Deshna is a 2022 batch student of Government Medical College, Ratlam"
-biolarge: 
+biolarge:
 avatar: f
-twitter: 
+twitter:
 instagram:
 ---

@@ -6,7 +6,7 @@ tags: []
 date: 2023-03-25T06:00:00
 summary: ""
 aliases:
-- /posts/rat-in-a-jar/
+  - /posts/rat-in-a-jar/
 ---
 
 Sahira is my closest friend. We used to share all our experiences but once, she was in real trouble. It all started with that one concert.
@@ -33,7 +33,7 @@ She thought now she would live freely and fearlessly without any rats’ presenc
 
 Is it that easy to get unburdened by our fears?
 
-The rat made every effort to come out, and in the process, it made a lot of noise. Sahira got migraine and insomnia due to the noise. 
+The rat made every effort to come out, and in the process, it made a lot of noise. Sahira got migraine and insomnia due to the noise.
 
 She consulted me for some painkillers and sleeping pills.
 

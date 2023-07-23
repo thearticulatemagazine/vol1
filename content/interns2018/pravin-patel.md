@@ -1,5 +1,5 @@
 ---
-title:  "Pravin Patel"
+title: "Pravin Patel"
 authid: 01-batch-2018
 img: https://i.postimg.cc/XY5YGZ6K/ic-pravin.webp
 tags: []
