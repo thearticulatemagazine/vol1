@@ -1,6 +1,7 @@
 ---
 title: "Aditi Sahare"
-authid: 01-batch-2018 img:https://i.postimg.cc/28dcRmDQ/IMG-20230713-WA0022.webp
+authid: 01-batch-2018
+img:https://i.postimg.cc/28dcRmDQ/IMG-20230713-WA0022.webp
 tags: []
 date: 2023-07-26T05:45:38+05:30
 aka: ""
