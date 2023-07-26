@@ -1,7 +1,8 @@
 --- 
 title: "Strange Revenge- Part 2"
 authid: ug-2021-manisha-chouhan
-img: https://i.postimg.cc/c1Xqwptw/manisha-strange-revenge.webp tags: [ ] 
+img:https://i.postimg.cc/c1Xqwptw/manisha-strange-revenge.webp
+tags: [ ] 
 date: 2023-07-26T18:43:32+05:30
 summary: "Story of two roommates, their little fights, pranks and above all, love for each other." 
 aliases:
