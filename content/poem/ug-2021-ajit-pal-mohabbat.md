@@ -2,7 +2,7 @@
 title: "Mohabbat"
 authid: ug-2021-ajit-pal
 img: https://i.postimg.cc/PfShn88p/self-love-ajit-pal.webp
-tags: [hindi, love]
+tags: [hindi, love, featured]
 date: 2023-07-27T06:00:00
 summary: "क्या खूब कहा है मुहब्बत ने<br>होता नहीं वख्त बर्बाद कभी"
 ---

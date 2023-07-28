@@ -2,7 +2,7 @@
 title: "Krishna"
 authid: ug-2020-vivek-yadav
 img: https://i.postimg.cc/B6qWdqSB/vivek-yadav-painting-1-low.webp
-tags: []
+tags: [featured]
 date: 2023-07-27T09:34:12+05:30
 ---
 

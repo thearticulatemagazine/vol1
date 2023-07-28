@@ -2,7 +2,7 @@
 title: "White Savior"
 authid: ug-2022-divy-sharma
 img: https://i.postimg.cc/nchBsDp9/white-saviour.webp
-tags: [doctor, featured]
+tags: [doctor]
 date: 2023-07-20T04:15:12+05:30
 summary: ""
 ---

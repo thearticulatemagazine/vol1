@@ -2,7 +2,7 @@
 title: "Crossroads"
 authid: ug-2019-pooja-mangal
 img: https://i.postimg.cc/FRgw8cJx/pm-crossroads-thumb2.webp
-tags: [featured]
+tags: []
 date: 2023-07-20T04:45:09+05:30
 ---
 

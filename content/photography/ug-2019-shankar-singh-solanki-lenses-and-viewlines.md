@@ -2,7 +2,7 @@
 title: "Lenses and Viewlines"
 authid: ug-2019-shankar-singh-solanki
 img: https://i.postimg.cc/Gt8Rcw3h/shankar-02-thumb.webp
-tags: [featured]
+tags: []
 date: 2023-07-20T08:12:08+05:30
 summary: ""
 draft: false

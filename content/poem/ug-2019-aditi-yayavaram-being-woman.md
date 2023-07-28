@@ -2,7 +2,7 @@
 title: "Being Woman"
 authid: ug-2019-aditi-yayavaram
 img: https://i.postimg.cc/909pqBXP/ay-being-owman.webp
-tags: [woman, featured]
+tags: [woman]
 date: 2023-07-20T05:00:09+05:30
 summary: "Rise against enormity, Fight for equity.<br>Don't be helpless in front of shameless devil, in this world full of evil!"
 ---
