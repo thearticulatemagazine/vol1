@@ -82,3 +82,5 @@ And all of a sudden I'm feeling emotional because of her words.
 "Well, you're an errand child" I said in a mischievous tone.
 And she smiled.
 "It's okay buddy, we all have become messy sometimes" I said after a pause. She gave me a broad smile then a quick hug and headed towards the living room. I got up from the couch and moved ahead towards the living room but then I stopped, turned back and looked at the novel kept on the couch which is titled STRANGE REVENGE.
+
+[Hey, here is the link to Part 1](https://thearticulatemagazine.github.io/vol1/fiction/ug-2021-manisha-chouhan-strange-revenge/)
