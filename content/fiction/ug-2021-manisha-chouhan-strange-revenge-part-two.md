@@ -7,6 +7,8 @@ date: 2023-07-21T18:43:32+05:30
 summary: "Story of two roommates, their little fights, pranks and above all, love for each other."
 ---
 
+[Hey, here is the link to Part 1](https://thearticulatemagazine.github.io/vol1/fiction/ug-2021-manisha-chouhan-strange-revenge/)
+
 When I opened my eyes, it was a blurry view for a few seconds…where am I? My head is aching…gosh.
 "Hey, you woke up" I heard a familiar voice.
 I lift my head up, it's Priya. Priya is my hostel mate, her room is adjacent to mine. She came immediately nearby.
@@ -82,5 +84,3 @@ And all of a sudden I'm feeling emotional because of her words.
 "Well, you're an errand child" I said in a mischievous tone.
 And she smiled.
 "It's okay buddy, we all have become messy sometimes" I said after a pause. She gave me a broad smile then a quick hug and headed towards the living room. I got up from the couch and moved ahead towards the living room but then I stopped, turned back and looked at the novel kept on the couch which is titled STRANGE REVENGE.
-
-[Hey, here is the link to Part 1](https://thearticulatemagazine.github.io/vol1/fiction/ug-2021-manisha-chouhan-strange-revenge/)
