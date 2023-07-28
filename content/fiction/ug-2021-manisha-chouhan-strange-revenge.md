@@ -7,6 +7,11 @@ date: 2023-07-06T18:43:32+05:30
 summary: "Story of two roommates, their little fights, pranks and above all, love for each other."
 aliases:
   - /posts/manisha-the-strange-revenge/
+comments:
+  - commenter: "Kritika Sahu"
+    comment: "Amazing my dear girl... It's wonderful story and also emotional in the last. Waiting for Ur next part of the story."
+  - commenter: "Manisha Badiya"
+    comment: "Amazing story 🤩...... very excited for next part ."
 ---
 
 Kashish and I(Esha) have been roommates for one and half years. We both have totally different opinions and choices, still we manage to share the same space in this hostel. It’s Sunday afternoon and today I decided to complete my favorite novel which I started 20 days ago.
