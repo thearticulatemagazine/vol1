@@ -2,8 +2,8 @@
 title: "Strange Revenge - Part 2"
 authid: ug-2021-manisha-chouhan
 img: https://i.postimg.cc/JhCC5NSg/manisha-st-pt2-thumb.webp
-tags: []
-date: 2023-07-26T18:43:32+05:30
+tags: [focus]
+date: 2023-07-21T18:43:32+05:30
 summary: "Story of two roommates, their little fights, pranks and above all, love for each other."
 ---
 
@@ -61,7 +61,7 @@ Suddenly a truck came towards me at a very high speed, its flash hit my eyes. An
 
 ---
 
-"Esha,Eshaa woke up….Eshaaa" Kashish was standing there.
+"Esha, Eshaa wake up….Eshaaa" Kashish was standing there.
 What…it was a dream. Bad dream.
 I was on the couch in the balcony, I had a novel in my hands. Probably I fall asleep while reading it.
 So nothing happened in real life. Jeez.

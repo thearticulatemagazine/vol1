@@ -2,7 +2,7 @@
 title: "Gratitude"
 authid: anon-alina
 img: https://i.postimg.cc/LsgDthwH/alina-gratitude4.webp
-tags: [focus]
+tags: []
 date: 2023-07-14T06:00:00
 summary: "How amazing is he<br>I am happy<br>No matter how bad things goes<br>He always reminds me he is there"
 ---
