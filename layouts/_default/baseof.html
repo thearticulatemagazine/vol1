@@ -13,6 +13,7 @@
     <!-- Content -->
     <main class="site-content" role="main">
       {{- block "main" . }}{{- end }}
+      {{ partial "fab.html" . }}
     </main>
 
     <!-- Footer -->
@@ -38,6 +39,5 @@
     {{ else }}
       <script src="{{ .Site.BaseURL }}js/theme.js"></script>
     {{ end }}
-    {{ partial "fab.html" . }}
   </body>
 </html>

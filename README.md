@@ -10,13 +10,12 @@ See Home: [thearticulatemagazine.github.io/vol1](https://thearticulatemagazine.g
 
 ## Stack
 
-![Build with hugo](https://img.shields.io/badge/build_with-hugo-pink)
 [![Deploy the Articulate](https://github.com/thearticulatemagazine/vol1/actions/workflows/hugo.yml/badge.svg)](https://github.com/thearticulatemagazine/vol1/actions/workflows/hugo.yml)
-[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) ![Hugo](https://img.shields.io/badge/Hugo-black.svg?style=for-the-badge&logo=Hugo) ![Github Pages](https://img.shields.io/badge/github%20pages-121013?style=for-the-badge&logo=github&logoColor=white)
 
 - Markdown
 - Hugo
-- Bootstrap
+- Tailwind
 
 ## Dev Notes
 
