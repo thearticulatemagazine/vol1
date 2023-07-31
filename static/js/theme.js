@@ -99,4 +99,25 @@ if (/Android|webOS|iPhone|iPad|iPod|Opera Mini/i.test(navigator.userAgent)) {
   for (var i = 0; i < sharebars.length; i++) {
     sharebars[i].style.display = "none";
   }
+
+  var fab = document.getElementById("share-fab");
+  fab.classList.toggle("hidden");
+
+  const shareData = {
+    title: document.title,
+    text: "",
+    url: window.location.href,
+  };
+
+  const btn = document.querySelector("#share-fab");
+
+  // Share must be triggered by "user activation"
+  btn.addEventListener("click", async () => {
+    try {
+      await navigator.share(shareData);
+      console.log("Share successful");
+    } catch (err) {
+      console.log(`Error: ${err}`);
+    }
+  });
 }
