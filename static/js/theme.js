@@ -95,5 +95,9 @@ copyButtons.forEach((cb) => {
 
 if (/Android|webOS|iPhone|iPad|iPod|Opera Mini/i.test(navigator.userAgent)) {
   var fab = document.getElementById("share-fab");
-  fab.classList.toggle("hidden");
+  fab.classList.remove("hidden");
+  var sharebars = document.querySelectorAll(".sharebar");
+  sharebars.forEach((sb) => {
+    sb.classList.add("hidden");
+  });
 }

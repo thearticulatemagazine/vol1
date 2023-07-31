@@ -1,5 +1,5 @@
 {{ $ueti := printf "%s | The Articulate" .Title }}
-<div class="share d-flex mt-2">
+<div class="share sharebar d-flex mt-2">
   <span class="text-muted mr-3" style="line-height:30px">Share:</span>
   <a
     class="share-btn share-btn-facebook mr-2"
@@ -37,16 +37,8 @@
     title="Share on Telegram"
     ><i class="icon-paper-plane"></i>
   </a>
-  <button
-    class="share-btn share-btn-copy"
-    data-link="{{ .Permalink }}"
-    target="_blank"
-    rel="noopener"
-    aria-label=""
-    title="Copy Link to Clipboard">
+  <button class="share-btn share-btn-copy" data-link="{{ .Permalink }}" target="_blank" rel="noopener" aria-label="" title="Copy Link to Clipboard">
     <i class="icon-clone"></i>
   </button>
 </div>
-<div id="snackbar">
-  <i class="icon-link"></i>&nbsp;&nbsp;Link copied successfully.
-</div>
+<div id="snackbar"><i class="icon-link"></i>&nbsp;&nbsp;Link copied successfully.</div>
