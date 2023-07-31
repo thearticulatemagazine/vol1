@@ -93,6 +93,10 @@ copyButtons.forEach((cb) => {
   });
 });
 
-// sharebars.forEach((sb) => {
-// 	sb.classList.className += ' hidden';
-// });
+if (/Android|webOS|iPhone|iPad|iPod|Opera Mini/i.test(navigator.userAgent)) {
+  var sharebars = document.querySelectorAll(".sharebar");
+
+  for (var i = 0; i < sharebars.length; i++) {
+    sharebars[i].style.display = "none";
+  }
+}
