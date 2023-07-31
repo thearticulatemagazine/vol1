@@ -2,7 +2,7 @@
 title: "Where Everything Unites"
 authid: ug-2022-mansi-garg
 img: https://i.postimg.cc/x8C8Kz65/gray.jpg
-tags: []
+tags: [featured]
 date: 2023-03-29T23:15:47+05:30
 summary: ""
 aliases:

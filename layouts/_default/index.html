@@ -12,10 +12,7 @@
               {{ with index $pages 0 }}
                 <div class="col-sm-12 col-md-6 col-xl-4">
                   <div class="card postbox_style2 border-0">
-                    <a
-                      target="_blank"
-                      href="{{ .Permalink }}"
-                      aria-label="Read more about {{ .Title }}">
+                    <a target="_blank" href="{{ .Permalink }}" aria-label="Read more about {{ .Title }}">
                       <!-- TODO[Rizwan]: Default image -->
                       <img
                         class="attachment-postbox-style2 size-postbox-style2 wp-post-image"
@@ -28,28 +25,15 @@
                     </a>
                     <div class="card-body mt-4 pb-0 pl-0 pr-0">
                       <h2 class="h4">
-                        <a
-                          class="text-dark"
-                          target="_blank"
-                          href="{{ .Permalink }}">
-                          {{ .Title }}</a
-                        >
+                        <a class="text-dark" target="_blank" href="{{ .Permalink }}"> {{ .Title }}</a>
                       </h2>
-                      <a
-                        class="text-muted"
-                        target="_blank"
-                        href="{{ .Permalink }}"
-                        aria-label="Read more about {{ .Title }}">
+                      <a class="text-muted" target="_blank" href="{{ .Permalink }}" aria-label="Read more about {{ .Title }}">
                         <p>{{ .Summary }} ...</p>
                       </a>
                       <div class="d-flex align-items-center">
                         <small class="text-muted">
                           <span class="thecatlinks text-dark">
-                            <a
-                              class="text-muted text-capitalize smoothscroll"
-                              target="_blank"
-                              href="{{ .Site.BaseURL }}{{ .Section | urlize }}"
-                              rel="category tag"
+                            <a class="text-muted text-capitalize smoothscroll" target="_blank" href="{{ .Site.BaseURL }}{{ .Section | urlize }}" rel="category tag"
                               >{{ replace .Section "_" " " }}</a
                             >
                           </span>
@@ -57,12 +41,7 @@
                           {{/* AUTHOR */}}
                           {{ $authpage := printf "%s%s" "/authors/" .Params.authid }}
                           {{ with .Site.GetPage $authpage }}
-                            <a
-                              class="text-capitalize"
-                              target="_blank"
-                              href="{{ .Site.BaseURL }}{{ $authpage }}"
-                              >{{ .Title }}</a
-                            >
+                            <a class="text-capitalize" target="_blank" href="{{ .Site.BaseURL }}{{ $authpage }}">{{ .Title }}</a>
                           {{ end }}
 
 
@@ -88,10 +67,7 @@
 
                   <div class="mt-md-0 d-flex post_box_style3 mb-3 mt-3">
                     <div class="col-4 col-md-4 pl-0">
-                      <a
-                        target="_blank"
-                        href="{{ .Permalink }}"
-                        aria-label="Read more about {{ .Title }}">
+                      <a target="_blank" href="{{ .Permalink }}" aria-label="Read more about {{ .Title }}">
                         <img
                           class="attachment-postbox-style3 size-postbox-style3 wp-post-image"
                           src="{{ index .Params.img }}"
@@ -105,24 +81,14 @@
                     <div>
                       <!--TITLE-->
                       <h2 class="h6 mb-2">
-                        <a
-                          class="text-dark"
-                          target="_blank"
-                          href="{{ .Permalink }}"
-                          aria-label="Read more about {{ .Title }}">
-                          {{ .Title }}</a
-                        >
+                        <a class="text-dark" target="_blank" href="{{ .Permalink }}" aria-label="Read more about {{ .Title }}"> {{ .Title }}</a>
                       </h2>
                       <!--END OF TITLE-->
                       <div>
                         <!-- AUTHOR, CATEGORY-->
                         <small class="d-block text-muted">
                           <span class="thecatlinks text-dark">
-                            <a
-                              class="text-muted text-capitalize smoothscroll"
-                              target="_blank"
-                              href="{{ .Site.BaseURL }}{{ .Section | urlize }}"
-                              rel="category tag"
+                            <a class="text-muted text-capitalize smoothscroll" target="_blank" href="{{ .Site.BaseURL }}{{ .Section | urlize }}" rel="category tag"
                               >{{ replace .Section "-"
                                 " "
                               }}</a
@@ -131,12 +97,7 @@
                           by
                           {{ $authpage := printf "%s%s" "/authors/" .Params.authid }}
                           {{ with .Site.GetPage $authpage }}
-                            <a
-                              class="text-capitalize"
-                              target="_blank"
-                              href="{{ .Site.BaseURL }}{{ $authpage }}"
-                              >{{ .Title }}</a
-                            >
+                            <a class="text-capitalize" target="_blank" href="{{ .Site.BaseURL }}{{ $authpage }}">{{ .Title }}</a>
                           {{ end }}
                         </small>
                         <!-- END OF AUTHOR, CATEGORY-->
@@ -157,8 +118,7 @@
               <!--FIFTH POST -->
               {{ with index $pages 4 }}
                 <div class="col-sm-12 col-md-12 col-xl-3 fifth-post">
-                  <div
-                    class="mt-md-0 card postbox_style2_right mb-4 mt-3 border-0">
+                  <div class="mt-md-0 card postbox_style2_right mb-4 mt-3 border-0">
                     <a target="_blank" href="{{ .Permalink }}">
                       <img
                         class="attachment-postbox-style2-right size-postbox-style2-right wp-post-image"
@@ -169,30 +129,16 @@
                     </a>
                     <div class="card-body mt-4 pb-0 pl-0 pr-0">
                       <h2 class="h4">
-                        <a
-                          class="text-dark"
-                          target="_blank"
-                          href="{{ .Permalink }}"
-                          aria-label="Read more about {{ .Title }}">
-                          {{ .Title }}</a
-                        >
+                        <a class="text-dark" target="_blank" href="{{ .Permalink }}" aria-label="Read more about {{ .Title }}"> {{ .Title }}</a>
                       </h2>
-                      <a
-                        class="text-muted"
-                        target="_blank"
-                        href="{{ .Permalink }}"
-                        aria-label="Read more about {{ .Title }}">
+                      <a class="text-muted" target="_blank" href="{{ .Permalink }}" aria-label="Read more about {{ .Title }}">
                         <p class="d-none">{{ .Summary }}...</p>
                       </a>
                       <div class="d-flex align-items-center">
                         <small class="text-muted">
                           <span class="thecatlinks text-dark">
                             <span class="thecatlinks text-dark">
-                              <a
-                                class="text-muted text-capitalize smoothscroll"
-                                target="_blank"
-                                href="{{ .Site.BaseURL }}{{ .Section | urlize }}"
-                                rel="category tag">
+                              <a class="text-muted text-capitalize smoothscroll" target="_blank" href="{{ .Site.BaseURL }}{{ .Section | urlize }}" rel="category tag">
                                 {{ replace .Section "_" " " }}</a
                               ></span
                             >
@@ -200,12 +146,7 @@
                           by
                           {{ $authpage := printf "%s%s" "/authors/" .Params.authid }}
                           {{ with .Site.GetPage $authpage }}
-                            <a
-                              class="text-capitalize"
-                              target="_blank"
-                              href="{{ .Site.BaseURL }}{{ $authpage }}"
-                              >{{ .Title }}</a
-                            >
+                            <a class="text-capitalize" target="_blank" href="{{ .Site.BaseURL }}{{ $authpage }}">{{ .Title }}</a>
                           {{ end }}
 
 
@@ -236,18 +177,12 @@
         {{ $infocus := where .Site.RegularPages "Params.tags" "intersect" (slice "focus") }}
         {{/* Ref: https://risanb.com/code/list-pages-with-tag-on-hugo/ */}}
         {{ with index $infocus 0 }}
-          <div
-            class="jumbotron jumbotron-fluid jumbotron-home mb-2rem position-relative mt-3 pb-0 pt-0"
-            id="in-focus">
-            <div class="h-100 tofront pl-4 pr-0">
-              <div class="row justify-content-between">
-                <div class="col-md-6 pr-lg-4 align-self-center pb-6 pt-6">
+          <div class="jumbotron jumbotron-fluid jumbotron-home mb-2rem position-relative mt-3 pb-0 pt-0" id="in-focus">
+            <div class="relative z-10 h-full">
+              <div class="justify-content-between flex flex-wrap">
+                <div class="align-self-center order-2 w-full p-8 md:order-1 md:w-1/2">
                   <p>IN FOCUS</p>
-                  <a
-                    target="_blank"
-                    href="{{ .Permalink }}"
-                    style="color:inherit;"
-                    aria-label="Read more about {{ .Title }}">
+                  <a target="_blank" href="{{ .Permalink }}" style="color:inherit;" aria-label="Read more about {{ .Title }}">
                     <h1 class="mb-3">
                       {{ .Title }}
                       by
@@ -260,21 +195,9 @@
                   <p class="lead mb-3">
                     {{ .Summary }}
                   </p>
-                  <a
-                    class="button-52"
-                    target="_blank"
-                    href="{{ .Permalink }}"
-                    style="color:bisque"
-                    aria-label="Read more about {{ .Title }}"
-                    >Read More</a
-                  >
+                  <a class="button-52" target="_blank" href="{{ .Permalink }}" style="color:bisque" aria-label="Read more about {{ .Title }}">Read More</a>
                 </div>
-                <img
-                  class="col-md-6 d-none d-md-block pr-0"
-                  id="sticky-image"
-                  src="{{ index .Params.img }}"
-                  style="background-size:cover;"
-                  alt="{{ .Params.title }}" />
+                <img class="order-1 w-full pr-0 md:order-2 md:w-1/2" id="sticky-image" src="{{ index .Params.img }}" style="background-size:cover;" alt="{{ .Params.title }}" />
               </div>
             </div>
           </div>
@@ -315,20 +238,11 @@
                 <li class="mb-4">
                   <span>
                     <h6 class="font-weight-bold">
-                      <a
-                        class="text-dark"
-                        target="_blank"
-                        href="{{ .Permalink }}"
-                        >{{ .Title }}</a
-                      >
+                      <a class="text-dark" target="_blank" href="{{ .Permalink }}">{{ .Title }}</a>
                     </h6>
                     <span class="d-block text-muted">
                       <span class="thecatlinks text-dark">
-                        <a
-                          class="text-muted text-capitalize smoothscroll"
-                          target="_blank"
-                          href="{{ .Site.BaseURL }}{{ .Section | urlize }}"
-                          rel="category tag"
+                        <a class="text-muted text-capitalize smoothscroll" target="_blank" href="{{ .Site.BaseURL }}{{ .Section | urlize }}" rel="category tag"
                           >{{ replace .Section "_" " " }}</a
                         >
                       </span>
@@ -336,12 +250,7 @@
                       {{/* AUTHOR */}}
                       {{ $authpage := printf "%s%s" "/authors/" .Params.authid }}
                       {{ with .Site.GetPage $authpage }}
-                        <a
-                          class="text-capitalize"
-                          target="_blank"
-                          href="{{ .Site.BaseURL }}{{ $authpage }}"
-                          >{{ .Title }}</a
-                        >
+                        <a class="text-capitalize" target="_blank" href="{{ .Site.BaseURL }}{{ $authpage }}">{{ .Title }}</a>
                       {{ end }}
                     </span>
                   </span>
@@ -360,19 +269,10 @@
 
               <div class=" mt-4">
                 <div class="text-uppercase font-weight-bold mb-1">
-                  <a
-                    class="text-dark"
-                    target="_blank"
-                    href="{{ .Permalink }}"
-                    alt="View all posts in {{ .Title }}"
-                    >{{ .Title }}</a
-                  >
+                  <a class="text-dark" target="_blank" href="{{ .Permalink }}" alt="View all posts in {{ .Title }}">{{ .Title }}</a>
                 </div>
                 <a target="_blank" href="{{ .Permalink }}">
-                  <img
-                    class="rounded-lg shadow transition hover:shadow-xl lg:p-4"
-                    src="{{ .Params.img }}"
-                    alt="{{ .Title }}" />
+                  <img class="rounded-lg shadow transition hover:shadow-xl lg:p-4" src="{{ .Params.img }}" alt="{{ .Title }}" />
                 </a>
               </div>
             {{ end }}

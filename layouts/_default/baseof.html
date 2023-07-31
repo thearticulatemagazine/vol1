@@ -20,23 +20,11 @@
       <div class="container">
         <div class="row justify-center">
           <div class=" col-lg-2  col-6">
-            <img
-              src="{{ .Site.BaseURL }}images/logo.svg"
-              width="150px"
-              height="150px"
-              loading="lazy"
-              alt="the articulate logo" />
+            <img src="{{ .Site.BaseURL }}images/logo.svg" width="150px" height="150px" loading="lazy" alt="the articulate logo" />
           </div>
           <div class="col d-flex flex-column">
-            <strong class="navbar-brand text-center md:text-left"
-              >{{ .Site.Title }}</strong
-            >
-            <span
-              >Email:
-              <a href="mailto: {{ .Site.Params.email }}"
-                >{{ .Site.Params.email }}</a
-              ></span
-            >
+            <strong class="navbar-brand text-center md:text-left">{{ .Site.Title }}</strong>
+            <span>Email: <a href="mailto: {{ .Site.Params.email }}">{{ .Site.Params.email }}</a></span>
             <span> Copyright ©{{ now.Format "2006" }}.</span>
           </div>
           <div class="col">
@@ -50,6 +38,6 @@
     {{ else }}
       <script src="{{ .Site.BaseURL }}js/theme.js"></script>
     {{ end }}
-
+    {{ partial "fab.html" . }}
   </body>
 </html>
