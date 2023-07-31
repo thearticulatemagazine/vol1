@@ -24,6 +24,7 @@
     {{ if or
       (eq .Params.avatar "f")
       (eq .Params.avatar "m")
+      (eq .Params.avatar "g")
     }}
       {{ $avatar = printf "%simages/%s.svg" .Site.BaseURL .Params.avatar }}
     {{ end }}
@@ -144,5 +145,6 @@
     {{/* END OF class="container-lg pt-4 pb-4" */}}
 
     {{ partial "alertbar.html" . }}
+    {{ partial "fab.html" . }}
   </div>
 {{ end }}

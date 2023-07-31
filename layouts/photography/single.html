@@ -8,6 +8,7 @@
     {{ if or
       (eq .Params.avatar "f")
       (eq .Params.avatar "m")
+      (eq .Params.avatar "g")
     }}
       {{ $avatar = printf "%simages/%s.svg" .Site.BaseURL .Params.avatar }}
     {{ end }}
