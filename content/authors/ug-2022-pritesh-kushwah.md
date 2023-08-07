@@ -1,8 +1,7 @@
 ---
 title: Pritesh Kushwah
-biosmall: "Pritesh is a 2022 batch student of Government Medical College, Ratlam"
+biosmall: "Life through the lens!"
 biolarge:
-avatar: m
-twitter:
-instagram:
+avatar: https://i.postimg.cc/FR99Z5gL/image-6483441.webp
+multiple: true
 ---
