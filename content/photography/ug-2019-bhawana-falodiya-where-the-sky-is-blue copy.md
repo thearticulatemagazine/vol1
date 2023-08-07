@@ -2,10 +2,9 @@
 title: "Where the sky is blue, and purple, and orange..."
 authid: ug-2019-bhawana-falodiya
 img: https://i.postimg.cc/kXNSs9gP/b5-thumb.webp
-tags: []
+tags: [sky]
 date: 2023-07-20T07:30:08+05:30
 summary: ""
-draft: false
 photos:
   - img: "https://i.postimg.cc/RVT3fRgM/b1.webp"
     thumb: "https://i.postimg.cc/6QP4qpYn/b1-thumb.webp"

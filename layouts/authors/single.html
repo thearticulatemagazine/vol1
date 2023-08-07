@@ -27,6 +27,7 @@
         </div>
       </div>
     </div>
+    <div class="flex justify-center"><div class="ml-4 w-1/2">{{ .Content }}</div></div>
 
     <div class="d-flex justify-content-center">
       <h6 class="col-md-6 h5 font-weight-bold spanborder mb-4">
@@ -50,7 +51,10 @@
               <small class="d-block text-muted">
                 <span class="catlist">
                   <a class="text-muted text-capitalize smoothscroll" target="_blank" href="{{ .Site.BaseURL }}{{ .Section | urlize }}" rel="category tag"
-                    >{{ replace .Section "_" " " }}</a
+                    >{{ replace .Section
+                      "_" " "
+                    }}
+                    </a
                   >
 
                   by
