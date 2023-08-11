@@ -2,7 +2,7 @@
 title: "Goddess of Wisdom"
 authid: ug-2018-palak-saxena
 img: https://i.postimg.cc/dt3CTfgv/palak-painting-2-thumb.webp
-tags: []
+tags: [spiritual]
 date: 2023-07-20T06:30:58+05:30
 ---
 

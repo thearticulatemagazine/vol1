@@ -101,7 +101,7 @@
           {{ $pagetitle := .Title }}
           {{ with .Site.GetPage $authpage }}
             <div class="mt-5 flex flex-col md:flex-row">
-              <div class="col-md-2 flex justify-center">
+              <div class="{{ cond $showimage " " "col-md-2" }} flex justify-center">
                 <!--TODO[Rizwan]: Add gender neutral default avatar-->
 
                 <a href="{{ .Permalink }}"><img class="rounded-circle" src="{{ $avatar }}" alt="{{ .Title }}" width="90" /></a>

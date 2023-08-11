@@ -1,6 +1,3 @@
 - Moving to tailwind, ditching bootstrap.
   - Remnants will be worked removed eventually.
-- Content reorganization
-- Photography category
-- Comments
 - Removal of college link
