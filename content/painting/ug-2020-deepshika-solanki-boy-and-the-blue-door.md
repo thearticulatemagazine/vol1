@@ -3,7 +3,7 @@ title: "Boy and the Blue Door"
 authid: ug-2020-deepshika-solanki
 img: https://i.postimg.cc/Tw94jQMY/boy-painting-deppshika-thumbnail.webp
 tags: []
-date: 2023-08-06T11:19:32+05:30
+date: 2023-08-08T11:19:32+05:30
 ---
 
 {{< art "https://i.postimg.cc/zvGPxW8w/boy-painting-deppshika-low.webp" >}}

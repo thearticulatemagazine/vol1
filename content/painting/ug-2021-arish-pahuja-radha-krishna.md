@@ -2,7 +2,7 @@
 title: "Radha Krishna - An eternal love"
 authid: ug-2021-arish-pahuja
 img: https://i.postimg.cc/Zny3RN1B/aarish-1-thumbnail.jpg
-tags: []
+tags: [spiritual]
 date: 2023-06-21T08:48:28+05:30
 aliases:
   - /posts/aarish-1/
