@@ -4,7 +4,7 @@ authid: 01-batch-2018
 img: https://i.postimg.cc/xCF9mgbz/sahiba-profile.webp
 categories: ["interns_column"]
 tags: []
-date: 2023-01-07T20:15:23+05:30
+date: 2023-07-07T20:15:23+05:30
 description: ""
 summary: ""
 draft: false
