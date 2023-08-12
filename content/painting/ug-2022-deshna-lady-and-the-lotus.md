@@ -2,7 +2,7 @@
 title: "Lady and the lotus"
 authid: ug-2022-deshna
 img: https://i.postimg.cc/4N3vfvvM/lady-and-lotus.jpg
-tags: [featured]
+tags: []
 date: 2023-06-21T09:48:28+05:30
 aliases:
   - /posts/lady-and-the-lotus/
