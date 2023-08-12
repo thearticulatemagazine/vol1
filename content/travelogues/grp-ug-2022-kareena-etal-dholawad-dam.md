@@ -2,7 +2,7 @@
 title: "Dholawad Dam"
 authid: grp-ug-2022-kareena-etal
 img: https://cdn.s3waas.gov.in/s3b53b3a3d6ab90ce0268229151c9bde11/uploads/bfi_thumb/2019061750-olwblbxx0dwrlue7tb86i3adztgwzuxvydy5gshfuy.jpg
-tags: []
+tags: [featured]
 date: 2023-07-21T18:43:32+05:30
 summary: "A mesmering trip, boating and all"
 ---

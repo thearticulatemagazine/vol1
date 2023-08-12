@@ -2,7 +2,7 @@
 title: "The legend Hanuman"
 authid: ug-2022-poorvi-verma
 img: https://i.postimg.cc/L5vDtLxy/poorvi4-thumbnail.jpg
-tags: [featured]
+tags: []
 date: 2023-04-20T08:48:28+05:30
 aliases:
   - /posts/poorvi-4/

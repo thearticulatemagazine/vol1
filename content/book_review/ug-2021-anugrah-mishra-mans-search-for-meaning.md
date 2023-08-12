@@ -2,7 +2,7 @@
 title: "Man's Search for Meaning"
 authid: ug-2021-anugrah-mishra
 img: https://i.postimg.cc/4NR7gK29/mans-search-for-meaning.webp
-tags: [featured]
+tags: []
 date: 2023-07-20T06:00:35+05:30
 ---
 

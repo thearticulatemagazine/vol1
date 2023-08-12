@@ -9,4 +9,4 @@ summary: "Let us measure our wit and knowledge. No peaking"
 draft: false
 ---
 
-<iframe style="height: 90vh; width: 100%;" src="https://crosshare.org/embed/LfKqhED9tA1aLkvFI7JQ/pUgnvAS8hIVk6ffS26JPHPb00K53" frameborder="0" allowfullscreen="true" allowtransparency="true"></iframe>
+<iframe style="height: 90vh; width: 100%;" src="https://crosshare.org/embed/CYIzS8Q08GVyG8UFfQmV/g4X6tJwGYChsCywtOKnJufh3JRV2" frameborder="0" allowfullscreen="true" allowtransparency="true"></iframe>
