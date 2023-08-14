@@ -1,0 +1,85 @@
+{{ define "main" }}
+  <div class="profile-container container">
+    <div class="row align-items-center" style="margin-bottom:4rem">
+      <div class="col-xl-4 col-lg-5 col-md-5 col-sm-4">
+        <div class="d-flex justify-content-center justify-content-md-end justify-content-lg-end">
+          {{ if .Params.avatar }}
+            {{ $avatar := .Params.avatar }}
+            {{ if or
+              (eq .Params.avatar "f")
+              (eq .Params.avatar "m")
+              (eq .Params.avatar "g")
+            }}
+              {{ $avatar = printf "%s/images/%s.svg" .Site.BaseURL .Params.avatar }}
+            {{ end }}
+            <img class=" w-50 rounded-circle" src="{{ $avatar }}" alt="{{ .Title }}" />
+          {{ end }}
+        </div>
+      </div>
+      <div class="col-xl-8 col-lg-7 col-md-7 col-sm-8">
+        <div class="hero__caption">
+          <h1>{{ .Title }}</h1>
+          {{ with .Params.biolarge }}
+            <p>{{ . }}</p>
+          {{ else }}
+            <p>{{ .Params.biosmall }}</p>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+    <div class="flex justify-center"><div class="ml-4 w-1/2">{{ .Content }}</div></div>
+
+    <div class="d-flex justify-content-center">
+      <h6 class="col-md-6 h5 font-weight-bold spanborder mb-4">
+        Stories by
+        {{ .Title }}
+      </h6>
+    </div>
+    <!-- TODO[Rizwan]: Multiple DRY Violations-->
+    <div class="d-flex justify-content-center">
+      <div class="col-md-6 main-loop">
+        {{ $auth := .Title }}
+        {{ range where (where .Site.RegularPages ".Params.family" "regular" ) "Params.authid" .File.BaseFileName }}
+          <div class="d-flex justify-content-between main-loop-card mb-5">
+            <div class="pr-3">
+              <h2 class="h4 font-weight-bold mb-1">
+                <a class="text-dark" target="_blank" href="{{ .Permalink }}">{{ .Title }}</a>
+              </h2>
+              <p class="excerpt">
+                {{ .Summary }}
+              </p>
+              <small class="d-block text-muted">
+                <span class="catlist">
+                  <a class="text-muted text-capitalize smoothscroll" target="_blank" href="{{ .Site.BaseURL }}{{ .Section | urlize }}" rel="category tag"
+                    >{{ replace .Section
+                      "_" " "
+                    }}
+                  </a>
+
+                  by
+                  {{/* AUTHOR */}}
+
+
+                  <a class="text-capitalize" target="_blank" href="">{{ $auth }}</a>
+                </span>
+              </small>
+              <small class="text-muted">
+                <time class="post-date"
+                  >Published on
+                  {{ .Date.Format "January 02, 2006" }}
+                </time>
+              </small>
+            </div>
+
+            <div class="col-3 col-md-3 pr-0 text-right">
+              <a target="_blank" href="{{ .Permalink }}">
+                <img class="w-100" src="{{ index .Params.img }}" />
+              </a>
+            </div>
+          </div>
+          {{/* {{ partial "main-loop-card" . }} */}}
+        {{ end }}
+      </div>
+    </div>
+  </div>
+{{ end }}

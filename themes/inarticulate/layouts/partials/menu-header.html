@@ -1,0 +1,16 @@
+{{ $curr := trim .Page.RelPermalink "/vol1/" }}
+
+
+<li class="nav-item">
+  <a class="nav-link" href="{{ $.Site.BaseURL }}">Home</a>
+</li>
+{{ $navpages := slice "about" "tags" "authors" "categories" }}
+
+{{ range $navpages }}
+  <li class="nav-item">
+    <a class="nav-link {{ if eq $curr . }}font-weight-bold{{ end }}" href="{{ absURL . }}">{{ strings.FirstUpper . }}</a>
+  </li>
+{{ end }}
+<li class="nav-item">
+  <a class="nav-link {{ if eq $curr "interns2018" }}font-weight-bold{{ end }}" href="{{ absURL "interns2018" }}">Interns Column</a>
+</li>

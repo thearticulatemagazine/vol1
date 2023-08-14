@@ -9,6 +9,7 @@ cleanDestinationDir = true
 enableEmoji = true
 newContentEditor = "vscodium"
 copyright = "2023 Dr. Rizwan Ishak All rights reserved"
+theme = "inarticulate"
 [params]
 	email = "gmcrmagazine@gmail.com"
 	description = "Wings to your creative ambitions, Winds to your artistic journeys"

@@ -1,3 +1,0 @@
-- Moving to tailwind, ditching bootstrap.
-  - Remnants will be worked removed eventually.
-- Removal of college link

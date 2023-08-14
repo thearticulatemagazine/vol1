@@ -1,0 +1,22 @@
+{{ define "main" }}
+  <div class="container">
+    <div class="row mt-3" id="allcategories">
+      <div class="display-categories col-md-8 mt-5">
+        <h4 class="font-weight-bold spanborder"><span>Categories</span></h4>
+        <div class="grid grid-cols-2 gap-8 md:grid-cols-3 ">
+          {{ range where (sort .Site.Sections "Title") "Title" "!=" "Authors" }}
+
+            <div class=" mt-4">
+              <div class="text-uppercase font-weight-bold mb-1">
+                <a class="text-dark" target="_blank" href="{{ .Permalink }}" alt="View all posts in {{ .Title }}">{{ .Title }}</a>
+              </div>
+              <a target="_blank" href="{{ .Permalink }}">
+                <img class="rounded-lg shadow transition hover:shadow-xl lg:p-4" src="{{ .Params.img }}" alt="{{ .Title }}" />
+              </a>
+            </div>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+{{ end }}

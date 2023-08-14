@@ -1,0 +1,30 @@
+<nav class="topnav navbar navbar-expand-lg navbar-light fixed-top bg-white" id="MagicMenu">
+  <div class="container">
+    <a class="navbar-brand" href="{{ .Site.BaseURL }}">
+      <!-- <strong>{{ .Site.Title }}</strong> -->
+      <img src="https://cdn.jsdelivr.net/gh/thearticulatemagazine/vol1@main/static/images/brand.svg" alt="the articulate brand" />
+      <!-- {{ readFile "/static/images/brand.svg" | safeHTML }} -->
+    </a>
+    <button
+      class="navbar-toggler collapsed"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarColor02"
+      aria-controls="navbarColor02"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+      onclick="toggleNavMenu()">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="navbar-collapse collapsible" id="navbarColor02">
+      <ul class="navbar-nav d-flex align-items-center mr-auto">
+        {{ partial "menu-header.html" . }}
+      </ul>
+      <span>
+        <a href="{{ .Site.BaseURL }}index.xml" style="color:orangered" aria-label="RSS feed for {{ .Site.Title }}">
+          <i class="icon-rss-squared"></i>
+        </a>
+      </span>
+    </div>
+  </div>
+</nav>

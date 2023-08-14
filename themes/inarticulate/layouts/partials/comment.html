@@ -1,0 +1,18 @@
+<h6 class="h5 font-weight-bold spanborder mb-4">Comments</h6>
+
+{{ range $comm := .Params.comments }}
+  <div class="relative mb-8 grid grid-cols-1 gap-4 rounded-lg border bg-white p-4 shadow-lg">
+    <div class="relative flex gap-4">
+      <div class="flex w-full flex-col">
+        <div class="flex flex-row justify-between">
+          <p class="relative mb-0 overflow-hidden truncate whitespace-nowrap text-lg">
+            {{ index $comm "commenter" }}
+          </p>
+          <a class="text-xl text-gray-500" href="#"><i class="fa-solid fa-trash"></i></a>
+        </div>
+        {{/* <p class="text-sm text-gray-400">20 April 2022, at 14:88 PM</p> */}}
+      </div>
+    </div>
+    <p class="-mt-4 text-gray-500">{{ index $comm "comment" }}</p>
+  </div>
+{{ end }}
