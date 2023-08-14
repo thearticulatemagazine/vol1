@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://raw.githubusercontent.com/thearticulatemagazine/vol1/main/static/images/logo.svg" width=400/>
+<img src="https://raw.githubusercontent.com/ibnishak/inarticulate/main/static/images/logo.svg" width=400/>
 </p>
 
 <h2 align="center">The Articulate</h2>
