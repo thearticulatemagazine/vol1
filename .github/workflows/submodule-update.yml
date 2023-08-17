@@ -1,4 +1,4 @@
-name: update all submodules
+name: Update submodules
 on: workflow_dispatch
 permissions:
   contents: write
