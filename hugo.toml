@@ -8,7 +8,7 @@ summaryLength = 40
 cleanDestinationDir = true
 enableEmoji = true
 newContentEditor = "vscodium"
-copyright = "2023 Dr. Rizwan Ishak All rights reserved"
+copyright = "2023 Astha Gawai and Akansha Singh Gaur: All rights reserved"
 theme = "inarticulate"
 [params]
 	email = "gmcrmagazine@gmail.com"
