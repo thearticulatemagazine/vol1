@@ -5,5 +5,5 @@ biolarge:
 avatar: m
 twitter:
 instagram:
-multiple: false
+multiple: true
 ---
