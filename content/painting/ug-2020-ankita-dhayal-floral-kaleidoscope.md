@@ -10,6 +10,7 @@ date: 2023-08-26T06:30:58+05:30
 
 {{< quote >}}
 Every flower blooms in it's own time
-                      -Ken Petti
+
+-Ken Petti
 
 {{< /quote >}}
