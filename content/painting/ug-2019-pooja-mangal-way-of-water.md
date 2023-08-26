@@ -1,5 +1,5 @@
 ---
-title: "Way of water"
+title: "Way of Water"
 authid: ug-2019-pooja-mangal
 img: https://i.postimg.cc/d3dknZxq/th-ug-19-pooja-way-of-water.webp
 tags: 
