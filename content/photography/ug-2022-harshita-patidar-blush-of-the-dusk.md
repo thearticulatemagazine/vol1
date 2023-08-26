@@ -1,6 +1,6 @@
 ---
 title: "Blush of the Dusk"
-authid: ug-2022-harshita-patidar
+authid: ug-2020-harshita-patidar
 img: https://i.postimg.cc/yNjRm6y9/IMG-20230428-190646-thumb.webp
 tags: [sky, evening]
 date: 2023-08-06T12:49:57+05:30
