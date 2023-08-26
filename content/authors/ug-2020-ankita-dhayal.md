@@ -1,6 +1,6 @@
 ---
 title: "Ankita Dhayal"
-biosmall: "She is student of batch 2020"
+biosmall: "Ankita is a 2020 batch student of Government Medical College,Ratlam"
 biolarge:
 avatar: f
 multiple: true
