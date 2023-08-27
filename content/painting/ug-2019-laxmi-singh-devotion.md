@@ -6,7 +6,7 @@ tags: []
 date: 2023-03-25T06:00:00
 ---
 
-{{<https://i.postimg.cc/dtVNcSVM/Resized-Image-1080-x-1418-2023-08-26-18-20-01-3422.webp>}}
+{{ art <https://i.postimg.cc/dtVNcSVM/Resized-Image-1080-x-1418-2023-08-26-18-20-01-3422.webp>}}
 
 {{< quote >}}
 
