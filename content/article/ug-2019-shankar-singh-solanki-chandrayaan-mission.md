@@ -3,8 +3,8 @@ title: "India's Chandrayaan 3 Mission: A Triumph of Efforts and Aspirations"
 authid: ug-2019-shankar-singh-solanki
 img: https://i.postimg.cc/Df9FmHXW/Resized-Image-650-x-650-2023-08-27-18-39-27-1333.webp
 categories: [article]
-tags: [India,moon,chandrayaan3]
-date: 2023-08-27T06:00:00
+tags: [India,moon,chandrayaan3,featured]
+date: 2023-08-28T06:00:00
 description: ""
 summary: ""
 draft: false
