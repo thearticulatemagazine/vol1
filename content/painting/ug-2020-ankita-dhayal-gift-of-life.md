@@ -2,7 +2,7 @@
 title: "Gift of Life"
 authid: ug-2020-ankita-dhayal
 img: https://i.postimg.cc/GhhXZzZG/Th1.webp
-tags: [organdonation,savelife]
+tags: [organdonation,savelife,featured]
 date: 2023-08-25T06:30:58+05:30
 ---
 
