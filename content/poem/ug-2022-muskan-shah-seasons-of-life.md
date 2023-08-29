@@ -2,7 +2,7 @@
 title: "Seasons through out the life"
 authid: ug-2022-muskan-shah
 img: https://i.postimg.cc/X7PVCPvF/hand-drawn-four-seasons-illustration-23-2149410609.webp
-tags: [featured]
+tags: []
 date: 2023-08-07T17:35:20+05:30
 ---
 
