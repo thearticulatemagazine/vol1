@@ -2,7 +2,7 @@
 title: "Rhapsody of the night"
 authid: ug-2020-rimjhim-choubey
 img: https://i.postimg.cc/kGGKJNvY/rimjim-1-thumb.webp
-tags: [featured]
+tags: []
 date: 2023-08-06T18:50:10+05:30
 ---
 
