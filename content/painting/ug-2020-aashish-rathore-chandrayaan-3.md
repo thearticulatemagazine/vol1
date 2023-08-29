@@ -2,7 +2,7 @@
 title: "Chandrayaan 3"
 authid: ug-2020-aashish-rathore
 img: https://i.postimg.cc/LX0Qj5q4/th-ug2020-Ashish-R-Chandrayaan3.webp
-tags: [Indiaonmoon,space,featured] 
+tags: [Indiaonmoon,space,focus] 
 date: 2023-08-26T08:30:58+05:30
 ---
 
