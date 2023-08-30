@@ -8,9 +8,9 @@ summary: "Inteview with the state rank holder in MBBS first year university exam
 
 ---
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/OgEtQpRJjkg?si=dEicJbwZj67Bdca9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/OgEtQpRJjkg?si=dEicJbwZj67Bdca9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
 
-
+{{< youtube "OgEtQpRJjkg" >}}
 
 Welcome to the digital realm, where pages turn with the swipe of a finger as we proudly introduce the very first e-magazine to grace the halls of any Indian medical college.
 On behalf of the editorial board, we welcome you to the official transcript of our very first podcast of the articulate taken by our members- Mansi garg, Soumya Ajmera, Siddhi Kiyawat and Purvi verma taking the interview of our 2020 batch university topper Vandita Ruia.
