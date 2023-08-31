@@ -2,7 +2,7 @@
 title: "करने आये हैं हम नमन"
 authid: ug-2022-ipsa-roy
 img: https://i.postimg.cc/Zqcq3tR9/india-ipsa-2.webp
-tags: [hindi, featured]
+tags: [hindi]
 date: 2023-08-07T17:32:49+05:30
 summary: "करने आये हैं हम नमन<br>बलिदानी वीरों को।"
 ---
