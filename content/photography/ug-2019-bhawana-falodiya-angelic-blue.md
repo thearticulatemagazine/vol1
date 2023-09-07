@@ -19,6 +19,6 @@ photos:
 
 {{< quote >}}
 
-Bursts of gold on lavender melting into saffron. It’s the time of day when the sky looks like it has been spray-painted by a graffiti artist.” –  Mia Kirshner
+"Bursts of gold on lavender melting into saffron. It’s the time of day when the sky looks like it has been spray-painted by a graffiti artist.” –  Mia Kirshner
 
 {{< /quote >}}
