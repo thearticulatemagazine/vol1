@@ -4,7 +4,7 @@ authid: 00-edboard
 img: https://i.postimg.cc/v8Kn71zG/Resized-Image-650-x-600-2023-08-30-03-22-57-2644.webp
 tags: []
 date: 2023-08-29T21:12:10+05:30
-summary: "Inteview with the state rank holder in MBBS first year university exams from batch 2020"
+summary: "Inteview with the state rank holder in MBBS first year university exams ,batch 2020"
 
 ---
 
@@ -21,13 +21,13 @@ Starting with our interview,
 
  I wanted to be a doctor since childhood, a major part of which goes to seeing my elder sister in this field who inspired me the most.
 
-**Q2) Since your elder sister chose this stream you must have had some idea of how college would be, so what were your expectations? Did they meet?**
+**Q2) Since your elder sister chose this stream you must have had some idea of how college would be, so what were your expectations? Were they met? **
 
 I didn't have expectations regarding college, although I did see myself being independent and enjoying the freedom. But it turned out to be exact opposite, I felt homesick almost every day.
 
 **Q3) How did you balance fun and studies?**
 
-I was studious during my first year, I didn't know how to balance. As a result I missed out on a lot of fun, in my opinion you should make friends and you should find balance unlike me.
+I was studious during my first year, I didn't know how to balance. As a result I missed out on a lot of fun. In my opinion you should make friends and you should find balance unlike me.
 
 **Q4) What advice would you like to give to the new batch 2023 who is about to start this journey?**
 Don't have too many expectations, they would break. Also try to have a lot of friends so that you can go to anyone whenever you feel low. But you should study conceptually that too from day 1, find a balance.
@@ -38,11 +38,11 @@ To me my routine was very much similar. You should be consistent like you were d
 
 **Q6) What is your opinion on books - should you go for standard books or other books meant just for passing?**
 
-In my opinion, go for standard books and try to build concept that's how you'll score well, studying a day before won't earn you good marks.
+In my opinion, go for standard books and try to build concept. That's how you'll score well. Studying a day before won't earn you good marks.
 
 **Q7) Which book did you prefer in your first year? And what was your approach?**
 
-Starting with physiology, I used Guyton since the start and Ganong for some topics but at the end came down to Indhu Khurana for university, however I took Guyton as my sole standard book for physiology.
+Starting with physiology, I used Guyton since the start and Ganong for some topics but at the end came down to Indhu Khurana for university. However I took Guyton as my sole standard book for physiology.
 For anatomy, I used BD Chaurasia and for biochemistry I followed Satyanarayan.
 I stuck with these books throughout the year, and I advise the same - choose one book and stick with it.
 
@@ -104,6 +104,10 @@ Not just anatomy, I was confident regarding any subject as I used to revise many
 **Q21) After talking to you, we feel you'll excel in whatever field you go in, have you thought of any specialization you would want to pursue in future?**
 
 I want to be a cardiac surgeon or a neurosurgeon.
+
+
+
+
 
 
 
