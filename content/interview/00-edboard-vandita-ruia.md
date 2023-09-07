@@ -4,7 +4,7 @@ authid: 00-edboard
 img: https://i.postimg.cc/v8Kn71zG/Resized-Image-650-x-600-2023-08-30-03-22-57-2644.webp
 tags: []
 date: 2023-08-29T21:12:10+05:30
-summary: "Inteview with the state rank holder in MBBS first year university exams ,batch 2020"
+summary: "Inteview with the state rank holder in MBBS first year university exams from batch 2020"
 
 ---
 
