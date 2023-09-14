@@ -1,9 +1,9 @@
 ---
 title: "My Moon"
 authid: ug-2022-ipsa-roy
-img: https://i.postimg.cc/g2GdhLxq/Resized-Image-2023-09-13-23-37-20-1195.webp
+img: https://i.postimg.cc/tJK8Y4Rs/Resized-Image-2023-09-14-22-29-38-2267.webp
 tags: []
-date: 2023-08-29T01:25:44+05:3:35
+date: 2023-08-29T01:25:44+05:03
 summary: "The moon will shine,<br>Without your smile<br>But no longer shall it be<br>A Moon that shines for me,"
 aliases:
   - /posts/ipsa-my-moon/
