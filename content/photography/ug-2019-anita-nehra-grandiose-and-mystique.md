@@ -2,7 +2,7 @@
 title: "Grandiose and Mystique"
 authid: ug-2019-anita-nehra
 img: https://i.postimg.cc/2jcP1dBR/th-anita.webp
-tags: [fort,chittorgarh,featured]
+tags: [fort,chittorgarh]
 date: 2023-08-27T07:30:08+05:30
 photos:
   - img: "https://i.postimg.cc/WpnfZpRR/anita-photography.webp"

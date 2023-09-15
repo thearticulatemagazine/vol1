@@ -2,7 +2,7 @@
 title: "Freedom and Focus"
 authid: ug-2020-leshika-chouhan
 img: https://i.postimg.cc/PqrLVM3r/th-ug2020-leshika-freedom.webp
-tags: [freedom,featured] 
+tags: [freedom] 
 date: 2023-08-26T11:30:59+05:30
 ---
 
