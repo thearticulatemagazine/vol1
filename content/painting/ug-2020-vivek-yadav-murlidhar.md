@@ -9,6 +9,6 @@ date: 2023-09-14T09:34:12+05:30
 {{< art "https://i.postimg.cc/Y9L7BGqT/default-vivek.webp" >}}
 
 {{< quote >}}
-You have a right over your prescribed duties, but you are not entitled to the fruits of your actions. Never consider yourself to be the cause of the results of your activities, nor be attached to inaction.
+It is better to live your own destiny imperfectly than to live an imitation of somebody else's life with perfection.
 ~Lord Krishna
 {{< /quote >}}
