@@ -1,8 +1,8 @@
 ---
 title: "Wall Painting"
 authid: ug-2020-aashish-rathore
-img: https://i.postimg.cc/mkG0B4pG/Resized-Image-400-x-300-2023-09-15-16-01-29-2107.webp
-tags: [Indiaonmoon,space,focus] 
+img: https://i.postimg.cc/L5rjYP8Z/Resized-Image-750-x-900-2023-09-15-17-48-34-1878.webp
+tags: [focus] 
 date: 2023-09-13T08:30:58+05:30
 ---
 

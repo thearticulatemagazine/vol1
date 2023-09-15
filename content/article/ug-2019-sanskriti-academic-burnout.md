@@ -2,8 +2,8 @@
 title: "Academic Burnout in Medical Students: Signs and Prevention"
 authid: ug-2019-sanskriti
 img: https://res.cloudinary.com/dhodsjwfh/image/upload/v1679892598/academic-burnout_sjhvqn.jpg
-tags: []
-date: 2023-06-21T10:48:28+05:30
+tags: [featured]
+date: 2023-08-15T10:48:28+05:30
 summary: "Do you experience a lack of motivation? Being drained and agitated? You're not as inspired or as imaginative in your schoolwork as you used to be. Burnout depletes you and leaves you demotivated and jaded"
 aliases:
   - /posts/academic-burnout/

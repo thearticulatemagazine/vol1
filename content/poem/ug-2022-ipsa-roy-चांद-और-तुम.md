@@ -1,6 +1,6 @@
 ---
 title: "चांद और तुम"
-authorid: ug-2022-ipsa-roy
+authid: ug-2022-ipsa-roy
 img: https://i.postimg.cc/vBX0WrFV/Resized-Image-400-x-300-2023-09-14-21-50-53-1652.webp
 date: 2023-09-14T06:00:00+05:30
 aliases:
