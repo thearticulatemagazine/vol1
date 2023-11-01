@@ -1,6 +1,6 @@
 ---
 title: "I am Malala"
-authid: ug-2021-sakshi-verma
+authid: ug-2021-sakshi
 img: https://i.postimg.cc/c6GtCtXd/Resized-Image-750-x-900-2023-10-31-23-12-39-2153.webp
 tags: [focus]
 date: 2023-10-31T06:00:35+05:30
