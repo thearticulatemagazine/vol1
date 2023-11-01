@@ -3,7 +3,7 @@ title: "I Love My Country"
 authid: ug-2022-ipsa-roy
 img: https://i.postimg.cc/h4HVcKFQ/a3777a85a3bba71aa4f44d402f9abaf9.webp
 tags: []
-date: 2023-08-07T23:06:47+05:30
+date: 2023-06-07T23:06:47+05:30
 ---
 
 With Himalayas in the north

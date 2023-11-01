@@ -2,7 +2,7 @@
 title: "Natkhat kanha"
 authid: ug-2022-payal-jaiswal
 img: https://i.postimg.cc/0jKmXGGP/Resized-Image-400-x-300-2023-09-11-21-56-20-5947.webp
-tags: [featured]
+tags: []
 date: 2023-09-10T06:00:00
 ---
 
