@@ -2,7 +2,7 @@
 title: "स्वाधीनता"
 authid: ug-2022-vijay
 img: https://i.postimg.cc/Y2NW3Vsx/india-ipsa-2-thumbnail.webp
-tags: [hindi, focus]
+tags: [hindi]
 date: 2023-08-05T13:04:55+05:30
 summary: "सर्वत्र पराधीनता के शोषण का था रव<br/>चिंगारी था 1857 का विप्लव ।<br>गाँधी का भारत आगमन,<br>फिर सविनय अवज्ञा और असहयोग से<br>प्रशासनिक व्यवस्था का दमन ।"
 ---

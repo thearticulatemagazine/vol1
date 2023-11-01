@@ -2,7 +2,7 @@
 title: "World Breastfeeding Week-2023 observed at GMC, Ratlam"
 authid: 00-edboard
 img: https://i.postimg.cc/J0DNfyv6/mother.webp
-tags: [featured]
+tags: []
 date: 2023-08-02T18:11:54+05:30
 ---
 

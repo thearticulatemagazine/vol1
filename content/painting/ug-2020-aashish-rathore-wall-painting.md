@@ -2,7 +2,7 @@
 title: "Wall Painting"
 authid: ug-2020-aashish-rathore
 img: https://i.postimg.cc/L5rjYP8Z/Resized-Image-750-x-900-2023-09-15-17-48-34-1878.webp
-tags: [focus] 
+tags: [] 
 date: 2023-09-09T08:30:58+05:30
 ---
 
