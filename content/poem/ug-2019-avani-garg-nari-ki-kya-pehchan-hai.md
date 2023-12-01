@@ -2,7 +2,7 @@
 title: "Nari Ki Kya Pehchan Hai?"
 authid: ug-2019-avani-garg
 img: https://i.postimg.cc/1X1chBhM/pxfuel.webp
-tags: []
+tags: [featured]
 date: 2023-07-21T18:43:32+05:30
 summary: "Ye haal is jahaan ka hai, ki mard srf yhaa ka hai<br>Mahatv nari shakti ki na koi yhaa pehchanta hai<br>Jo aadesh suna diya yhaa vhi sabhi ko manna hai<br>Nari k astitv ko nhi koi pehchanta hai"
 ---

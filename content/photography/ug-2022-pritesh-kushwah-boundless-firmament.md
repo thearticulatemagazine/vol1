@@ -2,7 +2,7 @@
 title: "Boundless Firmament"
 authid: ug-2022-pritesh-kushwah
 img: https://i.postimg.cc/hvvckLY4/pk2-thumb.webp
-tags: []
+tags: [featured]
 date: 2023-08-07T17:31:20+05:30
 photos:
   - img: "https://i.postimg.cc/FFC9j6fY/image-50408449.webp"

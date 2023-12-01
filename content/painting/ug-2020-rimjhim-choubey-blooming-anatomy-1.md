@@ -2,7 +2,7 @@
 title: "Blooming anatomy"
 authid: ug-2020-rimjhim-choubey
 img: https://i.postimg.cc/yYXbsvZk/Resized-Image-2023-10-31-17-57-35-2456.webp
-tags: [featured]
+tags: []
 date: 2023-10-30T06:00:00
 ---
 

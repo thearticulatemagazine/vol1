@@ -2,7 +2,7 @@
 title: "Visionary"
 authid: ug-2018-palak-saxena
 img: https://i.postimg.cc/5y7cxD1J/Resized-Image-400-x-300-2023-10-31-23-23-22-1157.webp
-tags: [featured]
+tags: []
 date: 2023-10-30T06:00:00
 ---
 
