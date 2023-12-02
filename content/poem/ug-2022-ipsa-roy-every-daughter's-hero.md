@@ -2,7 +2,7 @@
 title: "Every Daughter's Hero"
 authid: ug-2022-ipsa-roy
 img: https://i.postimg.cc/JzkTMj2s/Resized-Image-2023-10-31-14-56-59-9996.webp
-tags: [featured]
+tags: []
 date: 2023-10-27T01:25:44+05:03
 summary: "Our dad's are so less expressive so I decided to write A<br>poem which explains every father's emotions for their<br>daughter."
 aliases:
