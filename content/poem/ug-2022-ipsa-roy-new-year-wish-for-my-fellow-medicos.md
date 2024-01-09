@@ -1,6 +1,6 @@
 ---
 title: "New year wish for my fellow medicos"
-authorid: ug-2022-ipsa-roy
+authid: ug-2022-ipsa-roy
 img: https://i.postimg.cc/CxJzjFLS/Resized-Image-400-x-300-2023-12-30-22-21-34-1896.webp
 date: 2023-12-30T06:00:00+05:30
 ---
