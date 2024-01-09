@@ -1,6 +1,6 @@
 ---
 title: "December"
-authid: ug-2021-sakshi-verma
+authid: ug-2021-sakshi
 img: https://i.postimg.cc/hvd3vbW3/Resized-Image-400-x-300-2023-12-30-22-47-45-1314.webp
 date: 2023-12-30T06:00:00+05:30
 ---
