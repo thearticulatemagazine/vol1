@@ -2,7 +2,7 @@
 title: "To bring to light, the plight of grieving interns of Government Medical College, Ratlam"
 authid: 02-batch-2019
 img: https://i.postimg.cc/DzjhnxP6/strikes-picket-777x437.webp
-tags: [strike]
+tags: [strike, focus]
 categories: [article]
 date: 2024-07-21T10:48:28+05:30
 summary: "The reasons and nuances of why we are striking"
